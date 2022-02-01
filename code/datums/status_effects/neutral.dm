@@ -14,7 +14,7 @@
 	status_type = STATUS_EFFECT_MULTIPLE
 	alert_type = null
 	on_remove_on_mob_delete = TRUE
-	var/obj/item/borg/upgrade/modkit/bounty/reward_target
+	var/obj/item/modkit/bounty/reward_target
 
 /datum/status_effect/syphon_mark/on_creation(mob/living/new_owner, obj/item/borg/upgrade/modkit/bounty/new_reward_target)
 	. = ..()
