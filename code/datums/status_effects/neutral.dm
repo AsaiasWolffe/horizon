@@ -16,7 +16,7 @@
 	on_remove_on_mob_delete = TRUE
 	var/obj/item/modkit/bounty/reward_target
 
-/datum/status_effect/syphon_mark/on_creation(mob/living/new_owner, obj/item/borg/upgrade/modkit/bounty/new_reward_target)
+/datum/status_effect/syphon_mark/on_creation(mob/living/new_owner, obj/item/modkit/bounty/new_reward_target)
 	. = ..()
 	if(.)
 		reward_target = new_reward_target
