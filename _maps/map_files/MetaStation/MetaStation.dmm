@@ -6846,7 +6846,7 @@
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/lootdrop/maintenance/three,
-/turf/open/floor/wood,
+/turf/open/floor/wood/airless,
 /area/maintenance/port)
 "bhr" = (
 /obj/structure/cable/layer1,
@@ -11711,7 +11711,7 @@
 /obj/effect/spawner/lootdrop/cash,
 /obj/effect/spawner/lootdrop/cash,
 /obj/effect/spawner/lootdrop/cash,
-/turf/open/floor/wood,
+/turf/open/floor/wood/airless,
 /area/maintenance/port)
 "cgM" = (
 /obj/effect/turf_decal/trimline/white/filled/corner{
@@ -12279,22 +12279,9 @@
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
 "cld" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/structure/lattice/catwalk/plated/dark,
-/obj/structure/cable{
-	name = "high voltage power cable"
-	},
-/obj/structure/cable/layer1,
-/turf/open/floor/plating,
-/area/maintenance/starboard)
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/airless,
+/area/maintenance/port)
 "clm" = (
 /obj/item/kirbyplants,
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -14271,7 +14258,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood,
+/turf/open/floor/wood/airless,
 /area/maintenance/port)
 "cGK" = (
 /obj/structure/chair/office/light,
@@ -15295,7 +15282,7 @@
 "cTC" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/chair/stool/directional/west,
-/turf/open/floor/wood,
+/turf/open/floor/wood/airless,
 /area/maintenance/port)
 >>>>>>> 16fd77aab17 (Initial Commit of Remastered Meta)
 "cTU" = (
@@ -15639,7 +15626,7 @@
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/lootdrop/maintenance/two,
-/turf/open/floor/wood,
+/turf/open/floor/wood/airless,
 /area/maintenance/port)
 "cYE" = (
 /obj/structure/table,
@@ -16479,7 +16466,7 @@
 "dkP" = (
 /obj/structure/grille/broken,
 /obj/item/shard,
-/turf/open/floor/plating{
+/turf/open/floor/plating/airless{
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/port)
@@ -17264,7 +17251,7 @@
 /area/cargo/warehouse)
 "dAU" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating{
+/turf/open/floor/plating/airless{
 	icon_state = "platingdmg2"
 	},
 /area/maintenance/port)
@@ -18173,6 +18160,9 @@
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	color = "#5A96BB"
 	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/medical/coldroom)
 "dSZ" = (
@@ -18237,7 +18227,7 @@
 /obj/structure/closet/secure_closet/bar,
 /obj/effect/spawner/lootdrop/maint_drugs,
 /obj/effect/spawner/lootdrop/handgun,
-/turf/open/floor/carpet/green,
+/turf/open/floor/carpet/green/airless,
 /area/maintenance/port)
 "dUd" = (
 /obj/structure/lattice/catwalk,
@@ -19390,7 +19380,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood,
+/turf/open/floor/wood/airless,
 /area/maintenance/port)
 "eti" = (
 /obj/machinery/light/directional/west,
@@ -20105,7 +20095,7 @@
 /area/command/heads_quarters/captain/private)
 "eGa" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/carpet/green,
+/turf/open/floor/carpet/green/airless,
 /area/maintenance/port)
 "eGd" = (
 /obj/machinery/door/window{
@@ -21703,6 +21693,7 @@
 /obj/machinery/recharger,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/structure/cable/layer1,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/wood,
 /area/command/heads_quarters/hos)
 "fkA" = (
@@ -24130,7 +24121,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood,
+/turf/open/floor/wood/airless,
 /area/maintenance/port)
 "gff" = (
 /obj/machinery/light/directional/south,
@@ -24609,14 +24600,14 @@
 /turf/open/floor/iron/dark,
 /area/command/heads_quarters/rd)
 "grw" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
+	dir = 1
 	},
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/medical/coldroom)
@@ -24786,7 +24777,7 @@
 "gvo" = (
 /obj/structure/chair/stool/directional/south,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood{
+/turf/open/floor/wood/airless{
 	icon_state = "wood-broken6"
 	},
 /area/maintenance/port)
@@ -28648,8 +28639,8 @@
 /obj/structure/chair/stool/directional/west,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/shard,
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
+/turf/open/floor/plating/airless{
+	icon_state = "platingdmg1"
 	},
 /area/maintenance/port)
 "ido" = (
@@ -28688,10 +28679,13 @@
 "iek" = (
 /obj/item/radio/intercom/directional/north,
 <<<<<<< HEAD
+<<<<<<< HEAD
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 =======
 /obj/machinery/atmospherics/components/unary/bluespace_sender,
+=======
+>>>>>>> bb35bf91a0c (Atmos pipe errors fixed)
 /obj/effect/turf_decal/trimline/white/filled/line{
 	color = "#00A9FF";
 	dir = 1;
@@ -28841,7 +28835,7 @@
 /obj/machinery/computer/slot_machine{
 	pixel_y = 2
 	},
-/turf/open/floor/wood,
+/turf/open/floor/wood/airless,
 /area/maintenance/port)
 "ihF" = (
 /turf/open/floor/iron/chapel{
@@ -28886,7 +28880,7 @@
 "iij" = (
 /obj/structure/chair/stool/directional/south,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood,
+/turf/open/floor/wood/airless,
 /area/maintenance/port)
 "iiu" = (
 /obj/structure/table/wood,
@@ -29508,7 +29502,12 @@
 	color = "#5A96BB";
 	dir = 4
 	},
+<<<<<<< HEAD
 >>>>>>> 16fd77aab17 (Initial Commit of Remastered Meta)
+=======
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+>>>>>>> bb35bf91a0c (Atmos pipe errors fixed)
 /turf/open/floor/iron/white,
 /area/medical/treatment_center)
 "itd" = (
@@ -30268,7 +30267,7 @@
 /area/science/robotics/mechbay)
 "iLE" = (
 /obj/structure/grille/broken,
-/turf/open/floor/plating{
+/turf/open/floor/plating/airless{
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/port)
@@ -32964,6 +32963,8 @@
 	color = "#5A96BB";
 	dir = 4
 	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/medical/treatment_center)
 "jQm" = (
@@ -33284,7 +33285,7 @@
 "jYb" = (
 /obj/structure/chair/stool/directional/north,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood,
+/turf/open/floor/wood/airless,
 /area/maintenance/port)
 "jYn" = (
 /obj/structure/lattice/catwalk/plated/dark,
@@ -38357,6 +38358,12 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/hallway/primary/central)
 "mnt" = (
@@ -38420,7 +38427,7 @@
 /obj/structure/table/wood,
 /obj/machinery/chem_dispenser/drinks/beer/fullupgrade,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/carpet/green,
+/turf/open/floor/carpet/green/airless,
 /area/maintenance/port)
 "moL" = (
 /obj/structure/lattice/catwalk/plated/dark,
@@ -38732,7 +38739,7 @@
 "mtj" = (
 /obj/structure/chair/stool/directional/west,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood{
+/turf/open/floor/wood/airless{
 	icon_state = "wood-broken4"
 	},
 /area/maintenance/port)
@@ -39199,7 +39206,7 @@
 /area/science/robotics/lab)
 "mBX" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating{
+/turf/open/floor/plating/airless{
 	icon_state = "platingdmg1"
 	},
 /area/maintenance/port)
@@ -40182,25 +40189,14 @@
 /turf/open/floor/carpet/royalblue,
 /area/command/heads_quarters/hop)
 "mUx" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Medbay Maintenance";
-	req_access_txt = "5"
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/airless{
+	icon_state = "wood-broken"
 	},
-/obj/structure/lattice/catwalk/plated/dark,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/structure/cable/layer1,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/floor/plating,
 /area/maintenance/port)
 "mUB" = (
 /obj/machinery/airalarm/directional/south,
-/obj/machinery/atmospherics/components/binary/thermomachine/freezer{
-	dir = 4
-	},
+/obj/machinery/atmospherics/components/binary/thermomachine/freezer,
 /turf/open/floor/iron,
 /area/science/mixing)
 "mUV" = (
@@ -40424,6 +40420,7 @@
 /obj/item/bedsheet/random/double{
 	dir = 8
 	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/carpet/royalblack,
 /area/commons/dorms{
 	name = "Cabin 8"
@@ -41120,7 +41117,7 @@
 /area/maintenance/starboard)
 "noX" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood{
+/turf/open/floor/wood/airless{
 	icon_state = "wood-broken5"
 	},
 /area/maintenance/port)
@@ -41599,6 +41596,12 @@
 	name = "high voltage power cable"
 	},
 /obj/structure/cable/layer1,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
 /turf/open/floor/plating,
 /area/maintenance/starboard)
 "nxb" = (
@@ -42545,7 +42548,7 @@
 /obj/structure/chair/stool/directional/north,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/shard,
-/turf/open/floor/plating{
+/turf/open/floor/plating/airless{
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/port)
@@ -46040,7 +46043,7 @@
 "pcG" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table/wood/poker,
-/turf/open/floor/plating{
+/turf/open/floor/plating/airless{
 	icon_state = "platingdmg1"
 	},
 /area/maintenance/port)
@@ -47189,7 +47192,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood,
+/turf/open/floor/wood/airless,
 /area/maintenance/port)
 "pAV" = (
 /obj/machinery/light/small/directional/south,
@@ -48106,7 +48109,7 @@
 "pSQ" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood,
+/turf/open/floor/wood/airless,
 /area/maintenance/port)
 >>>>>>> 16fd77aab17 (Initial Commit of Remastered Meta)
 "pSX" = (
@@ -50092,9 +50095,7 @@
 	dir = 4
 	},
 /obj/machinery/status_display/evac/directional/south,
-/obj/machinery/atmospherics/components/binary/thermomachine/heater{
-	dir = 4
-	},
+/obj/machinery/atmospherics/components/binary/thermomachine/heater,
 /turf/open/floor/iron,
 /area/science/mixing)
 "qKZ" = (
@@ -50309,11 +50310,11 @@
 >>>>>>> 16fd77aab17 (Initial Commit of Remastered Meta)
 	dir = 1
 	},
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
 /obj/structure/cable/layer1,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/medical/coldroom)
 "qPJ" = (
@@ -53136,9 +53137,6 @@
 /turf/open/floor/iron,
 /area/hallway/primary/starboard)
 "rTu" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
-	},
 /obj/structure/cable/layer1,
 /obj/effect/turf_decal/trimline/blue/filled/corner{
 	color = "#5A96BB"
@@ -53147,6 +53145,8 @@
 	color = "#5A96BB";
 	dir = 8
 	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/medical/coldroom)
 "rTC" = (
@@ -53406,7 +53406,7 @@
 /obj/structure/table/wood,
 /obj/machinery/chem_dispenser/drinks,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/carpet/green,
+/turf/open/floor/carpet/green/airless,
 /area/maintenance/port)
 "rXb" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
@@ -54508,26 +54508,15 @@
 /turf/open/floor/iron,
 /area/construction/storage_wing)
 "swf" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/structure/lattice/catwalk/plated/dark,
-/obj/structure/cable{
-	name = "high voltage power cable"
-	},
-/turf/open/floor/plating,
-/area/maintenance/aft/secondary)
+/obj/effect/spawner/lootdrop/gross_decal_spawner,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/airless,
+/area/maintenance/port)
 "swi" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/reagent_containers/food/drinks/shaker,
-/turf/open/floor/wood,
+/turf/open/floor/wood/airless,
 /area/maintenance/port)
 "swx" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
@@ -54605,13 +54594,17 @@
 /turf/open/floor/wood,
 /area/service/library)
 "syV" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
 /obj/structure/lattice/catwalk/plated/dark,
 /obj/structure/cable{
 	name = "high voltage power cable"
 	},
 /obj/structure/cable/layer1,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
 /turf/open/floor/plating,
 /area/maintenance/port)
 "szw" = (
@@ -57544,7 +57537,7 @@
 "tHv" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/shard,
-/turf/open/floor/wood{
+/turf/open/floor/wood/airless{
 	icon_state = "wood-broken2"
 	},
 /area/maintenance/port)
@@ -59441,7 +59434,7 @@
 /area/security/prison)
 "utb" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood{
+/turf/open/floor/wood/airless{
 	icon_state = "wood-broken3"
 	},
 /area/maintenance/port)
@@ -62719,6 +62712,9 @@
 	name = "Hydroponics";
 	req_access_txt = "35"
 	},
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/service/hydroponics)
 "vGT" = (
@@ -62786,7 +62782,7 @@
 "vJD" = (
 /obj/machinery/vending/boozeomat/all_access,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/carpet/green,
+/turf/open/floor/carpet/green/airless,
 /area/maintenance/port)
 "vJF" = (
 /obj/structure/lattice/catwalk/plated/dark,
@@ -62911,6 +62907,9 @@
 /obj/item/stock_parts/matter_bin,
 /obj/item/stock_parts/micro_laser,
 /obj/effect/turf_decal/tile/neutral,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/science/lab)
 "vLN" = (
@@ -63000,7 +62999,7 @@
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/lootdrop/maintenance,
-/turf/open/floor/wood,
+/turf/open/floor/wood/airless,
 /area/maintenance/port)
 "vNi" = (
 /obj/machinery/atmospherics/components/binary/pump{
@@ -63506,7 +63505,7 @@
 "vYB" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/vending/cigarette,
-/turf/open/floor/wood,
+/turf/open/floor/wood/airless,
 /area/maintenance/port)
 "vYK" = (
 /obj/structure/window/plasma/reinforced/spawner/north,
@@ -63986,7 +63985,7 @@
 /mob/living/simple_animal/hostile/asteroid/hivelord{
 	health = 50
 	},
-/turf/open/floor/wood,
+/turf/open/floor/wood/airless,
 /area/maintenance/port)
 >>>>>>> 16fd77aab17 (Initial Commit of Remastered Meta)
 "wic" = (
@@ -65345,13 +65344,6 @@
 /obj/machinery/computer/cargo/request{
 	dir = 4
 	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/structure/cable/layer1,
 /turf/open/floor/iron,
 /area/medical/treatment_center)
 "wNm" = (
@@ -65362,6 +65354,9 @@
 /obj/item/flashlight/lamp,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 10
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
 	},
 /turf/open/floor/iron/dark,
 /area/security/interrogation)
@@ -65873,8 +65868,8 @@
 "wYn" = (
 /obj/effect/spawner/lootdrop/gross_decal_spawner,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
+/turf/open/floor/plating/airless{
+	icon_state = "platingdmg1"
 	},
 /area/maintenance/port)
 "wYB" = (
@@ -68324,12 +68319,6 @@
 /turf/open/floor/iron/dark,
 /area/ai_monitored/aisat/exterior)
 "xUn" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
 /obj/structure/cable/layer1,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	color = "#5A96BB";
@@ -68337,6 +68326,12 @@
 	},
 /obj/effect/turf_decal/trimline/blue/filled/corner{
 	color = "#5A96BB"
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 5
 	},
 /turf/open/floor/iron/white,
 /area/medical/treatment_center)
@@ -82634,7 +82629,7 @@ gvo
 pcG
 nOR
 wYn
-pEB
+mUx
 iij
 cgK
 jYb
@@ -82891,10 +82886,10 @@ noX
 dAU
 cZm
 tHv
-eGy
-eGy
-eGy
-eGy
+cld
+cld
+cld
+cld
 vYB
 alK
 alK
@@ -83185,15 +83180,15 @@ alK
 anP
 jzT
 alK
-eGy
+cld
 mtj
 idk
 mBX
-eGy
-eGy
-eGy
+cld
+cld
+cld
 whR
-lwz
+swf
 gfa
 alK
 >>>>>>> 16fd77aab17 (Initial Commit of Remastered Meta)
@@ -83448,9 +83443,9 @@ pSQ
 pSQ
 utb
 lwz
-eGy
-eGy
-eGy
+cld
+cld
+cld
 cYs
 etg
 alK
@@ -83705,9 +83700,9 @@ eGa
 swi
 vMJ
 jYb
-eGy
-eGy
-eGy
+cld
+cld
+cld
 bhk
 etg
 alK
@@ -83962,9 +83957,9 @@ eGa
 eGa
 vMJ
 jYb
-eGy
-eGy
-eGy
+cld
+cld
+cld
 cYs
 etg
 alK
@@ -84219,10 +84214,10 @@ eGa
 eGa
 pSQ
 jYb
-eGy
-lwz
-eGy
-eGy
+cld
+swf
+cld
+cld
 cGF
 alK
 alK
@@ -84476,10 +84471,10 @@ eGa
 eGa
 vMJ
 jYb
-eGy
+cld
 cTC
 cTC
-eGy
+cld
 alK
 alK
 aob
@@ -84733,7 +84728,7 @@ eGa
 eGa
 vMJ
 jYb
-eGy
+cld
 ihE
 ihE
 alK
@@ -90020,7 +90015,7 @@ akM
 gox
 pPb
 pPb
-mUx
+pPb
 mRw
 kll
 yiv
@@ -99425,7 +99420,7 @@ cgq
 cgq
 cgq
 cgq
-swf
+uHQ
 gKI
 ttN
 wOE
@@ -110130,7 +110125,7 @@ jMk
 jMk
 jMk
 jMk
-cld
+nut
 apc
 hRn
 apc
@@ -110387,7 +110382,7 @@ lXM
 lXM
 qBn
 jMk
-cld
+nut
 apc
 mpG
 pdC
