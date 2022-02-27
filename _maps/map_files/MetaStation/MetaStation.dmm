@@ -498,9 +498,7 @@
 	},
 /obj/structure/cable/layer1,
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 5"
-	})
+/area/commons/dorms)
 "adR" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/westleft{
@@ -5245,9 +5243,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 5"
-	})
+/area/commons/dorms)
 "aQJ" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -5571,9 +5567,7 @@
 "aUv" = (
 /obj/structure/fireplace,
 /turf/open/floor/stone,
-/area/commons/dorms{
-	name = "Cabin 8"
-	})
+/area/commons/dorms)
 "aUw" = (
 /obj/effect/spawner/structure/window/reinforced/grille,
 /turf/open/floor/plating,
@@ -6556,12 +6550,6 @@
 /obj/item/radio/intercom/directional/south,
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
-"bdG" = (
-/obj/structure/fireplace,
-/turf/open/floor/stone,
-/area/commons/dorms{
-	name = "Cabin 6"
-	})
 "bdH" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
@@ -6732,14 +6720,6 @@
 /obj/structure/closet/firecloset,
 /turf/open/floor/iron/dark,
 /area/hallway/primary/starboard)
-"bfN" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 5"
-	})
 "bfX" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
@@ -7508,21 +7488,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/security/office)
-"boM" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 9
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/machinery/power/apc/auto_name/south,
-/obj/structure/cable/multilayer{
-	cable_layer = 1
-	},
-/turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 5"
-	})
 "boS" = (
 /obj/structure/kitchenspike,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
@@ -7941,10 +7906,10 @@
 /turf/open/floor/iron,
 /area/security/warden)
 "btI" = (
-/turf/closed/wall,
-/area/commons/dorms{
-	name = "Dormitories Laundry"
-	})
+/obj/effect/spawner/lootdrop/gross_decal_spawner,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/airless,
+/area/maintenance/port)
 "btK" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -9272,9 +9237,7 @@
 "bKc" = (
 /obj/structure/chair/sofa/corp/right,
 /turf/open/floor/carpet/royalblue,
-/area/commons/dorms{
-	name = "Cabin 9"
-	})
+/area/commons/dorms)
 "bKf" = (
 /obj/structure/table/wood,
 /obj/machinery/light/small/directional/north,
@@ -10970,9 +10933,7 @@
 /obj/machinery/airalarm/directional/west,
 /obj/structure/table/wood,
 /turf/open/floor/carpet/royalblue,
-/area/commons/dorms{
-	name = "Cabin 9"
-	})
+/area/commons/dorms)
 "cba" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -11783,11 +11744,6 @@
 /obj/machinery/telecomms/server/presets/supply,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/tcommsat/server)
-"chw" = (
-/turf/open/floor/iron,
-/area/commons/dorms{
-	name = "Dormitories Laundry"
-	})
 "chy" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron,
@@ -12280,7 +12236,9 @@
 /area/maintenance/port/fore)
 "cld" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood/airless,
+/turf/open/floor/wood/airless{
+	icon_state = "wood-broken"
+	},
 /area/maintenance/port)
 "clm" = (
 /obj/item/kirbyplants,
@@ -12896,9 +12854,7 @@
 	dir = 1
 	},
 /turf/open/floor/carpet/royalblue,
-/area/commons/dorms{
-	name = "Cabin 9"
-	})
+/area/commons/dorms)
 "cpd" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
@@ -13291,7 +13247,7 @@
 /obj/structure/lattice/catwalk/plated/dark,
 /obj/structure/cable/layer1,
 /turf/open/floor/plating,
-/area/maintenance/starboard/fore)
+/area/commons/dorms)
 "cuX" = (
 /obj/structure/chair/office/light{
 	dir = 1
@@ -14400,17 +14356,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/security/brig)
-"cJe" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/commons/dorms{
-	name = "Dormitories Laundry"
-	})
 "cJt" = (
 /obj/structure/closet/secure_closet/personal,
 /obj/machinery/power/apc/auto_name/west,
@@ -15036,9 +14981,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 3"
-	})
+/area/commons/dorms)
 "cQJ" = (
 /obj/structure/sign/warning/vacuum{
 	pixel_x = -32
@@ -19628,12 +19571,6 @@
 	},
 /turf/open/floor/iron,
 /area/security/prison)
-"exr" = (
-/obj/structure/cable/layer1,
-/turf/open/floor/iron,
-/area/commons/dorms{
-	name = "Dormitories Laundry"
-	})
 "exA" = (
 /obj/item/reagent_containers/glass/bottle/multiver{
 	pixel_x = 7;
@@ -19763,9 +19700,7 @@
 /area/science/lab)
 "ezd" = (
 /turf/open/floor/carpet/purple,
-/area/commons/dorms{
-	name = "Cabin 6"
-	})
+/area/commons/dorms)
 "eze" = (
 /obj/machinery/light/directional/east,
 /obj/machinery/firealarm/directional/east,
@@ -19995,9 +19930,7 @@
 	},
 /obj/structure/cable/layer1,
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 6"
-	})
+/area/commons/dorms)
 "eCL" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
@@ -21174,16 +21107,6 @@
 /area/commons/lounge{
 	name = "Dormitories Lounge"
 	})
-"eYb" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/light/small/directional/north,
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 3"
-	})
 "eYg" = (
 /obj/structure/lattice,
 /obj/effect/mapping_helpers/smart_pipe/simple/violet/visible{
@@ -22090,9 +22013,7 @@
 	pixel_y = 6
 	},
 /turf/open/floor/carpet/royalblack,
-/area/commons/dorms{
-	name = "Cabin 8"
-	})
+/area/commons/dorms)
 "fqq" = (
 /obj/structure/noticeboard/directional/south,
 /obj/structure/table/wood,
@@ -24184,12 +24105,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/science/cytology)
-"ghr" = (
-/obj/machinery/light_switch/directional/south,
-/turf/open/floor/carpet,
-/area/commons/dorms{
-	name = "Cabin 3"
-	})
 "ghL" = (
 /turf/closed/wall/r_wall,
 /area/space/nearstation)
@@ -25010,9 +24925,7 @@
 	cable_layer = 1
 	},
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 2"
-	})
+/area/commons/dorms)
 "gzT" = (
 /obj/machinery/field/generator,
 /turf/open/floor/plating,
@@ -26198,22 +26111,6 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/dark,
 /area/ai_monitored/aisat/exterior)
-"hdk" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 10
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wood/corner,
-/obj/machinery/power/apc/auto_name/north,
-/obj/structure/cable/multilayer{
-	cable_layer = 1
-	},
-/turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 3"
-	})
 "hdm" = (
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/engine,
@@ -26796,9 +26693,7 @@
 	},
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 3"
-	})
+/area/commons/dorms)
 "hpE" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
@@ -27632,9 +27527,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/royalblack,
-/area/commons/dorms{
-	name = "Cabin 8"
-	})
+/area/commons/dorms)
 "hGj" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -27919,9 +27812,7 @@
 	dir = 5
 	},
 /turf/open/floor/carpet/royalblue,
-/area/commons/dorms{
-	name = "Cabin 9"
-	})
+/area/commons/dorms)
 "hLe" = (
 /obj/machinery/light/directional/west,
 /obj/item/radio/intercom/directional/west,
@@ -29000,9 +28891,7 @@
 	},
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/carpet,
-/area/commons/dorms{
-	name = "Cabin 2"
-	})
+/area/commons/dorms)
 "ilk" = (
 /obj/structure/table/glass,
 /obj/item/biopsy_tool{
@@ -30385,9 +30274,7 @@
 "iPs" = (
 /obj/machinery/washing_machine,
 /turf/open/floor/iron,
-/area/commons/dorms{
-	name = "Dormitories Laundry"
-	})
+/area/commons/dorms)
 "iPH" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -31888,9 +31775,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 7"
-	})
+/area/commons/dorms)
 "juW" = (
 /obj/structure/lattice/catwalk/plated/smooth,
 /obj/machinery/computer/cryopod{
@@ -32007,10 +31892,14 @@
 =======
 /obj/structure/chair/sofa/corp/left,
 /turf/open/floor/carpet/royalblue,
+<<<<<<< HEAD
 /area/commons/dorms{
 	name = "Cabin 9"
 	})
 >>>>>>> 16fd77aab17 (Initial Commit of Remastered Meta)
+=======
+/area/commons/dorms)
+>>>>>>> 269b94aee65 (Removal of Incorrect Areas)
 "jwJ" = (
 /turf/open/floor/grass,
 /area/medical/virology)
@@ -32331,9 +32220,7 @@
 	cable_layer = 1
 	},
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 1"
-	})
+/area/commons/dorms)
 "jDq" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/structure/cable/layer1,
@@ -32751,12 +32638,6 @@
 /obj/effect/turf_decal/stripes/red/line,
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
-"jMo" = (
-/obj/structure/fireplace,
-/turf/open/floor/stone,
-/area/commons/dorms{
-	name = "Cabin 9"
-	})
 "jMp" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -32852,9 +32733,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/commons/dorms{
-	name = "Dormitories Laundry"
-	})
+/area/commons/dorms)
 "jOr" = (
 /obj/machinery/suit_storage_unit/standard_unit,
 /obj/machinery/button/door/directional/south{
@@ -33171,9 +33050,7 @@
 /obj/item/stack/sheet/mineral/wood,
 /obj/machinery/light_switch/directional/east,
 /turf/open/floor/carpet/royalblue,
-/area/commons/dorms{
-	name = "Cabin 9"
-	})
+/area/commons/dorms)
 "jUH" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -34308,9 +34185,7 @@
 	cable_layer = 1
 	},
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 7"
-	})
+/area/commons/dorms)
 "kwV" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 5
@@ -34320,15 +34195,9 @@
 /turf/open/floor/plating,
 /area/maintenance/department/science/xenobiology)
 "kxk" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/light/small/directional/north,
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 1"
-	})
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/airless,
+/area/maintenance/port)
 "kxm" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 5
@@ -34337,9 +34206,7 @@
 	dir = 1
 	},
 /turf/open/floor/carpet/royalblack,
-/area/commons/dorms{
-	name = "Cabin 8"
-	})
+/area/commons/dorms)
 "kxn" = (
 /obj/machinery/airalarm/server{
 	dir = 4;
@@ -35052,14 +34919,10 @@
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/carpet/royalblue,
-/area/commons/dorms{
-	name = "Cabin 9"
-	})
+/area/commons/dorms)
 "kNi" = (
 /turf/open/floor/carpet/royalblue,
-/area/commons/dorms{
-	name = "Cabin 9"
-	})
+/area/commons/dorms)
 "kNH" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -35262,9 +35125,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/royalblue,
-/area/commons/dorms{
-	name = "Cabin 9"
-	})
+/area/commons/dorms)
 "kSW" = (
 /obj/machinery/light/directional/north,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
@@ -35511,19 +35372,6 @@
 /obj/structure/chair/stool/bar/directional/west,
 /turf/open/floor/wood,
 /area/service/bar)
-"kYa" = (
-/obj/machinery/airalarm/directional/east,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 10
-	},
-/obj/structure/closet/secure_closet/personal/cabinet{
-	pixel_y = 20
-	},
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 1"
-	})
 "kYf" = (
 /obj/machinery/camera{
 	c_tag = "RD Observation Cage";
@@ -36047,9 +35895,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/black,
-/area/commons/dorms{
-	name = "Cabin 5"
-	})
+/area/commons/dorms)
 "lki" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
@@ -36084,9 +35930,7 @@
 	},
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/carpet/royalblue,
-/area/commons/dorms{
-	name = "Cabin 9"
-	})
+/area/commons/dorms)
 "llr" = (
 /obj/machinery/rnd/production/protolathe/department/science,
 /obj/machinery/light/directional/south,
@@ -36382,9 +36226,7 @@
 "lro" = (
 /obj/machinery/light_switch/directional/south,
 /turf/open/floor/carpet,
-/area/commons/dorms{
-	name = "Cabin 1"
-	})
+/area/commons/dorms)
 "lrr" = (
 /turf/open/floor/iron/white,
 /area/hallway/primary/central)
@@ -36485,9 +36327,7 @@
 	cable_layer = 1
 	},
 /turf/open/floor/carpet/royalblue,
-/area/commons/dorms{
-	name = "Cabin 9"
-	})
+/area/commons/dorms)
 "ltt" = (
 /obj/machinery/newscaster/directional/west,
 /obj/machinery/light/directional/west,
@@ -36613,9 +36453,7 @@
 	},
 /obj/structure/cable/layer1,
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 9"
-	})
+/area/commons/dorms)
 "lwz" = (
 /obj/effect/spawner/lootdrop/gross_decal_spawner,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -37758,9 +37596,7 @@
 	pixel_y = 6
 	},
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 5"
-	})
+/area/commons/dorms)
 "lZu" = (
 /obj/machinery/light/directional/east,
 /obj/structure/fans{
@@ -38324,9 +38160,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 5"
-	})
+/area/commons/dorms)
 "mkV" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -38335,9 +38169,7 @@
 	dir = 5
 	},
 /turf/open/floor/iron,
-/area/commons/dorms{
-	name = "Dormitories Laundry"
-	})
+/area/commons/dorms)
 "mlQ" = (
 /obj/effect/turf_decal/trimline/white/filled/line{
 	color = "#00A9FF";
@@ -38943,9 +38775,7 @@
 	},
 /obj/structure/cable/layer1,
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 3"
-	})
+/area/commons/dorms)
 "mvZ" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
@@ -39049,18 +38879,6 @@
 /obj/structure/cable/layer1,
 /turf/open/floor/wood/tile,
 /area/command/heads_quarters/rd)
-"myT" = (
-/obj/structure/bed,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
-/obj/item/bedsheet/random{
-	dir = 8
-	},
-/turf/open/floor/carpet,
-/area/commons/dorms{
-	name = "Cabin 1"
-	})
 "mza" = (
 /obj/structure/closet/crate,
 /obj/item/stack/cable_coil,
@@ -39136,9 +38954,7 @@
 	pixel_y = 20
 	},
 /turf/open/floor/carpet/black,
-/area/commons/dorms{
-	name = "Cabin 5"
-	})
+/area/commons/dorms)
 "mAa" = (
 /obj/machinery/status_display/evac/directional/north,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
@@ -39222,9 +39038,7 @@
 	cable_layer = 1
 	},
 /turf/open/floor/carpet/royalblack,
-/area/commons/dorms{
-	name = "Cabin 8"
-	})
+/area/commons/dorms)
 "mCm" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/cyan/visible{
 	dir = 10
@@ -39325,9 +39139,7 @@
 	dir = 1
 	},
 /turf/open/floor/carpet/royalblack,
-/area/commons/dorms{
-	name = "Cabin 8"
-	})
+/area/commons/dorms)
 "mDM" = (
 /obj/item/radio/intercom/directional/north,
 /obj/structure/disposalpipe/segment{
@@ -39782,9 +39594,7 @@
 	cable_layer = 1
 	},
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 4"
-	})
+/area/commons/dorms)
 "mNa" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SEC";
@@ -40188,12 +39998,6 @@
 	},
 /turf/open/floor/carpet/royalblue,
 /area/command/heads_quarters/hop)
-"mUx" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood/airless{
-	icon_state = "wood-broken"
-	},
-/area/maintenance/port)
 "mUB" = (
 /obj/machinery/airalarm/directional/south,
 /obj/machinery/atmospherics/components/binary/thermomachine/freezer,
@@ -40261,14 +40065,10 @@
 "mWd" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/carpet/royalblack,
-/area/commons/dorms{
-	name = "Cabin 8"
-	})
+/area/commons/dorms)
 "mWn" = (
 /turf/open/floor/carpet/royalblack,
-/area/commons/dorms{
-	name = "Cabin 8"
-	})
+/area/commons/dorms)
 "mWp" = (
 /obj/structure/window/reinforced,
 /obj/machinery/computer/atmos_control/tank/oxygen_tank{
@@ -40422,9 +40222,7 @@
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/carpet/royalblack,
-/area/commons/dorms{
-	name = "Cabin 8"
-	})
+/area/commons/dorms)
 "naC" = (
 /obj/machinery/door/airlock/research{
 	glass = 1;
@@ -40622,9 +40420,7 @@
 "neg" = (
 /obj/structure/closet/crate/trashcart/laundry,
 /turf/open/floor/iron,
-/area/commons/dorms{
-	name = "Dormitories Laundry"
-	})
+/area/commons/dorms)
 "neh" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
@@ -41040,9 +40836,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 7"
-	})
+/area/commons/dorms)
 "nnN" = (
 /obj/structure/table,
 /obj/item/paper_bin{
@@ -41229,9 +41023,7 @@
 /obj/machinery/airalarm/directional/east,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/carpet/black,
-/area/commons/dorms{
-	name = "Cabin 7"
-	})
+/area/commons/dorms)
 "nrx" = (
 /obj/machinery/firealarm/directional/west,
 /obj/structure/disposalpipe/segment,
@@ -42164,9 +41956,7 @@
 	},
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/carpet/royalblack,
-/area/commons/dorms{
-	name = "Cabin 8"
-	})
+/area/commons/dorms)
 "nHx" = (
 /obj/structure/flora/junglebush/b,
 /obj/structure/flora/ausbushes/ppflowers,
@@ -42709,9 +42499,7 @@
 	},
 /obj/structure/cable/layer1,
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 8"
-	})
+/area/commons/dorms)
 "nTn" = (
 /obj/structure/table,
 /obj/item/stack/sheet/iron/fifty,
@@ -42908,9 +42696,7 @@
 	},
 /obj/structure/cable/layer1,
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 7"
-	})
+/area/commons/dorms)
 "nWN" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
@@ -44005,9 +43791,7 @@
 "osl" = (
 /obj/structure/chair/comfy/black,
 /turf/open/floor/carpet/purple,
-/area/commons/dorms{
-	name = "Cabin 6"
-	})
+/area/commons/dorms)
 "osO" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
@@ -44346,9 +44130,7 @@
 /obj/item/stack/sheet/mineral/wood,
 /obj/machinery/light_switch/directional/east,
 /turf/open/floor/carpet/purple,
-/area/commons/dorms{
-	name = "Cabin 6"
-	})
+/area/commons/dorms)
 "oyN" = (
 /obj/effect/turf_decal/trimline/white/filled/line{
 	color = "#FF8800";
@@ -44366,9 +44148,7 @@
 	pixel_y = 6
 	},
 /turf/open/floor/carpet/purple,
-/area/commons/dorms{
-	name = "Cabin 6"
-	})
+/area/commons/dorms)
 "oyR" = (
 /obj/structure/sign/poster/official/random{
 	pixel_y = -32
@@ -44456,9 +44236,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/commons/dorms{
-	name = "Dormitories Laundry"
-	})
+/area/commons/dorms)
 "oAw" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -44601,10 +44379,14 @@
 =======
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/carpet/purple,
+<<<<<<< HEAD
 /area/commons/dorms{
 	name = "Cabin 6"
 	})
 >>>>>>> 16fd77aab17 (Initial Commit of Remastered Meta)
+=======
+/area/commons/dorms)
+>>>>>>> 269b94aee65 (Removal of Incorrect Areas)
 "oDr" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -44648,9 +44430,7 @@
 	cable_layer = 1
 	},
 /turf/open/floor/carpet/purple,
-/area/commons/dorms{
-	name = "Cabin 6"
-	})
+/area/commons/dorms)
 "oEn" = (
 /obj/structure/table,
 /obj/machinery/recharger{
@@ -44972,9 +44752,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 2"
-	})
+/area/commons/dorms)
 "oLv" = (
 /obj/structure/disposalpipe/junction/flip{
 	dir = 4
@@ -45578,9 +45356,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/purple,
-/area/commons/dorms{
-	name = "Cabin 6"
-	})
+/area/commons/dorms)
 "oVc" = (
 /obj/machinery/camera{
 	c_tag = "Medbay Main Hallway- South";
@@ -46419,9 +46195,7 @@
 	},
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 5"
-	})
+/area/commons/dorms)
 "plN" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -46642,9 +46416,7 @@
 	},
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 7"
-	})
+/area/commons/dorms)
 "pqp" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 5
@@ -48003,9 +47775,7 @@
 "pQV" = (
 /obj/structure/chair/comfy/black,
 /turf/open/floor/carpet/black,
-/area/commons/dorms{
-	name = "Cabin 7"
-	})
+/area/commons/dorms)
 "pRc" = (
 /obj/structure/chair{
 	dir = 1
@@ -48175,9 +47945,7 @@
 	dir = 9
 	},
 /turf/open/floor/carpet/black,
-/area/commons/dorms{
-	name = "Cabin 7"
-	})
+/area/commons/dorms)
 "pUB" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
@@ -48596,9 +48364,7 @@
 	},
 /obj/structure/cable/layer1,
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 1"
-	})
+/area/commons/dorms)
 "qcR" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - COM";
@@ -49321,9 +49087,7 @@
 	dir = 10
 	},
 /turf/open/floor/iron,
-/area/commons/dorms{
-	name = "Dormitories Laundry"
-	})
+/area/commons/dorms)
 "qvx" = (
 /obj/structure/disposalpipe/junction/flip{
 	dir = 2
@@ -50054,9 +49818,7 @@
 /obj/effect/turf_decal/siding/wood/corner,
 /obj/structure/cable/layer1,
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 4"
-	})
+/area/commons/dorms)
 "qKh" = (
 /obj/machinery/camera{
 	c_tag = "Xenobiology Lab - Pen #2";
@@ -50619,9 +50381,7 @@
 /obj/structure/cable/layer1,
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/iron,
-/area/commons/dorms{
-	name = "Dormitories Laundry"
-	})
+/area/commons/dorms)
 "qVy" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -50700,9 +50460,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/commons/dorms{
-	name = "Cabin 3"
-	})
+/area/commons/dorms)
 "qXt" = (
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/engine,
@@ -50936,9 +50694,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/commons/dorms{
-	name = "Cabin 4"
-	})
+/area/commons/dorms)
 "rcv" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron,
@@ -50949,9 +50705,7 @@
 	},
 /obj/machinery/light_switch/directional/east,
 /turf/open/floor/carpet/black,
-/area/commons/dorms{
-	name = "Cabin 5"
-	})
+/area/commons/dorms)
 "rdk" = (
 /obj/structure/sign/warning/electricshock,
 /obj/machinery/door/poddoor/preopen{
@@ -51200,12 +50954,6 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron,
 /area/science/lab)
-"rhp" = (
-/obj/machinery/light_switch/directional/south,
-/turf/open/floor/carpet,
-/area/commons/dorms{
-	name = "Cabin 4"
-	})
 "rhI" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
@@ -52747,9 +52495,7 @@
 /obj/machinery/washing_machine,
 /obj/machinery/light,
 /turf/open/floor/iron,
-/area/commons/dorms{
-	name = "Dormitories Laundry"
-	})
+/area/commons/dorms)
 "rNc" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/dark,
@@ -53004,9 +52750,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/purple,
-/area/commons/dorms{
-	name = "Cabin 6"
-	})
+/area/commons/dorms)
 "rRe" = (
 /obj/machinery/light/small/directional/south,
 /obj/item/storage/box/donkpockets,
@@ -54507,11 +54251,6 @@
 	},
 /turf/open/floor/iron,
 /area/construction/storage_wing)
-"swf" = (
-/obj/effect/spawner/lootdrop/gross_decal_spawner,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood/airless,
-/area/maintenance/port)
 "swi" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -55417,9 +55156,7 @@
 	},
 /obj/structure/dresser,
 /turf/open/floor/carpet/purple,
-/area/commons/dorms{
-	name = "Cabin 6"
-	})
+/area/commons/dorms)
 "sTM" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -57320,9 +57057,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 7"
-	})
+/area/commons/dorms)
 "tEa" = (
 /obj/effect/decal/cleanable/blood/gibs/old,
 /mob/living/simple_animal/hostile/ooze/gelatinous,
@@ -58488,9 +58223,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/commons/dorms{
-	name = "Dormitories Laundry"
-	})
+/area/commons/dorms)
 "tYD" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 4
@@ -59923,9 +59656,7 @@
 	},
 /obj/structure/cable/layer1,
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 2"
-	})
+/area/commons/dorms)
 "uCX" = (
 /obj/machinery/light_switch/directional/east,
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -60477,9 +60208,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 1"
-	})
+/area/commons/dorms)
 "uPD" = (
 /obj/structure/chair/stool/bar/directional/north,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
@@ -62623,9 +62352,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 2"
-	})
+/area/commons/dorms)
 "vFk" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -63359,9 +63086,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/commons/dorms{
-	name = "Cabin 2"
-	})
+/area/commons/dorms)
 "vUI" = (
 /obj/structure/table/glass,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -64585,9 +64310,7 @@
 /obj/machinery/light/small/directional/north,
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 4"
-	})
+/area/commons/dorms)
 "wvp" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
@@ -65048,9 +64771,7 @@
 /obj/item/stack/sheet/mineral/wood,
 /obj/machinery/light_switch/directional/east,
 /turf/open/floor/carpet/royalblack,
-/area/commons/dorms{
-	name = "Cabin 8"
-	})
+/area/commons/dorms)
 "wHB" = (
 /obj/machinery/firealarm/directional/east,
 /turf/open/floor/iron/dark,
@@ -65759,9 +65480,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 4"
-	})
+/area/commons/dorms)
 "wWA" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
@@ -68064,9 +67783,7 @@
 "xPF" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
-/area/commons/dorms{
-	name = "Dormitories Laundry"
-	})
+/area/commons/dorms)
 "xPJ" = (
 /turf/open/floor/engine,
 /area/maintenance/starboard/aft)
@@ -68266,9 +67983,7 @@
 	},
 /obj/machinery/light_switch/directional/west,
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 7"
-	})
+/area/commons/dorms)
 "xTt" = (
 /turf/open/floor/iron/white,
 /area/medical/cryo)
@@ -68596,9 +68311,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 4"
-	})
+/area/commons/dorms)
 "yaI" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 6
@@ -68670,9 +68383,7 @@
 "ybF" = (
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/iron,
-/area/commons/dorms{
-	name = "Dormitories Laundry"
-	})
+/area/commons/dorms)
 "ybG" = (
 /obj/machinery/light/small/directional/east,
 /obj/item/radio/intercom/directional/east,
@@ -69090,9 +68801,7 @@
 	},
 /obj/machinery/light_switch/directional/south,
 /turf/open/floor/wood,
-/area/commons/dorms{
-	name = "Cabin 2"
-	})
+/area/commons/dorms)
 "yiE" = (
 /obj/structure/table,
 /obj/item/folder/white,
@@ -82629,7 +82338,7 @@ gvo
 pcG
 nOR
 wYn
-mUx
+cld
 iij
 cgK
 jYb
@@ -82886,10 +82595,10 @@ noX
 dAU
 cZm
 tHv
-cld
-cld
-cld
-cld
+kxk
+kxk
+kxk
+kxk
 vYB
 alK
 alK
@@ -83180,15 +82889,15 @@ alK
 anP
 jzT
 alK
-cld
+kxk
 mtj
 idk
 mBX
-cld
-cld
-cld
+kxk
+kxk
+kxk
 whR
-swf
+btI
 gfa
 alK
 >>>>>>> 16fd77aab17 (Initial Commit of Remastered Meta)
@@ -83443,9 +83152,9 @@ pSQ
 pSQ
 utb
 lwz
-cld
-cld
-cld
+kxk
+kxk
+kxk
 cYs
 etg
 alK
@@ -83700,9 +83409,9 @@ eGa
 swi
 vMJ
 jYb
-cld
-cld
-cld
+kxk
+kxk
+kxk
 bhk
 etg
 alK
@@ -83957,9 +83666,9 @@ eGa
 eGa
 vMJ
 jYb
-cld
-cld
-cld
+kxk
+kxk
+kxk
 cYs
 etg
 alK
@@ -84214,10 +83923,10 @@ eGa
 eGa
 pSQ
 jYb
-cld
-swf
-cld
-cld
+kxk
+btI
+kxk
+kxk
 cGF
 alK
 alK
@@ -84471,10 +84180,10 @@ eGa
 eGa
 vMJ
 jYb
-cld
+kxk
 cTC
 cTC
-cld
+kxk
 alK
 alK
 aob
@@ -84728,7 +84437,7 @@ eGa
 eGa
 vMJ
 jYb
-cld
+kxk
 ihE
 ihE
 alK
@@ -105207,8 +104916,9 @@ dqy
 ezd
 oUW
 sTJ
-btI
+dqy
 iPs
+<<<<<<< HEAD
 <<<<<<< HEAD
 tDs
 bpa
@@ -105226,11 +104936,14 @@ bWq
 iDA
 =======
 chw
+=======
+oyS
+>>>>>>> 269b94aee65 (Removal of Incorrect Areas)
 jOl
 tYB
-exr
+abw
 iPs
-btI
+dqy
 dfk
 oyS
 xYX
@@ -105474,7 +105187,7 @@ bdO
 aFe
 hHO
 dqy
-jMo
+aUv
 kNi
 lli
 dqy
@@ -105482,10 +105195,10 @@ aUv
 mWn
 nHf
 dqy
-bdG
+aUv
 ezd
 oDo
-btI
+dqy
 oAd
 ybF
 qvv
@@ -105517,7 +105230,7 @@ lqU
 =======
 qVw
 rMZ
-btI
+dqy
 dfk
 oyS
 oyS
@@ -105779,14 +105492,14 @@ dqy
 oyB
 rQW
 oDK
-btI
+dqy
 neg
-chw
-chw
-cJe
-exr
+oyS
+oyS
+xIL
+abw
 iPs
-btI
+dqy
 xGB
 oyS
 oyS
@@ -106051,14 +105764,14 @@ dqy
 dqy
 dqy
 eCI
-btI
+dqy
 xPF
 xPF
-btI
-cJe
-exr
-btI
-btI
+dqy
+xIL
+abw
+dqy
+dqy
 dfk
 oyS
 oyS
@@ -107371,14 +107084,14 @@ kwT
 dqy
 lZn
 aQF
-boM
+kwT
 dqy
 egT
 dqy
 mMY
 rch
 dqy
-hdk
+jDl
 cQI
 <<<<<<< HEAD
 pyb
@@ -107659,21 +107372,21 @@ juH
 tDY
 dqy
 mkP
-bfN
+juH
 plI
 dqy
 egT
 dqy
 wvj
-rhp
+lro
 dqy
-eYb
-ghr
+wvj
+lro
 dqy
 ilg
 yiy
 dqy
-kxk
+wvj
 lro
 dqy
 dnS
@@ -107941,8 +107654,8 @@ dqy
 vUF
 oLp
 dqy
-kYa
-myT
+hpp
+qXj
 dqy
 dnS
 rBe
