@@ -40191,6 +40191,9 @@
 	dir = 4
 	},
 /obj/structure/cable/layer1,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
 /turf/open/floor/plating,
 /area/maintenance/port)
 "mUB" = (
