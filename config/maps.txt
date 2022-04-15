@@ -43,6 +43,10 @@ map tramstation
 	votable
 endmap
 
+map aeternitasstation
+	votable
+endmap
+
 map runtimestation
 endmap
 
