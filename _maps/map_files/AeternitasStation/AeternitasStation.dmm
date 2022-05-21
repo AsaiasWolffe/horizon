@@ -2366,9 +2366,7 @@
 	dir = 1
 	},
 /turf/open/floor/carpet/neon/simple/teal/nodots,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "aqZ" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -5881,9 +5879,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "aXZ" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -8815,9 +8811,7 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "bIY" = (
 /obj/machinery/door/airlock{
 	name = "Custodial Closet";
@@ -9512,9 +9506,7 @@
 /obj/structure/chair/sofa/corner,
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/carpet/neon/simple/teal/nodots,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "bSb" = (
 /obj/machinery/door/window/westleft{
 	dir = 1;
@@ -11479,9 +11471,7 @@
 	},
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/carpet/neon/simple/teal/nodots,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "cig" = (
 /obj/item/radio/intercom/directional/south,
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -12246,9 +12236,7 @@
 	},
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/carpet/neon/simple/teal/nodots,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "cnI" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -15215,9 +15203,7 @@
 	pixel_y = 30
 	},
 /turf/closed/wall,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "cYU" = (
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron,
@@ -15916,9 +15902,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/neon/simple/teal/nodots,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "dma" = (
 /obj/structure/chair/comfy/black,
 /obj/structure/disposalpipe/segment,
@@ -17398,9 +17382,7 @@
 /obj/machinery/firealarm/directional/north,
 /obj/structure/chair/sofa,
 /turf/open/floor/carpet/neon/simple/teal/nodots,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "dSA" = (
 /obj/effect/turf_decal/siding,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
@@ -20335,9 +20317,7 @@
 "eYa" = (
 /obj/structure/cable/layer1,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "eYg" = (
 /obj/structure/lattice,
 /obj/effect/mapping_helpers/smart_pipe/simple/violet/visible{
@@ -20746,9 +20726,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "fit" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -21624,9 +21602,7 @@
 	pixel_y = 4
 	},
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "fwJ" = (
 /obj/structure/closet/secure_closet/security/sec,
 /obj/machinery/airalarm/directional/north,
@@ -21734,9 +21710,7 @@
 	},
 /obj/machinery/light/directional/east,
 /turf/open/floor/carpet/neon/simple/teal/nodots,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "fzC" = (
 /obj/machinery/computer/communications,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
@@ -22336,9 +22310,7 @@
 /obj/structure/cable/layer1,
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "fNy" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -23693,9 +23665,7 @@
 /obj/structure/chair/sofa/right,
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/carpet/neon/simple/teal/nodots,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "gsV" = (
 /obj/effect/landmark/xeno_spawn,
 /turf/open/floor/plating,
@@ -27069,9 +27039,7 @@
 	dir = 1
 	},
 /turf/open/floor/carpet/neon/simple/teal/nodots,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "hTl" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -28650,9 +28618,7 @@
 /obj/item/kirbyplants/random,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "iEE" = (
 /obj/structure/cable/layer1,
 /obj/item/storage/backpack/duffelbag/med/surgery,
@@ -29591,9 +29557,7 @@
 /obj/structure/chair/comfy/brown,
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "jcl" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
@@ -29988,9 +29952,7 @@
 "jkz" = (
 /obj/structure/extinguisher_cabinet/directional/west,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "jkO" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -31265,9 +31227,7 @@
 "jLT" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "jMk" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
@@ -37543,9 +37503,7 @@
 	name = "Locker Room"
 	},
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "mBU" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -38068,9 +38026,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "mLD" = (
 /obj/effect/spawner/lootdrop/gross_decal_spawner,
 /obj/structure/cable/layer1,
@@ -38657,9 +38613,7 @@
 /obj/structure/chair/comfy/brown,
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "mZh" = (
 /obj/structure/rack,
 /obj/item/cane,
@@ -40828,9 +40782,7 @@
 	},
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "nQi" = (
 /obj/structure/cable/layer1,
 /obj/structure/cable{
@@ -42240,9 +42192,7 @@
 /obj/item/pen,
 /obj/structure/cable/layer1,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "oug" = (
 /obj/structure/table,
 /obj/machinery/door/window{
@@ -44299,9 +44249,7 @@
 /area/hallway/secondary/exit/departure_lounge)
 "pld" = (
 /turf/open/floor/carpet/neon/simple/teal/nodots,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "pli" = (
 /obj/structure/table/reinforced,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
@@ -46758,9 +46706,7 @@
 	pixel_y = 7
 	},
 /turf/open/floor/carpet/neon/simple/teal/nodots,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "qkq" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/toxins_mixing_input{
 	dir = 1
@@ -47429,14 +47375,10 @@
 	},
 /obj/structure/cable/layer1,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "qCf" = (
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "qCh" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
@@ -47541,9 +47483,7 @@
 "qEu" = (
 /obj/machinery/light_switch/directional/west,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "qEH" = (
 /obj/machinery/light/directional/south,
 /obj/machinery/status_display/supply{
@@ -47910,9 +47850,7 @@
 "qLT" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "qLU" = (
 /obj/machinery/light/small/directional/north,
 /obj/machinery/power/smes/engineering,
@@ -48194,9 +48132,7 @@
 	dir = 6
 	},
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "qSM" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -49128,9 +49064,7 @@
 	pixel_y = 2
 	},
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "rpp" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 5
@@ -49933,9 +49867,7 @@
 	dir = 10
 	},
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "rDs" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -50293,9 +50225,7 @@
 	cable_layer = 1
 	},
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "rLK" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green{
@@ -50558,9 +50488,7 @@
 /obj/structure/table/glass,
 /obj/item/storage/crayons,
 /turf/open/floor/carpet/neon/simple/teal/nodots,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "rQv" = (
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -50873,9 +50801,7 @@
 /obj/machinery/vending/games,
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "rVY" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -51089,9 +51015,7 @@
 /obj/item/storage/pill_bottle/dice,
 /obj/structure/cable/layer1,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "sbV" = (
 /obj/structure/cable/layer1,
 /obj/effect/spawner/structure/window/hollow/reinforced/directional{
@@ -54372,9 +54296,7 @@
 "tvq" = (
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "tvA" = (
 /obj/structure/table,
 /obj/item/clothing/mask/gas,
@@ -54591,9 +54513,7 @@
 /obj/structure/cable/layer1,
 /obj/item/lighter,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "tDE" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 6
@@ -55612,9 +55532,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "tVe" = (
 /obj/structure/disposaloutlet{
 	dir = 4;
@@ -56374,9 +56292,7 @@
 "umS" = (
 /obj/machinery/vending/donksofttoyvendor,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "umW" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
@@ -56716,9 +56632,7 @@
 /obj/machinery/status_display/evac/directional/north,
 /obj/structure/chair/sofa,
 /turf/open/floor/carpet/neon/simple/teal/nodots,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "utF" = (
 /obj/machinery/camera/autoname{
 	dir = 8
@@ -57520,9 +57434,7 @@
 	pixel_y = 4
 	},
 /turf/open/floor/carpet/neon/simple/teal/nodots,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "uMl" = (
 /obj/machinery/power/apc/auto_name/north,
 /obj/structure/cable/multilayer{
@@ -58079,9 +57991,7 @@
 /obj/structure/table/glass,
 /obj/item/lighter,
 /turf/open/floor/carpet/neon/simple/teal/nodots,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "uYE" = (
 /turf/open/floor/iron/chapel,
 /area/service/chapel/main)
@@ -59772,9 +59682,7 @@
 /obj/item/radio/intercom/directional/east,
 /obj/item/kirbyplants/random,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "vJv" = (
 /obj/machinery/modular_computer/console/preset/cargochat/security{
 	dir = 8
@@ -62135,9 +62043,7 @@
 /obj/structure/table/glass,
 /obj/item/storage/pill_bottle/dice,
 /turf/open/floor/carpet/neon/simple/teal/nodots,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "wJO" = (
 /obj/structure/rack,
 /obj/item/flashlight,
@@ -63354,9 +63260,7 @@
 /area/science/xenobiology)
 "xiW" = (
 /turf/closed/wall,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "xjA" = (
 /obj/structure/fireaxecabinet/directional/west,
 /obj/machinery/camera{
@@ -64381,9 +64285,7 @@
 	},
 /obj/structure/cable/layer1,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "xFH" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /obj/structure/disposalpipe/segment,
@@ -64659,9 +64561,7 @@
 	},
 /obj/structure/cable/layer1,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "xMa" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
@@ -64808,9 +64708,7 @@
 	name = "Dormitories"
 	},
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "xOh" = (
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Supermatter Engine Room";
@@ -65719,9 +65617,7 @@
 	},
 /obj/item/newspaper,
 /turf/open/floor/carpet/neon/simple/teal/nodots,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "ygq" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/yellow/hidden{
 	dir = 4
@@ -66189,9 +66085,7 @@
 "ymg" = (
 /obj/structure/table/glass,
 /turf/open/floor/iron,
-/area/commons/lounge{
-	name = "Dormitories Lounge"
-	})
+/area/commons/lounge)
 "ymh" = (
 /obj/effect/turf_decal/trimline/white/filled/corner{
 	color = "#FF8800";
