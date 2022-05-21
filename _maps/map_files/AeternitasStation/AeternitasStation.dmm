@@ -3004,7 +3004,6 @@
 "avS" = (
 /obj/machinery/firealarm/directional/north,
 /obj/structure/chair/stool/directional/north,
-/obj/effect/landmark/start/station_engineer,
 /obj/effect/turf_decal/trimline/white/filled/line{
 	color = "#FF8800";
 	dir = 1;
@@ -3014,6 +3013,7 @@
 	color = "#FF8800";
 	name = "line S"
 	},
+/obj/effect/landmark/start/atmospheric_technician,
 /turf/open/floor/iron,
 /area/engineering/break_room)
 "avT" = (
@@ -9505,7 +9505,6 @@
 "bRg" = (
 /obj/machinery/computer/security/telescreen/entertainment/directional/east,
 /obj/machinery/light/directional/east,
-/obj/machinery/skill_station,
 /turf/open/floor/wood,
 /area/service/library)
 "bRs" = (
@@ -10039,11 +10038,6 @@
 /turf/open/floor/circuit/red,
 /area/science/xenobiology)
 "bXJ" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/freezer/on{
-	dir = 8;
-	initialize_directions = 4;
-	name = "euthanization chamber freezer"
-	},
 /obj/machinery/light/small/directional/north,
 /obj/structure/window/reinforced{
 	dir = 1
@@ -10052,6 +10046,9 @@
 	dir = 8
 	},
 /obj/structure/window/reinforced,
+/obj/machinery/atmospherics/components/binary/heat_pump/freezer/on{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/science/xenobiology)
 "bXK" = (
@@ -10333,7 +10330,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/machinery/atmospherics/components/binary/thermomachine/heater,
+/obj/machinery/atmospherics/components/binary/heat_pump/freezer,
 /turf/open/floor/iron/dark,
 /area/medical/cryo)
 "bYV" = (
@@ -31084,12 +31081,12 @@
 /turf/open/floor/plating,
 /area/hallway/primary/central)
 "jHd" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/heater,
 /obj/effect/turf_decal/trimline/white/filled/line{
 	color = "#00A9FF";
 	dir = 9;
 	name = "line NW"
 	},
+/obj/machinery/atmospherics/components/binary/heat_pump/freezer,
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "jHg" = (
@@ -38472,7 +38469,7 @@
 /area/command/heads_quarters/hop)
 "mUB" = (
 /obj/machinery/airalarm/directional/south,
-/obj/machinery/atmospherics/components/binary/thermomachine/freezer,
+/obj/machinery/atmospherics/components/binary/heat_pump/freezer,
 /turf/open/floor/iron,
 /area/science/mixing)
 "mUV" = (
@@ -38932,12 +38929,12 @@
 /turf/open/floor/iron/grimy,
 /area/maintenance/starboard)
 "neG" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/heater,
 /obj/effect/turf_decal/trimline/white/filled/line{
 	color = "#00A9FF";
 	dir = 1;
 	name = "line N"
 	},
+/obj/machinery/atmospherics/components/binary/heat_pump/freezer,
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "nfh" = (
@@ -44950,12 +44947,12 @@
 /area/command/meeting_room)
 "pwV" = (
 /obj/structure/chair/stool/directional/south,
-/obj/effect/landmark/start/station_engineer,
 /obj/effect/turf_decal/trimline/white/filled/line{
 	color = "#FF8800";
 	dir = 1;
 	name = "line N"
 	},
+/obj/effect/landmark/start/atmospheric_technician,
 /turf/open/floor/iron,
 /area/engineering/break_room)
 "pxg" = (
@@ -47862,7 +47859,7 @@
 	dir = 4
 	},
 /obj/machinery/status_display/evac/directional/south,
-/obj/machinery/atmospherics/components/binary/thermomachine/heater,
+/obj/machinery/atmospherics/components/binary/heat_pump/heater,
 /turf/open/floor/iron,
 /area/science/mixing)
 "qKZ" = (
@@ -50898,7 +50895,6 @@
 	pixel_y = 32
 	},
 /obj/structure/chair/stool/directional/north,
-/obj/effect/landmark/start/atmospheric_technician,
 /obj/effect/turf_decal/trimline/white/filled/line{
 	color = "#FF8800";
 	dir = 1;
@@ -50908,6 +50904,7 @@
 	color = "#FF8800";
 	name = "line S"
 	},
+/obj/effect/landmark/start/station_engineer,
 /turf/open/floor/iron,
 /area/engineering/break_room)
 "rWE" = (
@@ -57863,7 +57860,7 @@
 /turf/open/floor/plating,
 /area/construction/storage_wing)
 "uTW" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/heater,
+/obj/machinery/atmospherics/components/binary/heat_pump/freezer,
 /turf/open/floor/iron/dark,
 /area/engineering/supermatter/room)
 "uUf" = (
