@@ -15,7 +15,7 @@
 	name = "high voltage power cable"
 	},
 /turf/open/floor/iron/solarpanel/airless,
-/area/solars/port/fore)
+/area/space/nearstation)
 "aaf" = (
 /obj/structure/lattice,
 /turf/open/space,
@@ -38,15 +38,9 @@
 /obj/structure/grille,
 /turf/open/space,
 /area/space/nearstation)
-"aat" = (
-/turf/open/space/basic,
-/area/solars/port/fore)
 "aav" = (
 /turf/open/space,
 /area/space)
-"aaw" = (
-/turf/closed/mineral/random,
-/area/solars/port/fore)
 "aax" = (
 /turf/closed/wall/r_wall,
 /area/security/prison)
@@ -141,7 +135,7 @@
 	name = "high voltage power cable"
 	},
 /turf/open/floor/iron/solarpanel/airless,
-/area/solars/port/fore)
+/area/space/nearstation)
 "abG" = (
 /obj/machinery/camera{
 	c_tag = "Prison Workshop";
@@ -1087,7 +1081,7 @@
 "ahR" = (
 /obj/structure/lattice/catwalk,
 /turf/closed/mineral/random,
-/area/solars/port/fore)
+/area/space/nearstation)
 "ahS" = (
 /obj/structure/closet/crate/silvercrate,
 /turf/open/floor/iron/dark,
@@ -1250,7 +1244,7 @@
 	name = "Fore-Port Solar Array"
 	},
 /turf/open/space/basic,
-/area/solars/port/fore)
+/area/space)
 "aiC" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/engine_waste,
 /turf/open/floor/plating/airless,
@@ -1440,6 +1434,10 @@
 /obj/structure/table,
 /turf/open/floor/iron/dark/textured_large,
 /area/security/prison/visit)
+"akw" = (
+/obj/machinery/airalarm/directional/west,
+/turf/open/floor/iron/dark,
+/area/service/chapel/office)
 "akB" = (
 /obj/structure/closet{
 	name = "Evidence Closet 4"
@@ -1742,6 +1740,20 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ai_monitored/security/armory)
+"amb" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "ams" = (
 /obj/machinery/light/directional/south,
 /obj/machinery/vending/wardrobe/chef_wardrobe,
@@ -3173,6 +3185,7 @@
 	dir = 1
 	},
 /obj/structure/plasticflaps/opaque,
+/obj/machinery/light/directional/west,
 /turf/open/floor/plating,
 /area/cargo/sorting)
 "awS" = (
@@ -3417,6 +3430,19 @@
 	},
 /turf/open/floor/plating,
 /area/security/checkpoint/customs)
+"azc" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "azg" = (
 /obj/item/stack/cable_coil,
 /turf/open/floor/plating/airless,
@@ -4250,6 +4276,10 @@
 /obj/machinery/status_display/supply{
 	pixel_y = -32
 	},
+/obj/machinery/camera{
+	c_tag = "Central Primary Hallway - Fore - Port Corner";
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/construction/storage_wing)
 "aHo" = (
@@ -4676,10 +4706,10 @@
 /turf/open/floor/iron,
 /area/commons/toilet/auxiliary)
 "aMa" = (
-/obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/heat_exchanging/manifold{
 	dir = 8
 	},
+/obj/structure/lattice/catwalk,
 /turf/open/space,
 /area/space/nearstation)
 "aMf" = (
@@ -6561,6 +6591,19 @@
 "bfr" = (
 /turf/open/floor/iron,
 /area/maintenance/port)
+"bft" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "bfu" = (
 /obj/machinery/icecream_vat,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
@@ -6801,6 +6844,16 @@
 	},
 /turf/open/floor/iron/dark,
 /area/service/cafeteria)
+"biK" = (
+/obj/machinery/light/small/directional/west,
+/obj/structure/table,
+/obj/item/storage/box/bodybags{
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/iron/dark,
+/area/service/chapel/office)
 "biU" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
@@ -9154,6 +9207,19 @@
 /obj/machinery/door/poddoor/incinerator_atmos_main,
 /turf/open/floor/engine/vacuum,
 /area/maintenance/disposal/incinerator)
+"bNa" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "bNl" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/stripes/line{
@@ -9556,14 +9622,6 @@
 	},
 /turf/open/floor/engine,
 /area/science/xenobiology)
-"bTn" = (
-/obj/effect/mapping_helpers/paint_wall{
-	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
-	wall_paint = "#4D4D4D"
-	},
-/turf/closed/wall,
-/area/maintenance/solars/port/aft)
 "bTr" = (
 /obj/item/storage/fancy/cigarettes/cigpack_mindbreaker,
 /turf/open/floor/plating,
@@ -10163,15 +10221,10 @@
 	},
 /turf/open/floor/engine,
 /area/science/xenobiology)
-"bYC" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/paint_wall{
-	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
-	wall_paint = "#4D4D4D"
-	},
+"bYw" = (
+/obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plating,
-/area/maintenance/solars/port/aft)
+/area/maintenance/aft/secondary)
 "bYD" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/structure/cable{
@@ -10402,6 +10455,10 @@
 	},
 /turf/open/floor/iron/white,
 /area/medical/surgery)
+"bZq" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plating,
+/area/maintenance/port)
 "bZs" = (
 /obj/structure/table,
 /obj/item/assembly/igniter{
@@ -10975,9 +11032,7 @@
 /turf/open/floor/iron/white,
 /area/science/cytology)
 "cev" = (
-/obj/structure/reflector/box/anchored{
-	dir = 8
-	},
+/obj/structure/reflector/box,
 /turf/open/floor/plating,
 /area/engineering/supermatter/room)
 "cex" = (
@@ -11302,6 +11357,10 @@
 	stripe_paint = "#660099";
 	wall_paint = "#FFFFFF"
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "XenoPens";
+	name = "Xenobiology Lockdown"
+	},
 /turf/open/floor/engine,
 /area/science/cytology)
 "cgK" = (
@@ -11334,6 +11393,9 @@
 	dir = 4;
 	network = list("ss13","rd")
 	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
 /turf/open/floor/holofloor/dark,
 /area/science/cytology)
 "cgX" = (
@@ -11363,6 +11425,10 @@
 	req_access_txt = "55"
 	},
 /obj/effect/mapping_helpers/smart_pipe/simple/general/hidden,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "XenoPens";
+	name = "Xenobiology Lockdown"
+	},
 /turf/open/floor/engine,
 /area/science/cytology)
 "che" = (
@@ -12559,6 +12625,17 @@
 /obj/item/blood_filter,
 /turf/open/floor/iron/dark,
 /area/medical/storage)
+"cqa" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "cqc" = (
 /obj/machinery/firealarm/directional/north,
 /obj/structure/disposalpipe/segment{
@@ -12938,6 +13015,20 @@
 	},
 /turf/open/floor/iron,
 /area/cargo/sorting)
+"cwb" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "cwd" = (
 /obj/structure/sign/departments/chemistry/pharmacy{
 	pixel_x = -32
@@ -13509,6 +13600,13 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass,
 /area/medical/virology)
+"cCW" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 10
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space)
 "cCX" = (
 /obj/structure/table,
 /obj/machinery/recharger{
@@ -13594,6 +13692,10 @@
 	name = "Paint Wall Helper - SCI";
 	stripe_paint = "#660099";
 	wall_paint = "#FFFFFF"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "XenoPens";
+	name = "Xenobiology Lockdown"
 	},
 /turf/open/floor/engine,
 /area/science/xenobiology)
@@ -14088,25 +14190,15 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/break_room)
-"cLN" = (
-/obj/structure/cable{
-	name = "high voltage power cable"
-	},
-/turf/open/floor/plating,
-/area/maintenance/solars/port/aft)
 "cLO" = (
-/obj/machinery/door/airlock/external{
-	name = "Solar Maintenance";
-	req_access_txt = "10; 13"
+/obj/effect/turf_decal/box/corners{
+	dir = 1
 	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
+/obj/effect/turf_decal/box/corners{
+	dir = 4
 	},
-/obj/structure/cable{
-	name = "high voltage power cable"
-	},
-/turf/open/floor/plating,
-/area/maintenance/solars/port/aft)
+/turf/open/floor/holofloor/dark,
+/area/science/cytology)
 "cLP" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/structure/cable/layer1,
@@ -14193,25 +14285,6 @@
 /obj/effect/turf_decal/box,
 /turf/open/floor/plating,
 /area/engineering/main)
-"cMy" = (
-/obj/structure/sign/warning/vacuum/external{
-	pixel_y = -32
-	},
-/obj/machinery/power/solar_control{
-	dir = 4;
-	id = "aftport";
-	name = "Port Quarter Solar Control"
-	},
-/obj/structure/cable{
-	name = "high voltage power cable"
-	},
-/turf/open/floor/plating,
-/area/maintenance/solars/port/aft)
-"cMA" = (
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
-/area/maintenance/solars/port/aft)
 "cMO" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -14395,6 +14468,22 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
+"cOB" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "cOF" = (
 /obj/machinery/camera/motion{
 	c_tag = "AI Upload Chamber - Port";
@@ -14610,7 +14699,8 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/on/layer2{
 	dir = 4
 	},
-/turf/open/floor/plating/airless,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
 /area/science/xenobiology)
 "cRe" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -14990,6 +15080,17 @@
 	},
 /turf/open/floor/iron/white,
 /area/medical/storage)
+"cXl" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Port Quarter Solar Access";
+	req_access_txt = "10"
+	},
+/obj/structure/lattice/catwalk/plated/dark,
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/plating,
+/area/solars/port/aft)
 "cXm" = (
 /obj/machinery/computer/cargo/request{
 	dir = 4
@@ -15286,12 +15387,10 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard)
 "dbs" = (
-/obj/structure/cable{
-	name = "high voltage power cable"
-	},
-/obj/effect/landmark/xeno_spawn,
-/turf/open/floor/plating,
-/area/maintenance/solars/port/aft)
+/obj/machinery/atmospherics/pipe/heat_exchanging/manifold4w,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
 "dbv" = (
 /obj/structure/table,
 /obj/item/toy/cards/deck,
@@ -15562,10 +15661,10 @@
 /turf/open/space,
 /area/space/nearstation)
 "dgj" = (
-/obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 5
 	},
+/obj/structure/lattice/catwalk,
 /turf/open/space,
 /area/space/nearstation)
 "dgk" = (
@@ -15797,7 +15896,7 @@
 	dir = 1
 	},
 /obj/structure/cable/layer1,
-/turf/open/floor/material,
+/turf/open/floor/glass,
 /area/science/research)
 "djG" = (
 /obj/structure/disposalpipe/segment{
@@ -15820,8 +15919,16 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk,
+/obj/effect/turf_decal/siding,
 /turf/open/floor/iron,
 /area/science/lab)
+"djZ" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/manifold{
+	dir = 1
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
 "dkf" = (
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/iron,
@@ -15952,6 +16059,14 @@
 	},
 /turf/open/floor/plating,
 /area/cargo/storage)
+"dmZ" = (
+/obj/effect/mapping_helpers/paint_wall{
+	name = "Paint Wall Helper - ENG";
+	stripe_paint = "#FF8800";
+	wall_paint = "#4D4D4D"
+	},
+/turf/closed/wall,
+/area/service/chapel/office)
 "dne" = (
 /turf/closed/wall,
 /area/maintenance/port/fore)
@@ -15963,6 +16078,12 @@
 /obj/structure/cable/layer1,
 /turf/open/floor/iron,
 /area/command/teleporter)
+"dns" = (
+/obj/structure/bodycontainer/morgue{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/service/chapel/office)
 "dnE" = (
 /obj/effect/turf_decal/trimline/white/filled/corner{
 	color = "#660099"
@@ -16347,7 +16468,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
-/turf/open/floor/material,
+/turf/open/floor/glass,
 /area/science/research)
 "dvk" = (
 /obj/structure/table,
@@ -16550,6 +16671,7 @@
 	dir = 4;
 	name = "corner NE"
 	},
+/obj/structure/cable/layer1,
 /turf/open/floor/iron,
 /area/command/heads_quarters/ce)
 "dyH" = (
@@ -16922,6 +17044,9 @@
 /area/commons/vacant_room/commissary)
 "dJj" = (
 /obj/machinery/light/small/directional/north,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
 /turf/open/floor/holofloor/dark,
 /area/science/cytology)
 "dJr" = (
@@ -17045,7 +17170,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/material,
+/turf/open/floor/glass,
 /area/science/research)
 "dLn" = (
 /obj/structure/flora/ausbushes/fernybush,
@@ -17834,6 +17959,13 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/hallway/primary/central)
+"eei" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/manifold{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space)
 "eeq" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -18001,12 +18133,18 @@
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "eig" = (
-/obj/machinery/power/apc/auto_name/east,
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
 /obj/structure/cable{
 	name = "high voltage power cable"
 	},
-/turf/open/floor/plating,
-/area/maintenance/solars/port/aft)
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "eiq" = (
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron,
@@ -18691,10 +18829,6 @@
 /turf/open/floor/iron/white,
 /area/science/cytology)
 "euC" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Crematorium Maintenance";
-	req_one_access_txt = "27"
-	},
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/structure/lattice/catwalk/plated/dark,
@@ -19202,10 +19336,12 @@
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/aisat/foyer)
 "eDA" = (
-/obj/machinery/light/small/directional/south,
-/obj/structure/chair/stool/directional/east,
-/turf/open/floor/plating,
-/area/maintenance/solars/port/aft)
+/obj/machinery/atmospherics/pipe/heat_exchanging/manifold{
+	dir = 1
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space)
 "eDW" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -19260,6 +19396,7 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/mob/living/simple_animal/parrot/poly,
 /turf/open/floor/carpet/neon/simple/orange/nodots,
 /area/command/heads_quarters/ce)
 "eFL" = (
@@ -19585,13 +19722,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/medical/storage)
-"eKu" = (
-/obj/effect/decal/cleanable/cobweb,
-/obj/structure/bodycontainer/morgue{
-	dir = 2
-	},
-/turf/open/floor/iron/dark,
-/area/service/chapel/office)
 "eKv" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4{
 	dir = 1
@@ -19773,7 +19903,8 @@
 /obj/machinery/light_switch/directional/east,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark,
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating,
 /area/service/chapel/office)
 "eOh" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
@@ -19857,16 +19988,12 @@
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "eQf" = (
-/obj/machinery/door/airlock/engineering{
-	name = "Port Quarter Solar Access";
-	req_access_txt = "10"
-	},
 /obj/structure/lattice/catwalk/plated/dark,
 /obj/structure/cable{
 	name = "high voltage power cable"
 	},
 /turf/open/floor/plating,
-/area/maintenance/solars/port/aft)
+/area/maintenance/aft)
 "eQg" = (
 /obj/machinery/flasher/directional/south{
 	id = "AI"
@@ -19968,10 +20095,6 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/main)
-"eRa" = (
-/obj/item/radio/intercom/directional/west,
-/turf/open/floor/iron/dark,
-/area/service/chapel/office)
 "eRb" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 6
@@ -20154,10 +20277,12 @@
 "eUQ" = (
 /obj/machinery/light/small/directional/east,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock/maintenance{
+	name = "Crematorium Maintenance";
+	req_one_access_txt = "27"
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating,
 /area/service/chapel/office)
 "eUW" = (
 /obj/machinery/door/airlock/medical/glass{
@@ -20530,6 +20655,13 @@
 /obj/item/shard,
 /turf/open/space/basic,
 /area/space/nearstation)
+"fdg" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/manifold{
+	dir = 8
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
 "fdq" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
@@ -20706,6 +20838,13 @@
 	},
 /turf/open/floor/iron/white,
 /area/medical/virology)
+"fhI" = (
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating,
+/area/solars/port/aft)
 "fhL" = (
 /obj/structure/lattice/catwalk/plated/dark,
 /obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
@@ -20939,12 +21078,6 @@
 /turf/open/floor/iron,
 /area/engineering/break_room)
 "fme" = (
-/obj/machinery/button/crematorium{
-	dir = 4;
-	id = "crematoriumChapel";
-	pixel_x = -26;
-	req_access_txt = "27"
-	},
 /turf/open/floor/iron/dark,
 /area/service/chapel/office)
 "fmk" = (
@@ -21158,6 +21291,7 @@
 	dir = 8
 	},
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/service/chapel/office)
 "foL" = (
@@ -21287,9 +21421,7 @@
 /turf/open/floor/iron/white,
 /area/medical/medbay/central)
 "fsh" = (
-/obj/machinery/light/small/directional/west,
-/obj/machinery/airalarm/directional/west,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
@@ -21321,6 +21453,13 @@
 /obj/item/radio/intercom/directional/east,
 /turf/open/floor/iron,
 /area/hallway/primary/aft)
+"fsZ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plating,
+/area/maintenance/port/fore)
 "ftd" = (
 /obj/machinery/lapvend,
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -21374,8 +21513,12 @@
 /obj/structure/disposalpipe/junction/flip{
 	dir = 4
 	},
-/turf/open/floor/material,
+/turf/open/floor/glass,
 /area/science/research)
+"fue" = (
+/obj/item/radio/intercom/directional/north,
+/turf/open/floor/iron/dark,
+/area/service/chapel/office)
 "ful" = (
 /obj/machinery/airalarm/directional/east,
 /obj/machinery/newscaster/directional/north,
@@ -21555,9 +21698,8 @@
 /turf/open/floor/plating,
 /area/maintenance/central)
 "fwn" = (
-/obj/structure/bodycontainer/crematorium{
-	dir = 1;
-	id = "crematoriumChapel"
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
 	},
 /turf/open/floor/iron/dark,
 /area/service/chapel/office)
@@ -21628,13 +21770,18 @@
 /turf/open/floor/plating,
 /area/maintenance/aft/secondary)
 "fxe" = (
-/obj/structure/table,
-/obj/item/storage/box/bodybags{
-	pixel_x = 2;
-	pixel_y = 2
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
 	},
-/turf/open/floor/iron/dark,
-/area/service/chapel/office)
+/obj/effect/turf_decal/stripes/end{
+	dir = 4
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "fxK" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/structure/cable/layer1,
@@ -22816,6 +22963,20 @@
 	},
 /turf/open/floor/carpet,
 /area/command/corporate_showroom)
+"fXw" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner,
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "fXC" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -23431,12 +23592,12 @@
 /turf/open/floor/iron/grimy,
 /area/security/office)
 "gmO" = (
-/obj/machinery/power/tracker,
-/obj/structure/cable{
-	name = "high voltage power cable"
+/obj/effect/turf_decal/box/corners,
+/obj/effect/turf_decal/box/corners{
+	dir = 8
 	},
-/turf/open/floor/plating/airless,
-/area/solars/port/aft)
+/turf/open/floor/holofloor/dark,
+/area/science/cytology)
 "gno" = (
 /obj/structure/cable{
 	name = "high voltage power cable"
@@ -24636,6 +24797,22 @@
 	},
 /turf/open/floor/iron/white,
 /area/hallway/primary/central)
+"gMV" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "gMY" = (
 /obj/structure/closet/wardrobe/grey,
 /obj/machinery/light,
@@ -24954,6 +25131,22 @@
 /obj/machinery/bluespace_beacon,
 /turf/open/floor/iron,
 /area/command/teleporter)
+"gWg" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "gWu" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -25147,6 +25340,17 @@
 /obj/structure/cable/layer1,
 /turf/open/floor/iron/dark,
 /area/medical/morgue)
+"hdb" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/end,
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "hdc" = (
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /turf/open/floor/engine/n2,
@@ -25636,6 +25840,13 @@
 /obj/structure/lattice/catwalk,
 /turf/open/space,
 /area/space/nearstation)
+"hny" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green{
+	pixel_x = 1
+	},
+/turf/open/floor/carpet/executive,
+/area/command/meeting_room)
 "hnz" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -25959,10 +26170,21 @@
 /turf/open/floor/iron/white,
 /area/medical/abandoned)
 "huc" = (
-/obj/structure/window/reinforced,
-/obj/structure/closet/crate/coffin,
-/turf/open/floor/plating,
-/area/service/chapel/main)
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "huq" = (
 /obj/structure/cable/layer1,
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -26325,6 +26547,13 @@
 	dir = 1
 	},
 /area/command/heads_quarters/ce)
+"hDd" = (
+/obj/machinery/camera/autoname,
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/solars/port/aft)
 "hDq" = (
 /obj/structure/lattice/catwalk/plated/dark,
 /obj/machinery/suit_storage_unit/standard_unit,
@@ -26708,13 +26937,8 @@
 /turf/open/floor/plating,
 /area/cargo/warehouse)
 "hKk" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced,
-/obj/structure/closet/crate/coffin,
-/turf/open/floor/plating,
-/area/service/chapel/main)
+/turf/open/floor/iron/solarpanel/airless,
+/area/space/nearstation)
 "hKr" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -27192,7 +27416,8 @@
 /area/cargo/sorting)
 "hXj" = (
 /mob/living/simple_animal/slime/pet{
-	name = "Jimothy"
+	name = "Jimothy";
+	desc = "The Research Directors perpetually happy pet slime."
 	},
 /obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2{
 	dir = 8
@@ -27353,7 +27578,7 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/structure/cable/layer1,
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/material,
+/turf/open/floor/glass,
 /area/science/research)
 "iaO" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
@@ -27757,10 +27982,18 @@
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain/private)
 "iku" = (
-/obj/machinery/airalarm/directional/west,
-/obj/machinery/light/small/directional/west,
-/turf/open/floor/iron/dark,
-/area/service/chapel/main)
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "ikv" = (
 /obj/structure/chair/sofa/corp{
 	dir = 4
@@ -27902,11 +28135,8 @@
 /area/hallway/secondary/command)
 "inF" = (
 /obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	name = "high voltage power cable"
-	},
 /turf/open/space/basic,
-/area/space/nearstation)
+/area/space)
 "inI" = (
 /obj/structure/cable/layer1,
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -27974,7 +28204,7 @@
 /turf/closed/wall/r_wall,
 /area/engineering/atmos)
 "ipr" = (
-/turf/open/floor/material,
+/turf/open/floor/glass,
 /area/science/research)
 "ipV" = (
 /obj/machinery/mass_driver/chapelgun,
@@ -28261,6 +28491,13 @@
 /obj/structure/cable/layer1,
 /turf/open/floor/iron,
 /area/command/teleporter)
+"itD" = (
+/obj/structure/window/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/holofloor/dark,
+/area/science/cytology)
 "itO" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "Xenolab";
@@ -28582,7 +28819,7 @@
 	},
 /obj/item/stock_parts/manipulator,
 /obj/item/stock_parts/manipulator,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/science/lab)
 "iEc" = (
 /obj/structure/cable/layer1,
@@ -29077,6 +29314,19 @@
 /obj/effect/landmark/start/lawyer,
 /turf/open/floor/wood,
 /area/service/lawoffice)
+"iQa" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/end{
+	dir = 1
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "iQr" = (
 /obj/structure/chair{
 	dir = 1
@@ -29381,6 +29631,11 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
+"iWJ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/marker_beacon/burgundy,
+/turf/open/space/basic,
+/area/solars/port/aft)
 "iXv" = (
 /obj/item/wrench,
 /turf/open/floor/iron,
@@ -29480,8 +29735,9 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/junction{
 	dir = 4
 	},
+/obj/structure/lattice/catwalk,
 /turf/open/space/basic,
-/area/space)
+/area/space/nearstation)
 "jah" = (
 /obj/machinery/light/directional/west,
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -29612,6 +29868,12 @@
 	},
 /turf/open/floor/plating,
 /area/command/meeting_room)
+"jdd" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/service/chapel/office)
 "jdl" = (
 /obj/machinery/door/airlock/maintenance{
 	req_one_access_txt = "20;12"
@@ -29846,6 +30108,13 @@
 	},
 /turf/open/floor/iron/white,
 /area/medical/chemistry)
+"jhH" = (
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/turf/open/floor/iron/dark,
+/area/service/chapel/office)
 "jhN" = (
 /obj/structure/cable/layer1,
 /obj/structure/disposalpipe/segment,
@@ -29999,6 +30268,10 @@
 /obj/structure/cable/layer1,
 /turf/open/floor/iron,
 /area/engineering/main)
+"jlr" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plating,
+/area/maintenance/starboard)
 "jlG" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/tinted{
@@ -30114,7 +30387,7 @@
 	dir = 8
 	},
 /obj/structure/cable/layer1,
-/turf/open/floor/material,
+/turf/open/floor/glass,
 /area/science/research)
 "jnH" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
@@ -30139,7 +30412,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/material,
+/turf/open/floor/glass,
 /area/science/research)
 "joL" = (
 /obj/structure/cable{
@@ -30267,9 +30540,17 @@
 /turf/open/floor/plating,
 /area/maintenance/fore)
 "jqZ" = (
-/obj/structure/lattice/catwalk,
-/obj/item/stack/cable_coil,
-/turf/open/space/basic,
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
 /area/solars/port/aft)
 "jrn" = (
 /obj/machinery/button/door/directional/east{
@@ -30486,10 +30767,6 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/security/interrogation)
-"jvw" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/solars/port/fore)
 "jvG" = (
 /obj/machinery/flasher/portable,
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -30574,6 +30851,11 @@
 /obj/machinery/vending/coffee,
 /turf/open/floor/iron/white,
 /area/medical/cryo)
+"jxv" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/manifold4w,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space)
 "jxI" = (
 /turf/open/floor/engine/vacuum,
 /area/engineering/atmos)
@@ -30663,6 +30945,7 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 10
 	},
+/obj/structure/cable/layer1,
 /turf/open/floor/carpet/neon/simple/purple/nodots,
 /area/command/heads_quarters/rd)
 "jzT" = (
@@ -30683,7 +30966,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/material,
+/turf/open/floor/glass,
 /area/science/research)
 "jAc" = (
 /obj/machinery/newscaster/directional/south,
@@ -30962,7 +31245,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/material,
+/turf/open/floor/glass,
 /area/science/research)
 "jEO" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
@@ -30977,7 +31260,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/material,
+/turf/open/floor/glass,
 /area/science/research)
 "jFJ" = (
 /obj/structure/table/reinforced,
@@ -31398,14 +31681,21 @@
 /obj/structure/cable{
 	name = "high voltage power cable"
 	},
-/turf/open/floor/material,
+/turf/open/floor/glass,
 /area/science/xenobiology)
+"jOZ" = (
+/obj/machinery/light/small/directional/south,
+/obj/structure/chair/stool/directional/east,
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating,
+/area/solars/port/aft)
 "jPu" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/junction{
 	dir = 1
 	},
+/obj/structure/lattice/catwalk,
 /turf/open/space/basic,
-/area/space)
+/area/space/nearstation)
 "jPv" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -31480,7 +31770,7 @@
 /obj/structure/cable{
 	name = "high voltage power cable"
 	},
-/turf/open/floor/material,
+/turf/open/floor/glass,
 /area/science/xenobiology)
 "jQJ" = (
 /obj/effect/turf_decal/stripes/line{
@@ -31524,6 +31814,14 @@
 	},
 /turf/open/floor/iron,
 /area/security/brig)
+"jRp" = (
+/obj/machinery/power/apc/auto_name/east,
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating,
+/area/solars/port/aft)
 "jRT" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -31577,6 +31875,14 @@
 	},
 /turf/open/floor/iron/white,
 /area/medical/virology)
+"jTk" = (
+/obj/machinery/power/tracker,
+/obj/effect/turf_decal/stripes/box,
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "jTs" = (
 /obj/structure/cable/multilayer{
 	cable_layer = 1
@@ -31634,6 +31940,19 @@
 /obj/machinery/light_switch/directional/east,
 /turf/open/floor/carpet/royalblue,
 /area/commons/dorms)
+"jUs" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/end{
+	dir = 8
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "jUH" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -31820,6 +32139,10 @@
 	stripe_paint = "#660099";
 	wall_paint = "#FFFFFF"
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "XenoPens";
+	name = "Xenobiology Lockdown"
+	},
 /turf/open/floor/plating,
 /area/maintenance/department/science/xenobiology)
 "kal" = (
@@ -31960,7 +32283,7 @@
 	name = "high voltage power cable"
 	},
 /turf/open/space/basic,
-/area/space)
+/area/solars/port/aft)
 "kdr" = (
 /obj/structure/table,
 /obj/machinery/button/door{
@@ -32635,6 +32958,10 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "XenoPens";
+	name = "Xenobiology Lockdown"
+	},
 /turf/open/floor/plating,
 /area/maintenance/department/science/xenobiology)
 "kuI" = (
@@ -32844,7 +33171,7 @@
 /obj/structure/lattice/catwalk,
 /obj/item/stack/rods,
 /turf/open/space/basic,
-/area/solars/port/fore)
+/area/space/nearstation)
 "kzc" = (
 /obj/structure/lattice/catwalk/plated/dark,
 /obj/machinery/door/airlock/external{
@@ -33196,6 +33523,10 @@
 "kGF" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
+	},
+/obj/machinery/power/apc/auto_name/north,
+/obj/structure/cable/multilayer{
+	cable_layer = 1
 	},
 /turf/open/floor/carpet/neon/simple/purple/nodots,
 /area/command/heads_quarters/rd/dorm)
@@ -33737,6 +34068,12 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
+/obj/machinery/button/door{
+	id = "barshutters";
+	name = "Bar Lockdown";
+	pixel_x = 28;
+	req_access_txt = "25"
+	},
 /turf/open/floor/iron/checker,
 /area/service/bar)
 "kTW" = (
@@ -33935,10 +34272,6 @@
 /turf/open/floor/wood,
 /area/service/bar)
 "kYf" = (
-/obj/machinery/camera{
-	c_tag = "RD Observation Cage";
-	dir = 1
-	},
 /obj/structure/closet/secure_closet/research_director,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 5
@@ -34308,6 +34641,19 @@
 /obj/structure/chair/sofa/corp/left,
 /turf/open/floor/carpet/neon/simple/lime/nodots,
 /area/service/bar)
+"lhn" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/paint_wall{
+	name = "Paint Wall Helper - SCI";
+	stripe_paint = "#660099";
+	wall_paint = "#FFFFFF"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "XenoPens";
+	name = "Xenobiology Lockdown"
+	},
+/turf/open/floor/engine,
+/area/science/xenobiology)
 "lhw" = (
 /obj/structure/lattice/catwalk/plated/dark,
 /obj/structure/cable{
@@ -35697,8 +36043,16 @@
 	},
 /turf/open/floor/iron/white,
 /area/medical/chemistry)
+"lPc" = (
+/obj/effect/mapping_helpers/paint_wall{
+	name = "Paint Wall Helper - ENG";
+	stripe_paint = "#FF8800";
+	wall_paint = "#4D4D4D"
+	},
+/turf/closed/wall,
+/area/solars/port/aft)
 "lPe" = (
-/mob/living/simple_animal/hostile/mimic/crate,
+/obj/structure/closet/crate,
 /turf/open/floor/plating,
 /area/maintenance/port)
 "lPh" = (
@@ -36197,6 +36551,7 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
+/obj/structure/cable/layer1,
 /turf/open/floor/iron,
 /area/command/heads_quarters/ce)
 "maI" = (
@@ -36456,6 +36811,12 @@
 	},
 /turf/open/floor/wood,
 /area/service/bar)
+"mfx" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/holofloor/dark,
+/area/science/cytology)
 "mfJ" = (
 /obj/structure/window/plasma/reinforced/spawner,
 /turf/open/floor/engine,
@@ -36676,6 +37037,13 @@
 	},
 /turf/open/floor/iron,
 /area/commons/dorms)
+"mlu" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 10
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
 "mlQ" = (
 /obj/effect/turf_decal/trimline/white/filled/line{
 	color = "#00A9FF";
@@ -37221,7 +37589,7 @@
 /obj/structure/cable{
 	name = "high voltage power cable"
 	},
-/turf/open/floor/material,
+/turf/open/floor/glass,
 /area/science/xenobiology)
 "mvv" = (
 /obj/machinery/light/small/directional/south,
@@ -37461,6 +37829,20 @@
 	},
 /turf/open/floor/carpet/black,
 /area/commons/dorms)
+"mzP" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner,
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "mAa" = (
 /obj/machinery/status_display/evac/directional/north,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
@@ -37581,6 +37963,22 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/commons/dorms)
+"mCK" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "mDk" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
@@ -37769,13 +38167,6 @@
 /obj/structure/lattice/catwalk/plated/dark,
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
-"mGC" = (
-/obj/machinery/power/tracker,
-/obj/structure/cable{
-	name = "high voltage power cable"
-	},
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "mHp" = (
 /obj/effect/landmark/start/cargo_technician,
 /obj/effect/turf_decal/stripes/line,
@@ -37868,7 +38259,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/material,
+/turf/open/floor/glass,
 /area/science/research)
 "mJt" = (
 /obj/structure/disposalpipe/segment{
@@ -38350,6 +38741,12 @@
 	},
 /turf/open/floor/wood,
 /area/cargo/qm)
+"mTe" = (
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable/layer1,
+/obj/effect/turf_decal/siding,
+/turf/open/floor/iron,
+/area/science/lab)
 "mTl" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
@@ -39068,6 +39465,9 @@
 	pixel_y = 7
 	},
 /obj/item/pen,
+/obj/item/flashlight/lamp/green{
+	pixel_x = 1
+	},
 /turf/open/floor/carpet/executive,
 /area/command/meeting_room)
 "njs" = (
@@ -39199,6 +39599,7 @@
 	name = "Chief Engineer's Dorm";
 	req_access_txt = "56"
 	},
+/obj/structure/cable/layer1,
 /turf/open/floor/wood/tile,
 /area/command/heads_quarters/ce/dorm)
 "nnb" = (
@@ -39369,6 +39770,7 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 10
 	},
+/obj/structure/cable/layer1,
 /turf/open/floor/wood/tile,
 /area/command/heads_quarters/ce/dorm)
 "npD" = (
@@ -40064,6 +40466,7 @@
 	dir = 1;
 	name = "line N"
 	},
+/obj/structure/cable/layer1,
 /turf/open/floor/iron,
 /area/command/heads_quarters/ce)
 "nAK" = (
@@ -40344,6 +40747,20 @@
 	},
 /turf/open/floor/carpet/neon/simple/purple/nodots,
 /area/command/heads_quarters/rd)
+"nGZ" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner,
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "nHf" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -41453,11 +41870,11 @@
 	name = "Mech Bay Shutters Control";
 	req_access_txt = "29"
 	},
-/obj/effect/turf_decal/stripes/corner,
 /obj/effect/turf_decal/trimline/white/filled/line{
 	color = "#660099";
 	dir = 10
 	},
+/obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/iron/white,
 /area/hallway/primary/central)
 "ogX" = (
@@ -41592,6 +42009,7 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 5
 	},
+/obj/structure/cable/layer1,
 /turf/open/floor/iron,
 /area/command/heads_quarters/ce)
 "ojY" = (
@@ -41604,7 +42022,7 @@
 /obj/structure/cable{
 	name = "high voltage power cable"
 	},
-/turf/open/floor/material,
+/turf/open/floor/glass,
 /area/science/xenobiology)
 "oky" = (
 /obj/structure/table,
@@ -42099,7 +42517,7 @@
 /obj/structure/disposalpipe/junction/flip{
 	dir = 8
 	},
-/turf/open/floor/material,
+/turf/open/floor/glass,
 /area/science/research)
 "orL" = (
 /obj/machinery/biogenerator,
@@ -42788,6 +43206,21 @@
 /obj/structure/closet/crate,
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
+"oFb" = (
+/obj/structure/sign/warning/vacuum/external{
+	pixel_y = -32
+	},
+/obj/machinery/power/solar_control{
+	dir = 4;
+	id = "aftport";
+	name = "Port Quarter Solar Control"
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating,
+/area/solars/port/aft)
 "oFp" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/machinery/field/generator,
@@ -42799,30 +43232,9 @@
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai)
 "oFG" = (
-/obj/machinery/camera/autoname,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/stack/sheet/glass/fifty,
-/obj/structure/closet/crate/engineering/electrical,
-/obj/item/stack/cable_coil,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
-/area/maintenance/solars/port/aft)
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating,
+/area/solars/port/aft)
 "oFM" = (
 /obj/machinery/conveyor_switch{
 	id = "autolathe_conveyor";
@@ -42921,6 +43333,20 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/cyan/visible,
 /turf/open/space,
 /area/space/nearstation)
+"oIo" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner,
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "oIK" = (
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron,
@@ -43043,6 +43469,7 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 4
 	},
+/obj/structure/cable/layer1,
 /turf/open/floor/carpet/neon/simple/purple/nodots,
 /area/command/heads_quarters/rd)
 "oLp" = (
@@ -44278,6 +44705,7 @@
 /area/security/brig)
 "plH" = (
 /obj/structure/window/reinforced,
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/holofloor/dark,
 /area/science/cytology)
 "plI" = (
@@ -44397,6 +44825,22 @@
 	},
 /turf/open/floor/plating,
 /area/hallway/primary/central)
+"pnU" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "poo" = (
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /turf/open/floor/iron/dark,
@@ -44487,6 +44931,20 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/primary/central)
+"poY" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "ppi" = (
 /obj/machinery/door/poddoor/massdriver_toxins,
 /turf/open/floor/plating,
@@ -45235,6 +45693,20 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood,
 /area/service/bar)
+"pEh" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "pEB" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood{
@@ -45604,6 +46076,10 @@
 	name = "Paint Wall Helper - SCI";
 	stripe_paint = "#660099";
 	wall_paint = "#FFFFFF"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "XenoPens";
+	name = "Xenobiology Lockdown"
 	},
 /turf/open/floor/engine,
 /area/science/xenobiology)
@@ -46055,6 +46531,14 @@
 	},
 /turf/open/floor/iron/white,
 /area/science/breakroom)
+"pVV" = (
+/obj/machinery/conveyor{
+	dir = 1;
+	id = "packageSort2"
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/plating,
+/area/cargo/sorting)
 "pWb" = (
 /obj/structure/closet/radiation,
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -46247,11 +46731,11 @@
 	pixel_x = 3;
 	pixel_y = 3
 	},
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
-	},
 /obj/effect/turf_decal/trimline/white/filled/line{
 	color = "#660099"
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
 	},
 /turf/open/floor/iron/white,
 /area/hallway/primary/central)
@@ -46310,12 +46794,21 @@
 /turf/open/floor/iron/dark,
 /area/ai_monitored/aisat/exterior)
 "qbU" = (
-/obj/machinery/power/tracker,
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
 /obj/structure/cable{
 	name = "high voltage power cable"
 	},
-/turf/open/floor/plating/airless,
-/area/solars/port/fore)
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "qcm" = (
 /obj/effect/turf_decal/trimline/white/filled/line{
 	color = "#00A9FF";
@@ -46441,6 +46934,10 @@
 	stripe_paint = "#660099";
 	wall_paint = "#FFFFFF"
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "XenoPens";
+	name = "Xenobiology Lockdown"
+	},
 /turf/open/floor/plating,
 /area/science/cytology)
 "qfx" = (
@@ -46553,10 +47050,10 @@
 /turf/open/floor/iron/white,
 /area/science/research)
 "qhG" = (
-/obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/trimline/white/filled/line{
 	color = "#660099"
 	},
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron/white,
 /area/hallway/primary/central)
 "qhR" = (
@@ -47098,6 +47595,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/maintenance/port)
+"qwG" = (
+/obj/structure/bodycontainer/crematorium{
+	dir = 1;
+	id = "crematoriumChapel"
+	},
+/turf/open/floor/iron/dark,
+/area/service/chapel/office)
 "qwJ" = (
 /obj/structure/sign/warning/securearea,
 /obj/effect/mapping_helpers/paint_wall{
@@ -48069,6 +48573,20 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/break_room)
+"qQT" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "qRd" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
@@ -48638,6 +49156,10 @@
 	stripe_paint = "#660099";
 	wall_paint = "#FFFFFF"
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "XenoPens";
+	name = "Xenobiology Lockdown"
+	},
 /turf/open/floor/engine,
 /area/science/xenobiology)
 "rdm" = (
@@ -48832,8 +49354,8 @@
 /turf/open/floor/iron/white,
 /area/medical/virology)
 "rhb" = (
-/obj/machinery/newscaster/directional/west,
 /obj/machinery/light/directional/west,
+/obj/effect/turf_decal/siding,
 /turf/open/floor/iron,
 /area/science/lab)
 "rhI" = (
@@ -48924,6 +49446,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
+/obj/structure/cable/layer1,
 /turf/open/floor/wood/tile,
 /area/command/heads_quarters/rd/dorm)
 "rky" = (
@@ -49109,18 +49632,12 @@
 /turf/open/floor/iron/dark,
 /area/security/office)
 "rpL" = (
-/obj/machinery/door/airlock/external{
-	name = "Solar Maintenance";
-	req_access_txt = "10; 13"
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 5
 	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
-	},
-/obj/structure/cable{
-	name = "high voltage power cable"
-	},
-/turf/open/floor/plating,
-/area/maintenance/solars/port/aft)
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
 "rpQ" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "Prison Gate";
@@ -49134,9 +49651,17 @@
 /turf/open/floor/iron/dark,
 /area/security/brig)
 "rqc" = (
-/obj/structure/lattice/catwalk,
-/obj/item/stack/cable_coil,
-/turf/open/space/basic,
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
 /area/solars/starboard/fore)
 "rqf" = (
 /obj/effect/mapping_helpers/paint_wall{
@@ -49183,7 +49708,7 @@
 /obj/structure/disposalpipe/junction/yjunction{
 	dir = 1
 	},
-/turf/open/floor/material,
+/turf/open/floor/glass,
 /area/science/research)
 "rqO" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -49503,6 +50028,12 @@
 /obj/effect/spawner/lootdrop/food_packaging,
 /turf/open/floor/iron/white,
 /area/maintenance/starboard/aft)
+"rwk" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/holofloor/dark,
+/area/science/cytology)
 "rwl" = (
 /obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
@@ -49647,6 +50178,10 @@
 	name = "Paint Wall Helper - SCI";
 	stripe_paint = "#660099";
 	wall_paint = "#FFFFFF"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "XenoPens";
+	name = "Xenobiology Lockdown"
 	},
 /turf/open/floor/engine,
 /area/science/xenobiology)
@@ -49938,6 +50473,19 @@
 	},
 /turf/open/floor/iron,
 /area/maintenance/disposal/incinerator)
+"rEh" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "rEj" = (
 /obj/effect/turf_decal/trimline/white/filled/line{
 	color = "#A5791F";
@@ -50226,14 +50774,6 @@
 	},
 /turf/open/floor/iron,
 /area/commons/lounge)
-"rLK" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp/green{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/turf/open/floor/carpet/executive,
-/area/command/meeting_room)
 "rLY" = (
 /obj/machinery/status_display/evac/directional/east,
 /turf/open/floor/iron,
@@ -50357,6 +50897,20 @@
 "rOr" = (
 /turf/open/floor/plating,
 /area/maintenance/department/medical/central)
+"rOw" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "rOA" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder{
@@ -50742,6 +51296,9 @@
 /obj/structure/cable/layer1,
 /turf/open/floor/iron/dark,
 /area/security/office)
+"rUr" = (
+/turf/closed/mineral/random,
+/area/space)
 "rUu" = (
 /obj/structure/window/plasma/reinforced/spawner/east,
 /obj/structure/window/plasma/reinforced/spawner/north,
@@ -51587,6 +52144,20 @@
 /obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/wood/parquet,
 /area/command/corporate_showroom)
+"sph" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner,
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "spj" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -51879,6 +52450,19 @@
 	},
 /turf/open/floor/iron,
 /area/construction/storage_wing)
+"swh" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "swi" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -51891,6 +52475,19 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/aisat/foyer)
+"swJ" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "swM" = (
 /turf/open/floor/iron/white,
 /area/medical/surgery)
@@ -52008,7 +52605,7 @@
 /obj/item/stack/cable_coil,
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
-/area/solars/port/fore)
+/area/space/nearstation)
 "sBw" = (
 /obj/structure/rack,
 /obj/item/aicard,
@@ -52088,6 +52685,19 @@
 	},
 /turf/open/floor/iron/white,
 /area/medical/patients_rooms)
+"sCU" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "sDt" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -52273,6 +52883,12 @@
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/iron,
 /area/construction/storage_wing)
+"sHL" = (
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/solars/port/aft)
 "sIa" = (
 /obj/structure/chair/sofa/corp/right,
 /obj/effect/landmark/start/geneticist,
@@ -52540,6 +53156,10 @@
 	name = "Paint Wall Helper - SCI";
 	stripe_paint = "#660099";
 	wall_paint = "#FFFFFF"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "XenoPens";
+	name = "Xenobiology Lockdown"
 	},
 /turf/open/floor/engine,
 /area/science/cytology)
@@ -53492,10 +54112,13 @@
 	id = "aftport";
 	name = "Aft-Port Solar Array"
 	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
 /obj/structure/cable{
 	name = "high voltage power cable"
 	},
-/turf/open/floor/iron/solarpanel/airless,
+/turf/open/floor/iron/dark/textured_large,
 /area/solars/port/aft)
 "tif" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
@@ -53876,6 +54499,17 @@
 	},
 /turf/open/floor/wood,
 /area/service/library)
+"toE" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/end,
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "toI" = (
 /obj/structure/chair/stool/bar/directional/north,
 /obj/effect/turf_decal/tile/blue{
@@ -53982,7 +54616,7 @@
 /obj/item/wrench,
 /obj/item/clothing/glasses/welding,
 /obj/machinery/firealarm/directional/south,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/science/lab)
 "tqg" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
@@ -54168,6 +54802,12 @@
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
+"ttK" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/holofloor/dark,
+/area/science/cytology)
 "ttN" = (
 /obj/effect/spawner/lootdrop/grille_or_trash,
 /turf/open/floor/plating,
@@ -55339,6 +55979,7 @@
 	dir = 5
 	},
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/structure/cable/layer1,
 /turf/open/floor/carpet/neon/simple/purple/nodots,
 /area/command/heads_quarters/rd/dorm)
 "tRd" = (
@@ -55849,6 +56490,10 @@
 	},
 /turf/closed/wall/r_wall,
 /area/ai_monitored/command/storage/eva)
+"ubm" = (
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/iron/dark,
+/area/service/chapel/main)
 "ubw" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -56430,6 +57075,22 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/yellow/hidden,
 /turf/closed/wall,
 /area/maintenance/port)
+"upM" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "upT" = (
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron,
@@ -56710,6 +57371,10 @@
 	name = "Paint Wall Helper - SCI";
 	stripe_paint = "#660099";
 	wall_paint = "#FFFFFF"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "XenoPens";
+	name = "Xenobiology Lockdown"
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/science/xenobiology)
@@ -57035,6 +57700,19 @@
 "uCb" = (
 /turf/open/floor/iron/white,
 /area/science/robotics/lab)
+"uCn" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/end{
+	dir = 8
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "uCA" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -57172,7 +57850,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/abandoned,
 /obj/structure/barricade/wooden/crude,
-/obj/structure/fans/tiny/invisible,
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/maintenance/port)
 "uFV" = (
@@ -57584,6 +58262,17 @@
 	icon_state = "panelscorched"
 	},
 /area/space/nearstation)
+"uPX" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "uQa" = (
 /obj/effect/turf_decal/trimline/white/filled/corner{
 	color = "#660099";
@@ -58111,6 +58800,19 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/primary/fore)
+"vbD" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/end{
+	dir = 4
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "vca" = (
 /obj/structure/sink{
 	dir = 8;
@@ -58133,6 +58835,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/hallway/primary/central)
+"vcQ" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/manifold{
+	dir = 8
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space)
 "vcZ" = (
 /obj/structure/bed/maint,
 /turf/open/floor/plating,
@@ -58188,6 +58897,20 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/command)
+"veT" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner,
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "veU" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
@@ -58666,6 +59389,11 @@
 /obj/item/clothing/head/welding,
 /turf/open/floor/iron,
 /area/science/robotics/mechbay)
+"vnf" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/manifold,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
 "vnn" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
@@ -58999,10 +59727,20 @@
 /turf/open/floor/iron/white,
 /area/medical/pharmacy)
 "vsN" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
 /obj/structure/cable{
 	name = "high voltage power cable"
 	},
-/turf/open/floor/iron/solarpanel/airless,
+/turf/open/floor/iron/dark/textured_large,
 /area/solars/port/aft)
 "vsS" = (
 /obj/structure/chair/stool/directional/east,
@@ -59027,6 +59765,7 @@
 	dir = 5;
 	name = "line corner NE"
 	},
+/obj/structure/closet/secure_closet/engineering_chief,
 /turf/open/floor/iron,
 /area/command/heads_quarters/ce)
 "vsV" = (
@@ -59817,7 +60556,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/science/lab)
 "vLN" = (
 /obj/effect/mapping_helpers/paint_wall{
@@ -59908,6 +60647,15 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/wood/airless,
 /area/maintenance/port)
+"vMP" = (
+/obj/machinery/button/crematorium{
+	dir = 1;
+	id = "crematoriumChapel";
+	req_access_txt = "27";
+	pixel_y = -26
+	},
+/turf/open/floor/iron/dark,
+/area/service/chapel/office)
 "vNi" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 8;
@@ -60092,6 +60840,7 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
+/obj/structure/cable/layer1,
 /turf/open/floor/iron,
 /area/command/heads_quarters/ce)
 "vPe" = (
@@ -60241,6 +60990,11 @@
 "vTz" = (
 /turf/open/floor/iron/white,
 /area/medical/surgery/room_b)
+"vTF" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/marker_beacon/burgundy,
+/turf/open/space/basic,
+/area/solars/starboard/fore)
 "vTW" = (
 /obj/machinery/light/dim/directional/east,
 /turf/open/floor/plating,
@@ -60792,6 +61546,13 @@
 "wfw" = (
 /turf/open/floor/iron,
 /area/cargo/storage)
+"wfC" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 5
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space)
 "wfT" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -61050,6 +61811,20 @@
 	},
 /turf/open/floor/iron/dark,
 /area/security/brig)
+"wkP" = (
+/obj/machinery/door/airlock/external{
+	name = "Solar Maintenance";
+	req_access_txt = "10; 13"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating,
+/area/solars/port/aft)
 "wkY" = (
 /obj/machinery/iv_drip,
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -61179,6 +61954,14 @@
 	},
 /turf/open/floor/plating,
 /area/hallway/secondary/command)
+"woA" = (
+/obj/machinery/power/tracker,
+/obj/effect/turf_decal/stripes/box,
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "woB" = (
 /obj/machinery/door/airlock/external{
 	name = "Supply Dock Airlock";
@@ -61481,10 +62264,33 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
+"wuE" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "wvf" = (
 /obj/effect/spawner/lootdrop/grille_or_trash,
 /turf/open/floor/plating,
 /area/maintenance/port)
+"wvg" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 6
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
 "wvj" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -61937,6 +62743,19 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/dark,
 /area/engineering/storage/tech)
+"wHf" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/end{
+	dir = 1
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "wHx" = (
 /obj/structure/closet/secure_closet/personal/cabinet{
 	pixel_y = 20
@@ -62361,6 +63180,15 @@
 	},
 /turf/open/floor/circuit/green,
 /area/ai_monitored/turret_protected/ai)
+"wPs" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/paint_wall{
+	name = "Paint Wall Helper - ENG";
+	stripe_paint = "#FF8800";
+	wall_paint = "#4D4D4D"
+	},
+/turf/open/floor/plating,
+/area/solars/port/aft)
 "wPG" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/iron,
@@ -62468,7 +63296,6 @@
 /turf/open/floor/carpet/neon/simple/lime/nodots,
 /area/service/bar)
 "wRE" = (
-/obj/structure/closet/secure_closet/engineering_chief,
 /obj/machinery/airalarm/directional/east,
 /obj/effect/turf_decal/trimline/white/filled/line{
 	color = "#FF8800";
@@ -62480,7 +63307,6 @@
 	dir = 1;
 	name = "corner NW"
 	},
-/mob/living/simple_animal/parrot/poly,
 /turf/open/floor/iron,
 /area/command/heads_quarters/ce)
 "wRK" = (
@@ -62561,6 +63387,22 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
+"wUW" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "wWa" = (
 /obj/structure/table/glass,
 /obj/item/toy/figure/paramedic,
@@ -63102,6 +63944,9 @@
 	},
 /area/hallway/primary/aft)
 "xfy" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
 /turf/open/floor/holofloor/dark,
 /area/science/cytology)
 "xfH" = (
@@ -63110,18 +63955,17 @@
 	},
 /obj/machinery/power/apc/auto_name/east,
 /obj/structure/dresser,
+/obj/structure/cable/multilayer{
+	cable_layer = 1
+	},
 /turf/open/floor/wood/tile,
 /area/command/heads_quarters/ce/dorm)
 "xfJ" = (
-/obj/machinery/power/solar{
-	id = "forestarboard";
-	name = "Fore-Starboard Solar Array"
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
 	},
-/obj/structure/cable{
-	name = "high voltage power cable"
-	},
-/turf/open/floor/iron/solarpanel/airless,
-/area/solars/starboard/fore)
+/turf/open/floor/holofloor/dark,
+/area/science/cytology)
 "xfX" = (
 /obj/structure/cable/layer1,
 /obj/machinery/door/firedoor/border_only,
@@ -63179,6 +64023,36 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/command)
+"xhd" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
+"xhp" = (
+/obj/machinery/door/airlock/external{
+	name = "Solar Maintenance";
+	req_access_txt = "10; 13"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating,
+/area/solars/port/aft)
 "xht" = (
 /obj/structure/table/glass,
 /obj/machinery/light/small/directional/south,
@@ -63418,6 +64292,11 @@
 	},
 /turf/open/space,
 /area/space/nearstation)
+"xnc" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/manifold,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space)
 "xns" = (
 /obj/structure/disposaloutlet{
 	dir = 8;
@@ -63782,26 +64661,12 @@
 /turf/open/floor/engine/plasma,
 /area/engineering/atmos)
 "xuW" = (
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/solar_assembly,
-/obj/item/stack/sheet/glass/fifty,
-/obj/structure/closet/crate/engineering/electrical,
-/turf/open/floor/plating,
-/area/maintenance/solars/port/aft)
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 6
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space)
 "xvs" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
@@ -63875,6 +64740,27 @@
 	},
 /turf/open/floor/iron/white,
 /area/medical/abandoned)
+"xws" = (
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/obj/effect/landmark/xeno_spawn,
+/obj/structure/lattice/catwalk/plated/dark,
+/turf/open/floor/plating,
+/area/solars/port/aft)
+"xwx" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/port/aft)
 "xwz" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 6
@@ -63928,6 +64814,19 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
+"xxt" = (
+/obj/machinery/power/solar{
+	id = "aftport";
+	name = "Aft-Port Solar Array"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/solars/starboard/fore)
 "xxG" = (
 /obj/structure/table/wood,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -64374,13 +65273,6 @@
 /obj/machinery/air_sensor/atmos/toxins_mixing_tank,
 /turf/open/floor/engine,
 /area/science/mixing/chamber)
-"xIm" = (
-/obj/machinery/camera{
-	c_tag = "Central Primary Hallway - Fore - Port Corner";
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/construction/storage_wing)
 "xIu" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	color = "#5A96BB";
@@ -65157,7 +66049,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/material,
+/turf/open/floor/glass,
 /area/science/research)
 "xXA" = (
 /obj/machinery/computer/security/mining{
@@ -65456,6 +66348,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/ai)
+"ydk" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 9
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
 "ydl" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
@@ -65827,22 +66726,6 @@
 	},
 /turf/open/floor/carpet/neon/simple/purple/nodots,
 /area/command/heads_quarters/rd)
-"yiR" = (
-/obj/machinery/button/door{
-	id = "barshutters";
-	name = "Bar Lockdown";
-	pixel_x = 28;
-	req_access_txt = "25"
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/iron/checker,
-/area/service/bar)
 "yiS" = (
 /obj/structure/window/reinforced,
 /obj/machinery/atmospherics/components/binary/pump/on{
@@ -76700,8 +77583,8 @@ nYJ
 fwb
 fwb
 aaa
-qbU
-aaa
+abx
+rUr
 lMJ
 aaa
 aaa
@@ -76957,8 +77840,8 @@ aaa
 aaa
 lMJ
 aaa
-jvw
-aaa
+aox
+rUr
 fwb
 aaa
 aaa
@@ -77207,14 +78090,14 @@ lMJ
 aaa
 lMJ
 aaa
-aaa
+lKu
 aaa
 aaa
 aaa
 aaa
 aaa
 lMJ
-jvw
+aox
 lMJ
 fwb
 fwb
@@ -77466,15 +78349,15 @@ lMJ
 aaa
 aaa
 aaa
-aae
-aae
-aae
-jvw
 aaa
-jvw
+aaa
+aaa
+aox
+aaa
+aox
 aaa
 ahR
-aaw
+abx
 aby
 aby
 aaa
@@ -77541,8 +78424,8 @@ raK
 aRA
 aaa
 lMJ
-aaa
-aaa
+dPw
+dPw
 aaa
 aaa
 aaa
@@ -77723,17 +78606,17 @@ lMJ
 lMJ
 lMJ
 lMJ
-jvw
-jvw
-jvw
-jvw
 aaa
-jvw
 aaa
-jvw
+aox
+aox
+aaa
+aox
+aaa
+aox
 ahR
-aaw
-aaw
+abx
+abx
 aox
 lMJ
 aox
@@ -77799,9 +78682,9 @@ aRA
 aRA
 aRA
 aRA
-igs
-iFw
-iQJ
+xuW
+vcQ
+wfC
 aaa
 aaa
 aaa
@@ -77838,23 +78721,23 @@ aaa
 aaa
 aaa
 aaa
-tPH
-fwb
-lMJ
-lMJ
-nYJ
-fwb
-fwb
-lMJ
-nYJ
-fwb
-fwb
-fwb
-nYJ
-fwb
-fwb
-lMJ
-quc
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -77980,17 +78863,17 @@ lMJ
 aaa
 aaa
 aaa
+aaa
 aae
 aae
-aae
-jvw
-jvw
-jvw
-jvw
-jvw
+aox
+aox
+aox
+aox
+aox
 aiB
-aaw
-aaw
+abx
+abx
 aaa
 aaa
 aaa
@@ -78056,9 +78939,9 @@ tbW
 tbW
 tbW
 aRA
-irI
-iJX
-iRO
+eDA
+jxv
+xnc
 aaa
 aaa
 aaa
@@ -78095,7 +78978,6 @@ aaa
 aaa
 aaa
 aaa
-fwb
 aaa
 aaa
 aaa
@@ -78103,15 +78985,16 @@ aaa
 aaa
 aaa
 aaa
-lMJ
-aaa
-aaa
-lMJ
 aaa
 aaa
 aaa
 aaa
-lMJ
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -78237,17 +79120,17 @@ lMJ
 aaa
 aaa
 aaa
-jvw
-jvw
-jvw
-jvw
-lMJ
-jvw
 aaa
-jvw
-aat
-jvw
-jvw
+aox
+aox
+aox
+lMJ
+aox
+aaa
+aox
+aaa
+aox
+aox
 aaa
 aaa
 aaa
@@ -78313,9 +79196,17 @@ tbW
 tbW
 tbW
 aRA
-irI
-iJX
-iRO
+eDA
+jxv
+xnc
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -78353,22 +79244,14 @@ aaa
 aaa
 aaa
 nYJ
-aaa
-lMJ
-aaa
-aaa
-aaa
-gmO
-aaa
-aaa
+nYJ
+nYJ
+nYJ
+nYJ
+nYJ
+nYJ
 aaa
 aaa
-lMJ
-aaa
-aaa
-aaa
-aaa
-lMJ
 aaa
 aaa
 aaa
@@ -78494,16 +79377,16 @@ lMJ
 aaa
 aaa
 aaa
-aae
-aae
-aae
-jvw
 aaa
-jvw
+aae
+aaa
+aox
+aaa
+aox
 aaa
 sBd
-aat
-aat
+aaa
+aaa
 aiB
 aaa
 aaa
@@ -78570,9 +79453,9 @@ tbW
 tbW
 tbW
 aRA
-irI
-iJX
-iRO
+eDA
+jxv
+xnc
 aaa
 aaa
 aaa
@@ -78609,23 +79492,23 @@ aaa
 aaa
 aaa
 aaa
-fwb
 aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+nYJ
+nYJ
 lMJ
 lMJ
 lMJ
 lMJ
-yef
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
 lMJ
+lMJ
+lMJ
+nYJ
+nYJ
 aaa
 aaa
 aaa
@@ -78756,7 +79639,7 @@ aaa
 aaa
 lMJ
 aaa
-jvw
+aox
 aaa
 lMJ
 aaa
@@ -78827,9 +79710,10 @@ tbW
 tbW
 tbW
 aRA
-ivn
-iKe
-iRO
+cCW
+eei
+xnc
+dPw
 aaa
 aaa
 aaa
@@ -78866,24 +79750,23 @@ aaa
 aaa
 aaa
 aaa
-fwb
 aaa
+aaa
+aaa
+aaa
+nYJ
 lMJ
-aaa
-aaa
-aaa
+lMJ
+lMJ
+swJ
+swh
 yef
-aaa
-lMJ
-aaa
-aaa
-lMJ
-aaa
-aaa
-aaa
+swJ
+swh
 lMJ
 lMJ
-fwb
+lMJ
+nYJ
 aaa
 aaa
 aaa
@@ -79008,16 +79891,16 @@ lMJ
 aaa
 aaa
 aaa
+aaa
 aae
-aae
-aae
-jvw
+aaa
+aox
 lMJ
-jvw
+aox
 lMJ
-jvw
-aae
-aae
+aox
+hKk
+aaa
 aae
 aaa
 aaa
@@ -79123,25 +80006,25 @@ fee
 aaa
 aaa
 aaa
+aaa
+aaa
+aaa
+aaa
 nYJ
-aaa
 lMJ
-aaa
-aaa
-tia
+lMJ
+uCn
+iWJ
+rEh
+uPX
 yef
-tia
-tia
-tia
-tia
-tia
-tia
+rEh
+uPX
+iWJ
+uCn
 lMJ
 lMJ
-lMJ
-lMJ
-fwb
-aaa
+nYJ
 aaa
 aaa
 aaa
@@ -79265,17 +80148,17 @@ lMJ
 aaa
 aaa
 aaa
-jvw
-jvw
-jvw
-jvw
+aox
+aox
+aox
+aox
 aaa
-jvw
+aox
 aaa
-jvw
-jvw
-jvw
-jvw
+aox
+aox
+aox
+aox
 aaa
 aaa
 aaa
@@ -79383,23 +80266,23 @@ lMJ
 lMJ
 lMJ
 lMJ
+nYJ
 lMJ
-tia
-yef
-yef
-yef
-yef
-yef
-yef
-yef
-yef
-tia
-aaa
-anS
-wDi
-anS
 lMJ
-quc
+swJ
+poY
+yef
+rEh
+uPX
+yef
+rEh
+uPX
+yef
+mCK
+swh
+lMJ
+lMJ
+nYJ
 aaa
 aaa
 aaa
@@ -79523,16 +80406,16 @@ lMJ
 lMJ
 lMJ
 aae
-aae
-aae
-jvw
-jvw
-jvw
-jvw
-jvw
-aae
-aae
-aae
+aaa
+aaa
+aox
+aox
+aox
+aox
+aox
+aaa
+aaa
+aby
 lMJ
 lMJ
 lMJ
@@ -79642,21 +80525,21 @@ aaa
 aaa
 aaa
 lMJ
+iQa
+gMV
 tia
 yef
-tia
-tia
-tia
-tia
-tia
-tia
+rEh
+uPX
+yef
+rEh
+uPX
+yef
+xwx
+pnU
+hdb
 lMJ
-lMJ
-lMJ
-lMJ
-fwb
-aaa
-aaa
+nYJ
 aaa
 aaa
 aaa
@@ -79779,17 +80662,17 @@ lMJ
 aaa
 aaa
 aaa
-jvw
-jvw
-jvw
+aox
+aox
+aox
 kyS
 abx
-jvw
+aox
 aaa
-jvw
-jvw
-jvw
-jvw
+aox
+aox
+aox
+aox
 aaa
 aaa
 aaa
@@ -79899,22 +80782,22 @@ aaa
 aaa
 aaa
 lMJ
-aaa
+iWJ
 yef
-aaa
-aaa
-aaa
-aaa
-aaa
+yef
+iWJ
+rEh
+uPX
+yef
+rEh
+uPX
+iWJ
+yef
+yef
+iWJ
 lMJ
-aaa
-aaa
 lMJ
-aaa
 nYJ
-aaa
-aaa
-aaa
 aaa
 aaa
 aaa
@@ -80037,16 +80920,16 @@ aaa
 aaa
 aaa
 aae
+aby
 aae
-aae
-jvw
+aox
 afh
-jvw
+aox
 uQF
-jvw
+aox
 aae
-aae
-aae
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -80151,27 +81034,27 @@ cBR
 rJm
 xht
 cBR
-aaa
-aaa
-aaa
-aaa
 lMJ
+lMJ
+lMJ
+lMJ
+swJ
+eig
+eig
+eig
+eig
+veT
 tia
 yef
-tia
-tia
-tia
-tia
-tia
-tia
+xwx
+wUW
+eig
+eig
+eig
+eig
+swh
 lMJ
-lMJ
-lMJ
-aaa
 nYJ
-aaa
-aaa
-aaa
 aaa
 aaa
 aaa
@@ -80298,7 +81181,7 @@ aaa
 aaa
 lMJ
 aaa
-jvw
+aox
 aaa
 uQF
 aaa
@@ -80412,23 +81295,23 @@ lMJ
 lMJ
 lMJ
 lMJ
-tia
-yef
+xwx
 jqZ
-yef
-yef
-yef
-yef
-yef
-yef
+jqZ
+jqZ
+jqZ
 tia
-aaa
+iWJ
+yef
+iWJ
+xwx
+jqZ
+jqZ
+jqZ
+jqZ
+tia
 lMJ
-aaa
-fwb
-aaa
-aaa
-aaa
+nYJ
 aaa
 aaa
 aaa
@@ -80550,17 +81433,17 @@ aaa
 aaa
 aaa
 abx
-aaw
-aaw
+abx
+abx
 aae
-jvw
+aox
 aaa
-aat
+lAu
 aaa
-aat
-aat
+aaa
+aaa
 aiB
-aaw
+abx
 abx
 aaa
 aaa
@@ -80666,26 +81549,26 @@ ivs
 dBN
 cBR
 cBR
-aaa
-aaa
-aaa
 lMJ
-tia
+aox
+aox
 yef
-tia
-tia
-tia
-tia
-tia
-tia
+yef
+yef
+yef
+yef
+yef
+yef
+woA
+yef
+yef
+yef
+yef
+yef
+yef
+yef
 lMJ
-lMJ
-lMJ
-lMJ
-fwb
-aaa
-aaa
-aaa
+nYJ
 aaa
 aaa
 aaa
@@ -80807,17 +81690,17 @@ aaa
 aaa
 aaa
 aaa
-aaw
-aat
-aat
-jvw
 abx
-aaw
+aaa
+aaa
+aox
 abx
-aat
-jvw
-aaw
-aaw
+abx
+abx
+aaa
+aox
+abx
+abx
 abx
 abx
 aaa
@@ -80923,26 +81806,26 @@ iHE
 ePi
 taj
 dBN
-aaa
-aaa
-aaa
 lMJ
-aaa
+aox
+lMJ
+swJ
+eig
+eig
+eig
+eig
+swh
+iWJ
 yef
-aaa
-aaa
-aaa
-aaa
-aaa
+iWJ
+swJ
+eig
+eig
+eig
+eig
+swh
 lMJ
-aaa
-aaa
-tPH
-tPH
-nRb
-lMJ
-quc
-aaa
+nYJ
 aaa
 aaa
 aaa
@@ -81064,17 +81947,17 @@ aaa
 aaa
 aaa
 aaa
-aat
+aaa
 aae
-aat
-aaw
-aaw
-aaw
-jvw
-aat
+aaa
+abx
+abx
+abx
+aox
+aaa
 aby
 aby
-aaw
+abx
 abx
 abx
 aaa
@@ -81181,25 +82064,25 @@ gqW
 sxE
 pLI
 suP
-aaa
-aaa
+aox
 lMJ
+xwx
+jqZ
+jqZ
+jqZ
+jqZ
 vsN
+swh
 yef
-vsN
-vsN
-vsN
-vsN
-vsN
-vsN
+swJ
+cwb
+jqZ
+jqZ
+jqZ
+jqZ
+tia
 lMJ
-lMJ
-lMJ
-lMJ
-fwb
-aaa
-aaa
-aaa
+nYJ
 aaa
 aaa
 aaa
@@ -81321,17 +82204,17 @@ aaa
 aaa
 aaa
 aaa
-aat
-aat
-jvw
-jvw
+aaa
+aaa
+aox
+aox
 abx
-jvw
+aox
 abx
-jvw
-aat
-jvw
-jvw
+aox
+aaa
+aox
+aox
 aaa
 abx
 aaa
@@ -81438,25 +82321,25 @@ qby
 jBf
 dBN
 lMJ
-lMJ
-lMJ
-vsN
-yef
-yef
-yef
-yef
-yef
-yef
-yef
-yef
-vsN
-aaa
+aox
 lMJ
 aaa
-fwb
-aaa
-aaa
-aaa
+iWJ
+yef
+yef
+iWJ
+rEh
+uPX
+yef
+rEh
+uPX
+iWJ
+yef
+yef
+iWJ
+lMJ
+lMJ
+nYJ
 aaa
 aaa
 aaa
@@ -81580,12 +82463,12 @@ aaa
 aaa
 aby
 aae
-aat
-aat
 aaa
-jvw
 aaa
-jvw
+aaa
+aox
+aaa
+aox
 aiB
 aby
 aae
@@ -81694,25 +82577,25 @@ dBN
 dBN
 cBR
 cBR
-aaa
-aaa
-aaa
 lMJ
-vsN
+aox
+lMJ
+aaa
+iQa
+xhd
+swh
 yef
-vsN
-vsN
-vsN
-vsN
-vsN
-vsN
+rEh
+uPX
+yef
+rEh
+uPX
+yef
+swJ
+sph
+hdb
 lMJ
-lMJ
-lMJ
-aaa
-lMJ
-aaa
-aaa
+nYJ
 aaa
 aaa
 aaa
@@ -81840,7 +82723,7 @@ xtw
 aaa
 fcJ
 aaa
-jvw
+aox
 abx
 lMJ
 aaa
@@ -81951,25 +82834,25 @@ iTg
 jwJ
 ngK
 dBN
-aaa
-aaa
-aaa
 lMJ
-aaa
+aox
+lMJ
+lMJ
+lMJ
+xwx
+rOw
 yef
-aaa
-aaa
-aaa
-aaa
-aaa
+rEh
+uPX
+yef
+rEh
+uPX
+yef
+fXw
+tia
 lMJ
-aaa
-aaa
 lMJ
-aaa
 nYJ
-aaa
-aaa
 aaa
 aaa
 aaa
@@ -82094,18 +82977,18 @@ aaa
 aaa
 aae
 aae
-aae
-jvw
+aby
+aox
 aaa
-jvw
+aox
 abx
 kyS
-aae
-aae
+aaa
+aaa
 aae
 aaa
 aaa
-lKu
+aaa
 aaa
 aaa
 aaa
@@ -82208,24 +83091,24 @@ iGK
 tgQ
 jwJ
 dBN
-aaa
+lMJ
+aox
+lMJ
 aaa
 aaa
 lMJ
-vsN
+fxe
+iWJ
+rEh
+uPX
 yef
-vsN
-vsN
-vsN
-vsN
-vsN
-vsN
+rEh
+uPX
+iWJ
+fxe
 lMJ
 lMJ
-lMJ
-lMJ
-fwb
-aaa
+nYJ
 aaa
 aaa
 aaa
@@ -82349,17 +83232,17 @@ lMJ
 aaa
 aaa
 aaa
-jvw
-jvw
-jvw
-jvw
+aox
+aox
+aox
+aox
 aaa
-jvw
+aox
 aaa
-jvw
-jvw
-jvw
-jvw
+aox
+aox
+aox
+aox
 aaa
 aaa
 aaa
@@ -82466,24 +83349,24 @@ uWm
 nHx
 dBN
 lMJ
+aox
 lMJ
-lMJ
-vsN
-yef
-yef
-yef
-yef
-yef
-yef
-yef
-yef
-vsN
 aaa
-anS
-anS
-anS
+aaa
 lMJ
-quc
+aaa
+aaa
+xwx
+tia
+yef
+xwx
+tia
+lMJ
+lMJ
+lMJ
+nYJ
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -82606,17 +83489,17 @@ lMJ
 lMJ
 lMJ
 lMJ
+aby
+aae
+aby
+aox
+aox
+aox
+lAu
+aox
 aae
 aae
-aae
-jvw
-jvw
-jvw
-aat
-jvw
-aae
-aae
-aae
+aby
 lMJ
 lMJ
 lMJ
@@ -82722,23 +83605,23 @@ dBN
 dBN
 cBR
 cBR
+lMJ
+aox
+lMJ
 aaa
 aaa
+lMJ
 aaa
 aaa
-vsN
+lMJ
+lMJ
 yef
-vsN
-vsN
-vsN
-vsN
-vsN
-vsN
 lMJ
 lMJ
+aaa
+aaa
 lMJ
-lMJ
-fwb
+aaa
 aaa
 aaa
 aaa
@@ -82863,17 +83746,17 @@ lMJ
 aaa
 aaa
 aaa
-jvw
-jvw
-jvw
-jvw
+aox
+aox
+aox
+aox
 aaa
-jvw
+aox
 aaa
-jvw
-jvw
-jvw
-jvw
+aox
+aox
+aox
+aox
 aaa
 aaa
 aaa
@@ -82978,24 +83861,24 @@ aaa
 aaa
 aaa
 lMJ
+lMJ
+lMJ
+aox
+lMJ
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
+lMJ
+lMJ
+lMJ
+lMJ
+lMJ
 yef
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+lMJ
+lMJ
 aaa
 aaa
 lMJ
 aaa
-nYJ
 aaa
 aaa
 aaa
@@ -83121,16 +84004,16 @@ aaa
 aaa
 aaa
 aae
+hKk
 aae
-aae
-jvw
+aox
 aaa
-jvw
+aox
 aaa
-jvw
+aox
 aae
-aae
-aae
+aby
+aaa
 aaa
 aaa
 aaa
@@ -83235,24 +84118,24 @@ lMJ
 lMJ
 lMJ
 lMJ
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-yef
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+lMJ
+lMJ
+aox
+aox
+aox
+inF
+aox
+aox
+aox
+aox
+aox
+kdo
+aox
+lMJ
 aaa
 aaa
 lMJ
 aaa
-fwb
 aaa
 aaa
 aaa
@@ -83382,7 +84265,7 @@ aaa
 aaa
 lMJ
 aaa
-jvw
+aox
 aaa
 lMJ
 aaa
@@ -83492,24 +84375,24 @@ aaa
 aaa
 aaa
 lMJ
-aaa
-aaa
-aaa
-aaa
-aaa
-bYC
-rpL
-bYC
-aaa
-aaa
-aaa
-aaa
-aaa
+lMJ
+lMJ
+lMJ
+lMJ
+lMJ
+lMJ
+lMJ
+lMJ
+lMJ
+lMJ
+wPs
+xhp
+wPs
+lMJ
 aaa
 aaa
 lMJ
 aaa
-nYJ
 aaa
 aaa
 aaa
@@ -83639,9 +84522,9 @@ aaa
 aaa
 lMJ
 aaa
-jvw
-jvw
-jvw
+aox
+aox
+aox
 aaa
 aaa
 aaa
@@ -83750,23 +84633,23 @@ bTs
 bTs
 bTs
 bTs
-aaa
-aaa
-aaa
-aaa
-bYC
-cLN
-bYC
-aaa
-aaa
-aaa
-aaa
-aaa
+lMJ
+lMJ
 aaa
 aaa
 lMJ
 lMJ
+aaa
+aaa
 lMJ
+wPs
+fhI
+wPs
+lMJ
+aaa
+aaa
+lMJ
+aaa
 aaa
 aaa
 aaa
@@ -83898,7 +84781,7 @@ lMJ
 aaa
 lMJ
 aaa
-jvw
+aox
 aaa
 aaa
 aaa
@@ -84010,16 +84893,16 @@ bTs
 bTs
 bTs
 bTs
-bYC
-bYC
-cLO
-bYC
-bTn
-lMJ
-lMJ
-lMJ
-lMJ
-lMJ
+bTs
+bTs
+bTs
+bTs
+bTs
+wPs
+wPs
+wkP
+wPs
+lPc
 lMJ
 nRb
 tPH
@@ -84155,7 +85038,7 @@ lMJ
 aaa
 lMJ
 aaa
-jvw
+aox
 aaa
 aaa
 aaa
@@ -84267,16 +85150,16 @@ ceb
 ceb
 ceb
 xPa
-bTn
-oFG
-cLN
-cMy
-bTn
-aaa
-aaa
-lMJ
-aaa
-aaa
+jNL
+jNL
+jNL
+jNL
+jNL
+lPc
+hDd
+fhI
+oFb
+lPc
 aaa
 lMJ
 lMJ
@@ -84412,7 +85295,7 @@ aPS
 aPS
 aPS
 aPS
-jvw
+aox
 aaa
 aaa
 aaa
@@ -84459,7 +85342,7 @@ pcb
 pcb
 pcb
 pcb
-pcb
+pVV
 mNp
 ieE
 ijq
@@ -84525,15 +85408,15 @@ qCh
 qCh
 leO
 eQf
-cLN
-dbs
-eDA
-bTn
-aaa
-aaa
-lMJ
-aaa
-aaa
+eQf
+eQf
+eQf
+eQf
+cXl
+fhI
+xws
+jOZ
+lPc
 aaa
 lMJ
 aaa
@@ -84669,7 +85552,7 @@ nsG
 aqH
 clu
 aPS
-jvw
+aox
 aaa
 aaa
 aee
@@ -84781,16 +85664,16 @@ xpZ
 xpZ
 xpZ
 rMr
-bTn
-eig
-xuW
-cMA
-bTn
-aaa
-aaa
-lMJ
-aaa
-aaa
+jNL
+jNL
+jNL
+jNL
+jNL
+lPc
+jRp
+oFG
+sHL
+lPc
 aaa
 lMJ
 aaa
@@ -84926,9 +85809,9 @@ qoj
 bLv
 qoj
 aPS
-jvw
-jvw
-jvw
+aox
+aox
+aox
 aef
 kCn
 afE
@@ -85038,16 +85921,16 @@ xwd
 sFX
 xpZ
 rMr
-bTn
-bTn
-bTn
-bTn
-bTn
-aaa
-aaa
-lMJ
-aaa
-aaa
+jNL
+jNL
+jNL
+iRA
+iRA
+dmZ
+dmZ
+dmZ
+dmZ
+dmZ
 aaa
 lMJ
 aaa
@@ -85298,17 +86181,17 @@ iWp
 xPa
 qmO
 odT
-bTs
-lMJ
-aaa
-aaa
-wRK
+iRA
+biK
+akw
+fme
+fme
+dns
+iRA
 vKk
 vKk
 vKk
 vKk
-vKk
-wRK
 vKk
 wRK
 aaa
@@ -85553,20 +86436,20 @@ cBS
 xpZ
 msX
 bjl
+jNL
+jNL
 iRA
+fue
+jdd
+fme
+fme
+qwG
 iRA
-iRA
-iRA
-iRA
-iRA
-wRK
 fJu
 hme
 hme
 hme
-huc
-iku
-rAV
+hme
 vKk
 aaa
 aaa
@@ -85810,20 +86693,20 @@ moM
 xpZ
 msX
 bjl
+jNL
+jNL
 iRA
-eKu
-eRa
 fme
 fsh
 fwn
-wRK
+vMP
+iRA
+iRA
 fTx
 gkY
 fTx
 hnm
-hKk
-rAV
-rAV
+hnm
 wRK
 aaa
 aaa
@@ -86071,10 +86954,10 @@ euC
 eOd
 eUQ
 foB
+jhH
 ftq
-fxe
-wRK
-wRK
+iRA
+iRA
 pbV
 rAV
 rAV
@@ -86240,7 +87123,7 @@ bZh
 bZh
 oAV
 aRG
-hlo
+fsZ
 mVk
 eBk
 knc
@@ -86330,7 +87213,7 @@ iRA
 iRA
 wCk
 iRA
-wRK
+iRA
 rbN
 mlT
 gIk
@@ -87309,7 +88192,7 @@ bqp
 ofl
 fVK
 eMW
-aob
+bZq
 bWq
 pPb
 gox
@@ -87617,7 +88500,7 @@ iRA
 nLb
 iRA
 fRx
-rAV
+ubm
 rAV
 wRK
 wRK
@@ -87794,7 +88677,7 @@ rVn
 rVn
 uTI
 rVn
-xIm
+rVn
 rVn
 cmF
 mho
@@ -92692,7 +93575,7 @@ hlh
 avT
 dFr
 khZ
-rLK
+shN
 qZK
 qNt
 bGI
@@ -93977,7 +94860,7 @@ nbQ
 avT
 rWE
 fZy
-shN
+hny
 jcC
 qNt
 bGI
@@ -95062,7 +95945,7 @@ ryR
 wtq
 wOE
 wOE
-wOE
+bYw
 cPb
 oEn
 wuy
@@ -97083,7 +97966,7 @@ jhs
 eZg
 cLP
 cLP
-cLP
+mTe
 eAP
 cMf
 cQK
@@ -99394,7 +100277,7 @@ kSA
 iKa
 mIB
 quV
-apc
+jlr
 teI
 fBo
 pZy
@@ -100150,7 +101033,7 @@ aFj
 xhy
 xhy
 xhy
-yiR
+xhy
 wZl
 gZJ
 iZj
@@ -103171,7 +104054,7 @@ aaa
 aaa
 aaa
 aaa
-lAu
+aaa
 ebG
 ebG
 apX
@@ -104972,9 +105855,9 @@ aaa
 aaa
 aaa
 lMJ
-aaa
-aaa
-aaa
+lMJ
+lMJ
+lMJ
 tdI
 afD
 afD
@@ -106514,9 +107397,9 @@ aaa
 aaa
 aaa
 lMJ
-aaa
-aaa
-aaa
+lMJ
+lMJ
+lMJ
 ebG
 ebG
 ebG
@@ -107803,7 +108686,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+lMJ
 aaa
 aaa
 aox
@@ -108052,15 +108935,15 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
+nYJ
+nYJ
+nYJ
 lMJ
 aaa
 aaa
 aaa
 aaa
-aaa
+lMJ
 aaa
 aaa
 aox
@@ -108307,19 +109190,19 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+nYJ
+nYJ
 lMJ
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+lMJ
+lMJ
+lMJ
+lMJ
+lMJ
+lMJ
+lMJ
+lMJ
+lMJ
+lMJ
 aox
 rzR
 gPx
@@ -108563,18 +109446,18 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+nYJ
 lMJ
-aaa
-aaa
-aaa
-aaa
-aaa
+lMJ
+lMJ
+sCU
+bNa
+dUd
+sCU
+bNa
+lMJ
+lMJ
+lMJ
 aaa
 aaa
 aox
@@ -108667,10 +109550,10 @@ aaa
 aaa
 aaa
 sQq
-xfy
+xfJ
 cgS
-xfy
-plH
+rwk
+itD
 ilk
 ghj
 ueV
@@ -108819,19 +109702,19 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-quc
-aaa
-aaa
-aaa
-aaa
-aaa
+nYJ
+lMJ
+lMJ
+jUs
+vTF
+iku
+cqa
+dUd
+iku
+cqa
+vTF
+jUs
+lMJ
 aaa
 aaa
 aox
@@ -108925,8 +109808,8 @@ aaa
 aaa
 vqh
 dJj
-xfy
-xfy
+cLO
+gmO
 plH
 ies
 jNK
@@ -109075,22 +109958,22 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+nYJ
 lMJ
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+lMJ
+sCU
+pEh
+dUd
+iku
+cqa
+dUd
+iku
+cqa
+dUd
+wuE
+bNa
+lMJ
+lMJ
 aox
 rzR
 jyv
@@ -109181,10 +110064,10 @@ aaa
 aaa
 aaa
 sQq
+mfx
 xfy
 xfy
-xfy
-xfy
+ttK
 oTb
 bkI
 vwy
@@ -109332,23 +110215,23 @@ aaa
 aaa
 aaa
 aaa
-xhC
-fwb
-lMJ
-lMJ
-fwb
-fwb
 nYJ
-fwb
+lMJ
+wHf
+cOB
+bft
+dUd
+iku
+cqa
+dUd
+iku
+cqa
+dUd
+rqc
+qbU
+toE
 lMJ
 lMJ
-lMJ
-lMJ
-lMJ
-lMJ
-lMJ
-lMJ
-aox
 rzR
 rzR
 rzR
@@ -109588,24 +110471,24 @@ aaa
 aac
 aaa
 aaa
-aaa
-fwb
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+nYJ
 lMJ
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aox
+lMJ
+vTF
+dUd
+dUd
+vTF
+iku
+cqa
+dUd
+iku
+cqa
+vTF
+dUd
+dUd
+vTF
+lMJ
+lAu
 lMJ
 aaa
 aaa
@@ -109682,20 +110565,20 @@ wkJ
 ewV
 deP
 aaf
-aaa
-aaa
-aaa
-aaa
-aaa
-igs
-iFw
-iFw
-iQJ
-aaa
-aaa
-aaa
-aaa
-tFo
+lMJ
+lMJ
+lMJ
+lMJ
+lMJ
+wvg
+fdg
+fdg
+rpL
+lMJ
+lMJ
+lMJ
+lMJ
+lhn
 qtc
 qXt
 dEM
@@ -109709,14 +110592,14 @@ cDE
 chC
 qXt
 tVs
-tFo
+lhn
 aaa
 aaa
 aaa
 nYJ
 aaa
 aaa
-lKu
+aaa
 aaa
 aaa
 aaa
@@ -109845,24 +110728,24 @@ aaa
 aaa
 aaa
 aaa
-aaa
-fwb
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-quc
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aox
+nYJ
+lMJ
+sCU
+xxt
+xxt
+xxt
+xxt
+nGZ
+bft
+dUd
+rqc
+upM
+xxt
+xxt
+xxt
+xxt
+bNa
+lAu
 lMJ
 aaa
 aaa
@@ -109944,15 +110827,15 @@ aaa
 aaa
 aaa
 aaa
-irI
-iJX
-iJX
-iRO
+djZ
+dbs
+dbs
+vnf
 aaa
 aaa
 aaa
-aaa
-tFo
+lMJ
+lhn
 xSK
 hnQ
 xSK
@@ -109966,7 +110849,7 @@ pMS
 xSK
 hnQ
 xSK
-tFo
+lhn
 aaa
 aaa
 aaa
@@ -110102,26 +110985,26 @@ aaa
 aaa
 aaa
 aaa
-aaa
-fwb
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+nYJ
 lMJ
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aox
+rqc
+azc
+azc
+azc
+azc
+bft
+vTF
+dUd
+vTF
+rqc
+azc
+azc
+azc
+azc
+bft
 lMJ
-aav
+lMJ
+aaf
 alv
 alv
 alv
@@ -110201,13 +111084,13 @@ aaa
 aaa
 aaa
 aaa
-irI
-iJX
-iJX
-iRO
+djZ
+dbs
+dbs
+vnf
 aaa
 aaa
-aaa
+lMJ
 cRa
 cRi
 qyj
@@ -110359,24 +111242,24 @@ aaa
 aaa
 aaa
 aaa
-aaa
-fwb
-lMJ
-lMJ
-lMJ
+nYJ
 lMJ
 dUd
 dUd
-cAB
-cAB
-cAB
+dUd
+dUd
+dUd
+dUd
+dUd
+jTk
 dUd
 dUd
 dUd
 dUd
 dUd
 dUd
-cAB
+dUd
+dUd
 cAB
 cAB
 alw
@@ -110458,10 +111341,10 @@ aaa
 aaa
 aaa
 aaa
-irI
-iJX
-iJX
-iRO
+djZ
+dbs
+dbs
+vnf
 aaa
 rhT
 hcr
@@ -110616,26 +111499,26 @@ aaa
 aaa
 aaa
 aaa
-aaa
-fwb
-aaa
-aaa
-aaa
-aaa
-cAB
-aaa
-aaa
-aaa
-aaa
-aaa
-dUd
-aaa
-aaa
-aaa
-aaa
+nYJ
 lMJ
-aaa
-aav
+sCU
+xxt
+xxt
+xxt
+xxt
+bNa
+vTF
+dUd
+vTF
+sCU
+xxt
+xxt
+xxt
+xxt
+bNa
+lMJ
+lMJ
+aaf
 alv
 alv
 alv
@@ -110715,10 +111598,10 @@ aaa
 aaa
 aaa
 aaa
-ivn
-iKe
-iJX
-iRO
+mlu
+kqF
+dbs
+vnf
 aaa
 rhT
 keh
@@ -110873,24 +111756,24 @@ aaa
 aaa
 aaa
 aaa
-aaa
-fwb
-aaa
-aaa
-xfJ
-xfJ
-cAB
-xfJ
-xfJ
-aaa
-xfJ
-xfJ
-dUd
-xfJ
-xfJ
-aaa
-aaa
+nYJ
 lMJ
+rqc
+azc
+azc
+azc
+azc
+gWg
+bNa
+dUd
+sCU
+qQT
+azc
+azc
+azc
+azc
+bft
+lAu
 aaa
 aaa
 lMJ
@@ -110974,8 +111857,8 @@ bLg
 eYg
 aaf
 aaa
-ivn
-iKe
+mlu
+kqF
 jPu
 jZY
 kfC
@@ -111130,24 +112013,24 @@ aaa
 aaa
 aaa
 aaa
-aaa
-fwb
-aaa
-aaa
-xfJ
-xfJ
-cAB
-xfJ
-xfJ
-aaa
-xfJ
-xfJ
-dUd
-xfJ
-xfJ
-aaa
-aaa
+nYJ
 lMJ
+lMJ
+vTF
+dUd
+dUd
+vTF
+iku
+cqa
+dUd
+iku
+cqa
+vTF
+dUd
+dUd
+vTF
+lMJ
+lAu
 aaa
 aaa
 lMJ
@@ -111388,23 +112271,23 @@ aaa
 aaa
 aaa
 aaa
-fwb
+nYJ
+lMJ
+wHf
+huc
+bNa
+dUd
+iku
+cqa
+dUd
+iku
+cqa
+dUd
+sCU
+oIo
+toE
 lMJ
 lMJ
-dUd
-dUd
-dUd
-dUd
-dUd
-lMJ
-cAB
-dUd
-dUd
-cAB
-dUd
-lMJ
-lMJ
-aox
 aox
 aox
 aox
@@ -111645,23 +112528,23 @@ aaa
 aaa
 aaa
 aaa
-fwb
-aaa
-aaa
-xfJ
-xfJ
+nYJ
+lMJ
+lMJ
+rqc
+amb
 dUd
-xfJ
-xfJ
-aaa
-xfJ
-xfJ
+iku
+cqa
 dUd
-xfJ
-xfJ
-aaa
-aaa
-aox
+iku
+cqa
+dUd
+mzP
+bft
+lMJ
+lMJ
+nYJ
 aaa
 aaa
 aaa
@@ -111902,23 +112785,23 @@ aaa
 aaa
 aaa
 aaa
+aaa
+nYJ
+lMJ
+lMJ
+vbD
+vTF
+iku
+cqa
+dUd
+iku
+cqa
+vTF
+vbD
+lMJ
+lMJ
 nYJ
 aaa
-aaa
-xfJ
-xfJ
-dUd
-xfJ
-xfJ
-aaa
-xfJ
-xfJ
-dUd
-xfJ
-xfJ
-aaa
-aaa
-aox
 aaa
 aaa
 aaa
@@ -112159,31 +113042,31 @@ aaa
 aaa
 aaa
 aaa
-fwb
+aaa
+aaa
+nYJ
 lMJ
 lMJ
-dUd
-dUd
-dUd
-dUd
-dUd
 lMJ
 rqc
+bft
 dUd
-cAB
-dUd
-dUd
+rqc
+bft
 lMJ
 lMJ
+lMJ
+nYJ
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aox
-aaa
-aaa
-aaa
-aaa
-aaa
-aox
-aox
-aox
+lMJ
+lMJ
 dnh
 mGx
 mGx
@@ -112416,23 +113299,23 @@ aaa
 aaa
 aaa
 aaa
-fwb
 aaa
 aaa
-xfJ
-xfJ
-dUd
-xfJ
-xfJ
 aaa
-xfJ
-xfJ
-cAB
-xfJ
-xfJ
+nYJ
+nYJ
+lMJ
+lMJ
+lMJ
+lMJ
+lMJ
+lMJ
+lMJ
+nYJ
+nYJ
 aaa
 aaa
-aox
+aaa
 aaa
 aaa
 aaa
@@ -112478,8 +113361,8 @@ eVV
 aaa
 aaa
 aaa
-irI
-iFw
+djZ
+fdg
 aMa
 aMa
 aMa
@@ -112673,31 +113556,31 @@ aaa
 aaa
 aaa
 aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+nYJ
+nYJ
+nYJ
+nYJ
+nYJ
+nYJ
+nYJ
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+quc
 lMJ
-aaa
-aaa
-xfJ
-xfJ
-cAB
-xfJ
-xfJ
-aaa
-xfJ
-xfJ
-cAB
-xfJ
-xfJ
-aaa
-aaa
-aox
-aaa
-aaa
-aaa
-aaa
-aaa
-aox
-aaa
-aaa
+lMJ
 lMJ
 bPH
 aox
@@ -112735,12 +113618,12 @@ eVV
 aaa
 lKu
 aaa
-irI
-iJX
-iJX
-iJX
-iJX
-iRO
+djZ
+dbs
+dbs
+dbs
+dbs
+vnf
 aaa
 aaa
 aaa
@@ -112930,31 +113813,31 @@ aaa
 aaa
 aaa
 aaa
-lMJ
-lMJ
-lMJ
-dUd
-dUd
-cAB
-dUd
-dUd
-lMJ
-dUd
-dUd
-dUd
-dUd
-dUd
-lMJ
-lMJ
-quc
 aaa
 aaa
 aaa
 aaa
 aaa
-quc
-lMJ
-lMJ
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 tlE
 lMJ
 aox
@@ -112992,12 +113875,12 @@ uHW
 lMJ
 lMJ
 blx
-irI
-iJX
-iJX
-iJX
-iJX
-iRO
+djZ
+dbs
+dbs
+dbs
+dbs
+vnf
 aaa
 aaa
 aaa
@@ -113187,23 +114070,23 @@ aaa
 aaa
 aaa
 aaa
-nYJ
 aaa
 aaa
-xfJ
-xfJ
-cAB
-xfJ
-xfJ
-aaa
-xfJ
-xfJ
-dUd
-xfJ
-xfJ
 aaa
 aaa
-fwb
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -113249,15 +114132,15 @@ eVV
 aaa
 aaa
 aaa
-irI
-iJX
-iJX
-iJX
-iJX
-iRO
-aaa
-aaa
-aaa
+djZ
+dbs
+dbs
+dbs
+dbs
+vnf
+lMJ
+lMJ
+lMJ
 quc
 lMJ
 anS
@@ -113444,23 +114327,23 @@ aaa
 aaa
 aaa
 aaa
-fwb
 aaa
 aaa
-xfJ
-xfJ
-dUd
-xfJ
-xfJ
-aaa
-xfJ
-xfJ
-dUd
-xfJ
-xfJ
 aaa
 aaa
-fwb
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -113506,12 +114389,12 @@ eVV
 aaa
 aaa
 aaa
-ivn
-iKe
-iKe
-iKe
-iKe
-nSf
+mlu
+kqF
+kqF
+kqF
+kqF
+ydk
 aaa
 aaa
 aaa
@@ -113701,23 +114584,23 @@ aaa
 aaa
 aaa
 aaa
-fwb
-lMJ
-lMJ
-dUd
-dUd
-dUd
-dUd
-dUd
-inF
-dUd
-dUd
-dUd
-dUd
-dUd
-lMJ
-lMJ
-nYJ
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -113958,23 +114841,23 @@ aaa
 aaa
 aaa
 aaa
-fwb
-aaa
-aaa
-lMJ
-aaa
-aox
-aaa
-aaa
-kdo
-aaa
-aaa
-aox
 aaa
 aaa
 aaa
 aaa
-nYJ
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -114215,23 +115098,23 @@ aaa
 aaa
 aaa
 aaa
-siF
-lMJ
-nYJ
-fwb
-fwb
-fwb
-lMJ
-lMJ
-mGC
-lMJ
-lMJ
-fwb
-fwb
-lMJ
-nYJ
-fwb
-siF
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -114477,13 +115360,13 @@ aaa
 aaa
 aaa
 aaa
-gJK
-gJK
-lMJ
-lMJ
-lMJ
-gJK
-gJK
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -114735,11 +115618,11 @@ aaa
 aaa
 aaa
 aaa
-gJK
-gJK
-lMJ
-gJK
-gJK
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -114993,9 +115876,9 @@ aaa
 aaa
 aaa
 aaa
-gJK
-gJK
-gJK
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
