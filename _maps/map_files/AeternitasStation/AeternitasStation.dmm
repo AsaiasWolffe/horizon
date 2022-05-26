@@ -556,7 +556,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -668,7 +668,7 @@
 "aeO" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -732,7 +732,7 @@
 "afn" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /obj/effect/mapping_helpers/smart_pipe/simple/yellow/hidden{
@@ -1591,7 +1591,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -1600,7 +1600,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -1771,7 +1771,7 @@
 /obj/structure/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -2102,7 +2102,7 @@
 "apm" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall,
@@ -2199,7 +2199,7 @@
 /obj/structure/sign/warning/fire,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -2362,7 +2362,7 @@
 /obj/structure/sign/warning/electricshock,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -2472,7 +2472,7 @@
 /obj/structure/sign/warning/nosmoking,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -2628,7 +2628,7 @@
 /obj/structure/sign/warning/electricshock,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall,
@@ -2636,7 +2636,7 @@
 "atm" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -2916,7 +2916,7 @@
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/engine,
@@ -2939,7 +2939,7 @@
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/engine,
@@ -2948,7 +2948,7 @@
 /obj/structure/lattice,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -3293,24 +3293,13 @@
 /turf/open/floor/iron/dark,
 /area/security/brig)
 "axA" = (
-/obj/machinery/light/directional/west,
-/obj/structure/table,
-/obj/item/grenade/chem_grenade/smart_metal_foam{
-	pixel_x = -4;
-	pixel_y = 6
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "rdtoxins";
+	name = "Toxins Lab Shutters"
 	},
-/obj/item/grenade/chem_grenade/smart_metal_foam{
-	pixel_x = 4;
-	pixel_y = 2
-	},
-/obj/item/grenade/chem_grenade/smart_metal_foam{
-	pixel_x = 8
-	},
-/obj/item/grenade/chem_grenade/smart_metal_foam{
-	pixel_y = 4
-	},
-/turf/open/floor/iron/dark,
-/area/ai_monitored/command/storage/eva)
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/science/mixing)
 "axD" = (
 /obj/item/storage/book/bible,
 /obj/machinery/newscaster/directional/north,
@@ -3864,7 +3853,7 @@
 "aDb" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall,
@@ -3998,7 +3987,7 @@
 /obj/structure/sign/warning/pods,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -4120,14 +4109,9 @@
 /turf/open/floor/iron/dark/textured,
 /area/command/bridge)
 "aFC" = (
-/obj/machinery/door/airlock/command{
-	name = "Gateway Atrium";
-	req_access_txt = "62"
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/effect/landmark/start/assistant,
 /turf/open/floor/iron,
-/area/command/gateway)
+/area/hallway/secondary/command)
 "aFN" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/atmospherics/pipe/heat_exchanging/manifold{
@@ -4195,7 +4179,7 @@
 /obj/effect/spawner/structure/window/reinforced/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -4605,7 +4589,9 @@
 /turf/open/floor/iron,
 /area/commons/storage/art)
 "aKk" = (
-/obj/structure/extinguisher_cabinet/directional/east,
+/obj/structure/sign/departments/custodian{
+	pixel_x = 32
+	},
 /turf/open/floor/iron,
 /area/hallway/primary/port)
 "aKJ" = (
@@ -4698,12 +4684,12 @@
 /turf/open/floor/iron/dark,
 /area/ai_monitored/command/storage/satellite)
 "aLZ" = (
-/obj/structure/sink/kitchen{
-	desc = "A sink used for washing one's hands and face. It looks rusty and home-made";
-	name = "old sink";
-	pixel_y = 28
+/obj/item/radio/intercom/directional/north,
+/obj/structure/disposalpipe/trunk,
+/obj/machinery/disposal/bin,
+/turf/open/floor/iron/textured_edge{
+	dir = 1
 	},
-/turf/open/floor/iron,
 /area/commons/toilet/auxiliary)
 "aMa" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/manifold{
@@ -4719,7 +4705,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -5329,11 +5315,10 @@
 /turf/open/floor/iron,
 /area/hallway/primary/port)
 "aTe" = (
-/obj/machinery/door/airlock{
-	id_tag = "AuxToilet2";
-	name = "Unit 2"
+/obj/effect/turf_decal/siding/white{
+	dir = 8
 	},
-/turf/open/floor/iron,
+/turf/open/floor/iron/textured,
 /area/commons/toilet/auxiliary)
 "aTk" = (
 /obj/effect/spawner/structure/window/reinforced/tinted,
@@ -5571,25 +5556,20 @@
 /turf/open/floor/iron/dark,
 /area/security/courtroom)
 "aUH" = (
-/obj/machinery/shower{
-	dir = 4
+/obj/machinery/portable_atmospherics/canister/water_vapor,
+/obj/effect/turf_decal/box/corners{
+	dir = 1
 	},
-/obj/item/soap/nanotrasen,
-/obj/machinery/button/door/directional/north{
-	id = "AuxShower";
-	name = "Lock Control";
-	normaldoorcontrol = 1;
-	specialfunctions = 4
-	},
-/obj/structure/lattice/catwalk/plated/smooth,
+/obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plating,
 /area/commons/toilet/auxiliary)
 "aUK" = (
-/obj/machinery/door/airlock{
-	id_tag = "AuxShower";
-	name = "Showers"
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
 	},
-/turf/open/floor/iron,
+/turf/open/floor/iron/textured_edge{
+	dir = 8
+	},
 /area/commons/toilet/auxiliary)
 "aUN" = (
 /obj/effect/spawner/lootdrop/gross_decal_spawner,
@@ -5881,11 +5861,11 @@
 /turf/open/floor/iron,
 /area/security/range)
 "aXr" = (
-/obj/machinery/door/airlock{
-	id_tag = "AuxToilet3";
-	name = "Unit 3"
+/obj/machinery/airalarm/directional/south,
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 1
 	},
-/turf/open/floor/iron,
+/turf/open/floor/iron/textured_edge,
 /area/commons/toilet/auxiliary)
 "aXs" = (
 /obj/machinery/door/airlock/security/glass{
@@ -5921,7 +5901,7 @@
 "aYu" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall,
@@ -6227,7 +6207,7 @@
 "bbo" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall,
@@ -6650,7 +6630,7 @@
 "bfX" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -6801,15 +6781,19 @@
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/ai)
 "biu" = (
-/obj/machinery/light/small/directional/west,
-/obj/structure/sign/poster/official/random{
-	pixel_x = -32
-	},
 /obj/machinery/camera{
-	c_tag = "Auxilary Restrooms";
+	c_tag = "Custodial Closet";
 	dir = 4
 	},
-/turf/open/floor/iron,
+/obj/machinery/button/door{
+	id = "jangarage";
+	name = "Custodial Closet Shutters Control";
+	pixel_x = -25;
+	req_access_txt = "26"
+	},
+/turf/open/floor/iron/textured_edge{
+	dir = 8
+	},
 /area/commons/toilet/auxiliary)
 "biv" = (
 /obj/machinery/door/airlock/mining/glass{
@@ -7153,7 +7137,7 @@
 /obj/structure/sign/warning/fire,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -7719,7 +7703,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -8026,7 +8010,7 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/dark/visible,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -8174,7 +8158,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -8185,7 +8169,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -8245,7 +8229,7 @@
 /obj/machinery/atmospherics/pipe/layer_manifold/cyan,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -8305,7 +8289,7 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/dark/visible,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -8405,7 +8389,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -8747,21 +8731,17 @@
 /turf/open/floor/plating,
 /area/maintenance/fore)
 "bGS" = (
-/obj/machinery/vending/coffee,
-/turf/open/floor/iron/dark,
-/area/hallway/secondary/command)
-"bGU" = (
-/obj/structure/sign/directions/evac,
-/obj/structure/sign/directions/medical{
-	pixel_y = 8
-	},
-/obj/structure/sign/directions/science{
-	pixel_y = -8
-	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - COM";
 	stripe_paint = "#004B8F";
 	wall_paint = "#4D4D4D"
+	},
+/obj/structure/sign/directions/science{
+	pixel_y = -8
+	},
+/obj/structure/sign/directions/evac,
+/obj/structure/sign/directions/medical{
+	pixel_y = 8
 	},
 /turf/closed/wall,
 /area/hallway/primary/central)
@@ -8775,27 +8755,16 @@
 /turf/open/floor/plating,
 /area/security/prison/garden)
 "bHj" = (
-/obj/item/storage/box/mousetraps{
-	pixel_x = -3;
-	pixel_y = 8
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 8
 	},
-/obj/structure/table,
-/obj/item/storage/box/mousetraps{
-	pixel_x = -3;
-	pixel_y = 8
-	},
-/obj/item/clothing/gloves/color/orange{
-	pixel_x = 4;
-	pixel_y = -2
-	},
-/obj/item/radio/intercom/directional/north,
-/turf/open/floor/iron,
-/area/service/janitor)
+/turf/open/floor/iron/textured,
+/area/commons/toilet/auxiliary)
 "bHz" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/engine,
@@ -8846,7 +8815,7 @@
 "bIF" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -8901,24 +8870,26 @@
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/tcommsat/server)
 "bJr" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 10
-	},
-/obj/structure/cable/layer1,
-/obj/structure/disposalpipe/segment{
-	dir = 9
+/obj/machinery/button/door{
+	id = "jangarage";
+	name = "Custodial Closet Shutters Control";
+	pixel_x = 25;
+	req_access_txt = "26"
 	},
 /turf/open/floor/iron,
-/area/service/janitor)
+/area/hallway/primary/port)
 "bJy" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+/obj/machinery/power/apc/auto_name/west,
+/obj/structure/cable/multilayer{
+	cable_layer = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/corner{
 	dir = 8
 	},
-/turf/open/floor/plating,
-/area/service/janitor)
+/turf/open/floor/iron/textured_edge{
+	dir = 8
+	},
+/area/commons/toilet/auxiliary)
 "bJB" = (
 /obj/effect/turf_decal/trimline/white/filled/line{
 	color = "#C12D30";
@@ -8965,10 +8936,9 @@
 	},
 /area/medical/treatment_center)
 "bKb" = (
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
-/area/maintenance/central)
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron,
+/area/hallway/secondary/command)
 "bKc" = (
 /obj/structure/chair/sofa/corp/right,
 /turf/open/floor/carpet/royalblue,
@@ -9050,24 +9020,18 @@
 /turf/open/floor/iron,
 /area/security/prison)
 "bLe" = (
-/obj/item/restraints/legcuffs/beartrap,
-/obj/item/restraints/legcuffs/beartrap,
-/obj/machinery/power/apc/auto_name/west,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 5
-	},
-/obj/structure/cable/multilayer{
-	cable_layer = 1
-	},
-/turf/open/floor/iron,
-/area/service/janitor)
+/obj/effect/decal/cleanable/chem_pile,
+/turf/open/floor/plating,
+/area/maintenance/port)
 "bLf" = (
-/mob/living/simple_animal/hostile/lizard/wags_his_tail,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
-/turf/open/floor/plating,
-/area/service/janitor)
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/iron/textured,
+/area/commons/toilet/auxiliary)
 "bLg" = (
 /obj/structure/lattice,
 /obj/effect/mapping_helpers/smart_pipe/simple/violet/visible,
@@ -9101,14 +9065,37 @@
 /turf/open/floor/iron,
 /area/security/prison/garden)
 "bLG" = (
-/obj/item/cigbutt,
-/turf/open/floor/plating,
-/area/maintenance/central)
+/obj/machinery/status_display/evac/directional/west,
+/obj/effect/spawner/randomcolavend,
+/obj/machinery/camera{
+	c_tag = "Central Primary Hallway - Starboard - Kitchen";
+	dir = 4
+	},
+/turf/open/floor/wood/large,
+/area/hallway/primary/central)
 "bLI" = (
-/obj/structure/reagent_dispensers/watertank,
-/obj/machinery/airalarm/directional/south,
-/turf/open/floor/iron,
-/area/service/janitor)
+/obj/machinery/requests_console/directional/north{
+	department = "Janitorial";
+	departmentType = 1;
+	name = "Janitorial Requests Console"
+	},
+/obj/structure/table,
+/obj/item/restraints/legcuffs/beartrap{
+	pixel_x = -5;
+	pixel_y = 14
+	},
+/obj/item/restraints/legcuffs/beartrap{
+	pixel_x = 11;
+	pixel_y = 14
+	},
+/obj/item/clothing/gloves/color/orange{
+	pixel_x = 4;
+	pixel_y = -2
+	},
+/turf/open/floor/iron/textured_edge{
+	dir = 1
+	},
+/area/commons/toilet/auxiliary)
 "bLS" = (
 /obj/structure/lattice/catwalk/plated/dark,
 /obj/structure/cable/layer1,
@@ -9198,7 +9185,7 @@
 /obj/structure/sign/warning/biohazard,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -9349,13 +9336,12 @@
 	},
 /area/maintenance/starboard)
 "bON" = (
-/obj/structure/sign/warning/securearea{
-	pixel_x = -32
+/obj/machinery/light/directional/west,
+/obj/structure/chair/sofa/bench/right{
+	dir = 4
 	},
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
-	},
-/area/maintenance/central)
+/turf/open/floor/wood/large,
+/area/hallway/primary/central)
 "bOQ" = (
 /obj/structure/cable{
 	name = "high voltage power cable"
@@ -9670,7 +9656,7 @@
 /obj/effect/spawner/structure/window/reinforced/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/engine,
@@ -9822,7 +9808,7 @@
 /obj/effect/spawner/structure/window/reinforced/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/engine,
@@ -10029,7 +10015,7 @@
 "bXx" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -10775,7 +10761,7 @@
 /obj/structure/sign/warning/securearea,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -10846,8 +10832,11 @@
 	pixel_x = -1;
 	pixel_y = 8
 	},
+/obj/machinery/camera/autoname{
+	dir = 1
+	},
 /turf/open/floor/iron,
-/area/science/cytology)
+/area/science/xenobiology)
 "cdi" = (
 /obj/machinery/monkey_recycler,
 /turf/open/floor/iron,
@@ -11124,11 +11113,6 @@
 	pixel_x = 5;
 	pixel_y = 3
 	},
-/obj/machinery/requests_console/directional/east{
-	department = "Xenobiology";
-	name = "Xenobiology Requests Console";
-	receive_ore_updates = 1
-	},
 /obj/machinery/button/door/directional/south{
 	id = "XenoPens";
 	name = "Xenobiology Shutters";
@@ -11305,7 +11289,7 @@
 "cgo" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -11313,7 +11297,7 @@
 "cgq" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -11354,7 +11338,7 @@
 /obj/structure/sign/warning/electricshock,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -11684,7 +11668,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -12173,7 +12157,7 @@
 "cmP" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -12363,7 +12347,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -12377,38 +12361,20 @@
 /area/maintenance/department/electrical)
 "cou" = (
 /obj/structure/table,
-/obj/item/storage/box/lights/mixed{
-	pixel_x = 6;
-	pixel_y = 8
+/obj/item/reagent_containers/glass/bucket{
+	pixel_x = -6;
+	pixel_y = 13
 	},
-/obj/item/storage/box/lights/mixed{
-	pixel_x = 6;
-	pixel_y = 8
+/obj/item/mop,
+/turf/open/floor/iron/textured_edge{
+	dir = 4
 	},
-/obj/item/reagent_containers/spray/cleaner,
-/obj/item/grenade/chem_grenade/cleaner{
-	pixel_x = -7;
-	pixel_y = 12
-	},
-/obj/item/grenade/chem_grenade/cleaner{
-	pixel_x = -7;
-	pixel_y = 12
-	},
-/obj/item/grenade/chem_grenade/cleaner{
-	pixel_x = -7;
-	pixel_y = 12
-	},
-/obj/machinery/requests_console/directional/north{
-	department = "Janitorial";
-	departmentType = 1;
-	name = "Janitorial Requests Console"
-	},
-/turf/open/floor/iron,
-/area/service/janitor)
+/area/commons/toilet/auxiliary)
 "cov" = (
-/obj/machinery/vending/wardrobe/jani_wardrobe,
-/turf/open/floor/iron,
-/area/service/janitor)
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron/textured,
+/area/commons/toilet/auxiliary)
 "coy" = (
 /obj/structure/table/glass,
 /obj/item/storage/firstaid/regular{
@@ -12576,15 +12542,29 @@
 /turf/open/floor/plating,
 /area/maintenance/department/science/xenobiology)
 "cpK" = (
-/obj/structure/chair/stool/directional/south,
-/turf/open/floor/iron,
-/area/service/janitor)
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 14
+	},
+/obj/structure/table,
+/obj/item/storage/box/mousetraps{
+	pixel_x = -4;
+	pixel_y = 9
+	},
+/obj/item/storage/box/mousetraps{
+	pixel_y = 1
+	},
+/obj/structure/sign/poster/official/cleanliness{
+	pixel_x = 32
+	},
+/turf/open/floor/iron/textured_edge{
+	dir = 4
+	},
+/area/commons/toilet/auxiliary)
 "cpL" = (
-/obj/structure/closet/l3closet/janitor,
-/obj/machinery/light/small/directional/east,
-/obj/item/hatchet/wooden,
-/turf/open/floor/iron,
-/area/service/janitor)
+/obj/machinery/light_switch/directional/north,
+/turf/open/floor/iron/textured_corner,
+/area/commons/toilet/auxiliary)
 "cpN" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -12683,13 +12663,7 @@
 /turf/open/floor/iron,
 /area/security/checkpoint/engineering)
 "crb" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = 11
-	},
-/obj/item/reagent_containers/glass/bucket,
-/obj/item/mop,
-/turf/open/floor/iron,
+/turf/open/space/basic,
 /area/service/janitor)
 "cri" = (
 /obj/structure/chair{
@@ -12723,19 +12697,35 @@
 /turf/open/floor/plating,
 /area/hallway/primary/starboard)
 "csb" = (
-/obj/vehicle/ridden/janicart,
-/obj/item/key/janitor,
-/turf/open/floor/iron,
-/area/service/janitor)
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/turf/open/floor/iron/textured_edge,
+/area/commons/toilet/auxiliary)
 "csc" = (
-/obj/structure/janitorialcart,
-/obj/machinery/light/small/directional/south,
-/turf/open/floor/iron,
-/area/service/janitor)
+/obj/effect/turf_decal/caution/stand_clear{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "jangarage";
+	name = "Custodial Closet Shutters"
+	},
+/turf/open/floor/iron/textured_half{
+	dir = 1
+	},
+/area/commons/toilet/auxiliary)
 "csd" = (
-/obj/machinery/portable_atmospherics/canister/water_vapor,
-/turf/open/floor/iron,
-/area/service/janitor)
+/obj/structure/disposalpipe/junction/flip{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/port)
 "csj" = (
 /obj/structure/closet/secure_closet/medical3,
 /obj/item/screwdriver{
@@ -12946,7 +12936,7 @@
 "cuZ" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -13070,10 +13060,13 @@
 /turf/open/floor/carpet/neon/simple/blue/nodots,
 /area/medical/break_room)
 "cwB" = (
-/obj/machinery/light_switch/directional/north,
-/obj/structure/cable/layer1,
+/obj/structure/extinguisher_cabinet/directional/south,
+/obj/machinery/camera{
+	c_tag = "Command Hallway - Port";
+	dir = 1
+	},
 /turf/open/floor/iron,
-/area/command/gateway)
+/area/hallway/secondary/command)
 "cwM" = (
 /obj/machinery/atmospherics/components/trinary/mixer{
 	dir = 1;
@@ -13169,7 +13162,6 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
-/obj/structure/cable/layer1,
 /obj/effect/turf_decal/trimline/blue/filled/warning{
 	dir = 8
 	},
@@ -13269,7 +13261,7 @@
 "cyK" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -13306,7 +13298,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -13343,7 +13335,7 @@
 "czD" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -13567,7 +13559,7 @@
 "cCn" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -13588,7 +13580,7 @@
 /obj/machinery/atmospherics/pipe/layer_manifold/yellow/hidden,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -13631,7 +13623,7 @@
 "cDi" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -13690,7 +13682,7 @@
 /obj/effect/spawner/structure/window/reinforced/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -14006,7 +13998,7 @@
 "cIg" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -14023,7 +14015,7 @@
 /obj/structure/sign/directions/evac,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -14102,7 +14094,7 @@
 "cKD" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -14553,12 +14545,18 @@
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen)
 "cPt" = (
-/obj/structure/tank_dispenser/oxygen{
-	pixel_x = -1;
-	pixel_y = 2
-	},
 /obj/machinery/light/directional/east,
 /obj/item/radio/intercom/directional/east,
+/obj/structure/closet/crate{
+	icon_state = "crateopen"
+	},
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/rglass{
+	amount = 50
+	},
+/obj/item/stack/rods/fifty,
+/obj/item/storage/toolbox/emergency,
+/obj/item/flashlight,
 /turf/open/floor/iron{
 	dir = 1
 	},
@@ -14706,7 +14704,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -14735,7 +14733,7 @@
 "cRi" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -14943,7 +14941,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -15045,7 +15043,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -15428,7 +15426,6 @@
 /turf/open/floor/iron,
 /area/medical/treatment_center)
 "dcK" = (
-/obj/structure/extinguisher_cabinet/directional/south,
 /obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
 /obj/structure/lattice/catwalk/plated,
@@ -15560,7 +15557,7 @@
 /obj/structure/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -15930,8 +15927,25 @@
 /turf/open/space/basic,
 /area/space/nearstation)
 "dkf" = (
-/obj/machinery/airalarm/directional/east,
-/turf/open/floor/iron,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/washing_machine,
+/obj/effect/turf_decal/box/corners,
+/obj/effect/turf_decal/box/corners{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile,
+/obj/effect/turf_decal/tile{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile{
+	dir = 8
+	},
+/turf/open/floor/iron/textured,
 /area/commons/toilet/auxiliary)
 "dkn" = (
 /obj/structure/rack{
@@ -16062,7 +16076,7 @@
 "dmZ" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall,
@@ -16546,7 +16560,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -16557,7 +16571,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/white,
-/area/science/cytology)
+/area/science/xenobiology)
 "dxo" = (
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "MedbayFoyer";
@@ -16647,7 +16661,7 @@
 "dyt" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -17272,7 +17286,7 @@
 /obj/effect/spawner/structure/window/reinforced/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -17418,7 +17432,7 @@
 "dQd" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -18120,11 +18134,9 @@
 "ehQ" = (
 /obj/structure/window/reinforced,
 /obj/structure/table,
-/obj/item/stack/package_wrap,
-/obj/item/stack/package_wrap,
-/obj/item/stack/package_wrap,
-/obj/item/stack/package_wrap,
-/obj/item/hand_labeler,
+/obj/item/hand_tele,
+/obj/item/beacon,
+/obj/machinery/airalarm/directional/west,
 /turf/open/floor/iron/dark,
 /area/command/teleporter)
 "ehT" = (
@@ -18572,7 +18584,7 @@
 /obj/structure/sign/directions/evac,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -19677,7 +19689,7 @@
 /obj/structure/sign/departments/science,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -19735,7 +19747,7 @@
 "eKx" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -19966,11 +19978,8 @@
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "ePG" = (
-/obj/machinery/shower{
-	dir = 8
-	},
-/obj/structure/lattice/catwalk/plated/smooth,
-/obj/effect/landmark/xeno_spawn,
+/obj/structure/janitorialcart,
+/obj/effect/turf_decal/box/corners,
 /turf/open/floor/plating,
 /area/commons/toilet/auxiliary)
 "ePS" = (
@@ -20266,7 +20275,7 @@
 "eUO" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /obj/effect/mapping_helpers/smart_pipe/simple/orange/visible{
@@ -20382,7 +20391,7 @@
 "eWd" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -20568,7 +20577,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -20898,7 +20907,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/cyan/visible,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -21253,7 +21262,7 @@
 /obj/effect/spawner/structure/window/reinforced/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -21947,17 +21956,13 @@
 /turf/open/floor/iron,
 /area/engineering/break_room)
 "fAq" = (
-/obj/structure/chair{
-	dir = 1
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/machinery/door/airlock/command{
+	name = "E.V.A. Storage";
+	req_access_txt = null
 	},
-/obj/structure/extinguisher_cabinet/directional/east,
-/obj/machinery/camera{
-	c_tag = "Command Hallway - Central";
-	dir = 8
-	},
-/obj/effect/landmark/start/assistant,
 /turf/open/floor/iron,
-/area/hallway/secondary/command)
+/area/ai_monitored/command/storage/eva)
 "fBo" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Research Maintenance";
@@ -22146,11 +22151,13 @@
 /turf/open/floor/iron,
 /area/engineering/break_room)
 "fGD" = (
-/obj/machinery/door/airlock/maintenance{
-	req_one_access_txt = "12;17"
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock/command{
+	name = "E.V.A. Storage";
+	req_access_txt = null
 	},
-/turf/open/floor/plating,
-/area/maintenance/central)
+/turf/open/floor/iron,
+/area/ai_monitored/command/storage/eva)
 "fGK" = (
 /obj/machinery/airalarm/directional/west,
 /obj/machinery/light/directional/west,
@@ -22542,7 +22549,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -22550,7 +22557,7 @@
 "fPi" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -22719,7 +22726,7 @@
 "fTu" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -22890,7 +22897,7 @@
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /obj/effect/turf_decal/stripes/line{
@@ -23241,7 +23248,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -23545,13 +23552,20 @@
 /turf/open/floor/iron/white,
 /area/medical/treatment_center)
 "gmm" = (
-/obj/machinery/status_display/evac/directional/west,
-/obj/machinery/camera{
-	c_tag = "Central Primary Hallway - Starboard - Kitchen";
-	dir = 4
+/obj/effect/mapping_helpers/paint_wall{
+	name = "Paint Wall Helper - COM";
+	stripe_paint = "#004B8F";
+	wall_paint = "#4D4D4D"
 	},
-/turf/open/floor/iron,
-/area/hallway/primary/central)
+/obj/structure/sign/directions/science{
+	pixel_y = -8
+	},
+/obj/structure/sign/directions/evac,
+/obj/structure/sign/directions/medical{
+	pixel_y = 8
+	},
+/turf/closed/wall/r_wall,
+/area/ai_monitored/command/storage/eva)
 "gmq" = (
 /obj/structure/chair{
 	dir = 8;
@@ -23695,7 +23709,7 @@
 /obj/structure/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -23813,11 +23827,14 @@
 /turf/open/floor/iron/dark,
 /area/security/office)
 "grN" = (
-/obj/structure/closet/secure_closet/exile,
 /obj/structure/extinguisher_cabinet/directional/west,
-/turf/open/floor/iron{
-	dir = 1
+/obj/structure/sign/warning/securearea,
+/obj/effect/mapping_helpers/paint_wall{
+	name = "Paint Wall Helper - COM";
+	stripe_paint = "#004B8F";
+	wall_paint = "#4D4D4D"
 	},
+/turf/closed/wall/r_wall,
 /area/command/gateway)
 "gsa" = (
 /obj/structure/sign/poster/official/random{
@@ -23877,7 +23894,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -24133,7 +24150,7 @@
 /obj/structure/sign/warning/biohazard,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -24295,7 +24312,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -24550,7 +24567,7 @@
 "gHK" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -24866,7 +24883,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/orange/visible,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -25330,7 +25347,7 @@
 /obj/structure/sign/warning/biohazard,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -25434,6 +25451,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
 /obj/structure/cable/layer1,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/maintenance/port)
 "heK" = (
@@ -25600,8 +25618,9 @@
 /turf/open/floor/iron,
 /area/science/mixing)
 "hir" = (
-/obj/machinery/firealarm/directional/east,
-/turf/open/floor/iron,
+/mob/living/simple_animal/hostile/lizard/wags_his_tail,
+/obj/effect/turf_decal/siding/white,
+/turf/open/floor/iron/textured,
 /area/commons/toilet/auxiliary)
 "hiu" = (
 /obj/structure/disposalpipe/segment{
@@ -25901,9 +25920,8 @@
 /turf/open/floor/plating,
 /area/cargo/warehouse)
 "hoC" = (
-/obj/machinery/vending/cigarette,
 /obj/machinery/newscaster/directional/south,
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron,
 /area/hallway/secondary/command)
 "hoX" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/cyan/visible,
@@ -26247,7 +26265,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /obj/effect/mapping_helpers/smart_pipe/simple/orange/visible{
@@ -26282,7 +26300,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -26874,14 +26892,17 @@
 /turf/open/floor/carpet/black,
 /area/service/chapel/main)
 "hJF" = (
-/obj/structure/closet/crate,
-/obj/item/stack/sheet/rglass{
-	amount = 50
-	},
-/obj/item/stack/sheet/iron/fifty,
-/obj/item/storage/toolbox/emergency,
-/obj/item/flashlight,
 /obj/structure/window/reinforced,
+/obj/structure/table,
+/obj/machinery/cell_charger,
+/obj/item/stock_parts/cell/high{
+	charge = 100;
+	maxcharge = 15000
+	},
+/obj/structure/cable/multilayer{
+	cable_layer = 1
+	},
+/obj/machinery/power/apc/auto_name/east,
 /turf/open/floor/iron/dark,
 /area/command/teleporter)
 "hJP" = (
@@ -27703,7 +27724,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -27884,7 +27905,7 @@
 "ihQ" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -27957,7 +27978,7 @@
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /obj/effect/turf_decal/stripes/line,
@@ -28124,9 +28145,6 @@
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "iny" = (
-/obj/structure/chair{
-	dir = 1
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
@@ -28198,7 +28216,7 @@
 /obj/structure/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -28402,6 +28420,20 @@
 	},
 /turf/open/floor/iron/white,
 /area/science/research)
+"isR" = (
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/structure/cable{
+	name = "high voltage power cable"
+	},
+/obj/structure/cable/layer1,
+/obj/structure/lattice/catwalk/plated,
+/turf/open/floor/plating,
+/area/science/xenobiology)
 "isX" = (
 /obj/structure/window/reinforced,
 /obj/machinery/light/small/directional/south,
@@ -28992,7 +29024,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -29362,7 +29394,7 @@
 /obj/effect/spawner/structure/window/reinforced/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -29481,6 +29513,10 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/structure/cable/layer1,
+/obj/machinery/door/airlock/command{
+	name = "Teleport Access";
+	req_one_access_txt = "17;19"
+	},
 /turf/open/floor/iron/dark,
 /area/command/teleporter)
 "iTg" = (
@@ -29723,9 +29759,10 @@
 /turf/open/floor/wood,
 /area/service/lawoffice)
 "iZy" = (
-/obj/machinery/firealarm/directional/west,
+/obj/machinery/light/directional/north,
+/obj/machinery/light_switch/directional/north,
 /turf/open/floor/iron,
-/area/hallway/primary/central)
+/area/command/teleporter)
 "iZN" = (
 /obj/machinery/light/directional/east,
 /obj/machinery/status_display/ai/directional/east,
@@ -29948,7 +29985,7 @@
 /obj/effect/spawner/structure/window/reinforced/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -29991,7 +30028,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -30321,7 +30358,7 @@
 "jmf" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall,
@@ -30374,7 +30411,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -30439,7 +30476,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /obj/effect/mapping_helpers/smart_pipe/simple/orange/visible{
@@ -30595,7 +30632,7 @@
 /obj/effect/spawner/structure/window/reinforced/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -30926,7 +30963,7 @@
 /obj/structure/sign/warning/explosives,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -31429,7 +31466,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -31514,7 +31551,7 @@
 "jMk" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -31546,7 +31583,7 @@
 /obj/structure/cable/layer1,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/engine,
@@ -32136,7 +32173,7 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/yellow/hidden,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -32189,7 +32226,7 @@
 /obj/structure/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -32197,7 +32234,7 @@
 "kbv" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -32653,16 +32690,9 @@
 /turf/closed/wall/r_wall,
 /area/medical/morgue)
 "kmu" = (
-/obj/structure/table,
-/obj/machinery/cell_charger,
-/obj/item/stock_parts/cell/high{
-	charge = 100;
-	maxcharge = 15000
-	},
-/obj/machinery/light/directional/north,
-/obj/machinery/light_switch/directional/north,
-/turf/open/floor/iron/dark,
-/area/command/teleporter)
+/obj/structure/closet/secure_closet/exile,
+/turf/open/floor/iron,
+/area/command/gateway)
 "kmw" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/plating,
@@ -32697,13 +32727,9 @@
 /turf/open/floor/iron,
 /area/cargo/miningoffice)
 "knj" = (
-/obj/machinery/door/airlock/command{
-	name = "E.V.A. Storage";
-	req_access_txt = null
-	},
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
-/area/ai_monitored/command/storage/eva)
+/area/hallway/secondary/command)
 "kny" = (
 /obj/structure/table,
 /obj/item/storage/box/bodybags,
@@ -32948,7 +32974,7 @@
 "kuD" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -33331,7 +33357,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/orange/visible,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -33421,7 +33447,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -33620,7 +33646,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -33929,7 +33955,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/white,
-/area/science/cytology)
+/area/science/xenobiology)
 "kQb" = (
 /obj/structure/cable/layer1,
 /turf/open/floor/iron/dark,
@@ -34079,7 +34105,7 @@
 "kTW" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -34645,7 +34671,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -34697,7 +34723,7 @@
 "lhW" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall,
@@ -35496,7 +35522,11 @@
 /turf/open/floor/wood,
 /area/maintenance/port)
 "lzU" = (
-/turf/open/floor/iron,
+/obj/vehicle/ridden/janicart,
+/obj/effect/turf_decal/box/corners{
+	dir = 4
+	},
+/turf/open/floor/plating,
 /area/commons/toilet/auxiliary)
 "lAu" = (
 /turf/open/space/basic,
@@ -35674,18 +35704,6 @@
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /turf/open/floor/iron/dark,
 /area/engineering/atmos)
-"lFH" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/obj/structure/lattice/catwalk/plated,
-/obj/structure/cable/layer1,
-/obj/structure/disposalpipe/segment,
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
-/obj/machinery/door/firedoor/border_only,
-/turf/open/floor/plating,
-/area/hallway/primary/central)
 "lGf" = (
 /obj/effect/turf_decal/trimline/white/filled/line{
 	color = "#FF8800";
@@ -36046,7 +36064,7 @@
 "lPc" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall,
@@ -36654,7 +36672,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/engine,
@@ -36790,7 +36808,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -36946,7 +36964,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -37241,7 +37259,7 @@
 "mqB" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -37604,7 +37622,7 @@
 /obj/structure/sign/warning/biohazard,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -37631,7 +37649,7 @@
 "mvS" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall,
@@ -37754,18 +37772,12 @@
 /turf/open/floor/wood/tile,
 /area/command/heads_quarters/rd)
 "mza" = (
-/obj/structure/closet/crate,
-/obj/item/stack/cable_coil,
-/obj/item/crowbar,
-/obj/item/screwdriver{
-	pixel_y = 16
+/obj/machinery/vending/coffee,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
 	},
-/obj/machinery/power/apc/auto_name/east,
-/obj/structure/cable/multilayer{
-	cable_layer = 1
-	},
-/turf/open/floor/iron/dark,
-/area/command/teleporter)
+/turf/open/floor/wood/large,
+/area/hallway/primary/central)
 "mzg" = (
 /obj/machinery/light/directional/west,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
@@ -38077,9 +38089,6 @@
 /turf/open/floor/iron/grimy,
 /area/service/chapel/office)
 "mEG" = (
-/obj/structure/chair{
-	dir = 1
-	},
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
@@ -38227,7 +38236,7 @@
 /obj/effect/spawner/structure/window,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -38434,10 +38443,24 @@
 /turf/open/floor/iron,
 /area/cargo/sorting)
 "mLT" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+/obj/machinery/washing_machine,
+/obj/effect/turf_decal/box/corners{
+	dir = 4
+	},
+/obj/effect/turf_decal/box/corners{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile,
+/obj/effect/turf_decal/tile{
 	dir = 8
 	},
-/turf/open/floor/iron,
+/turf/open/floor/iron/textured,
 /area/commons/toilet/auxiliary)
 "mML" = (
 /obj/structure/cable/layer1,
@@ -39114,15 +39137,14 @@
 /turf/open/floor/iron/dark,
 /area/security/brig)
 "nbv" = (
-/obj/machinery/camera{
-	c_tag = "Custodial Closet";
+/obj/structure/sink/directional/north,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/turf/open/floor/iron/textured_corner{
 	dir = 4
 	},
-/obj/machinery/light_switch/directional/west,
-/obj/machinery/disposal/bin,
-/obj/structure/disposalpipe/trunk,
-/turf/open/floor/iron,
-/area/service/janitor)
+/area/commons/toilet/auxiliary)
 "nbF" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -39414,7 +39436,7 @@
 /obj/effect/spawner/structure/window/reinforced/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -39485,9 +39507,15 @@
 /area/science/mixing)
 "njw" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/structure/cable/layer1,
-/turf/open/floor/iron,
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/turf/open/floor/iron/textured,
 /area/commons/toilet/auxiliary)
 "njH" = (
 /obj/structure/chair/office{
@@ -39801,7 +39829,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -40470,14 +40498,12 @@
 /turf/open/floor/iron,
 /area/command/heads_quarters/ce)
 "nAK" = (
-/obj/effect/spawner/structure/window/reinforced/grille,
-/obj/effect/mapping_helpers/paint_wall{
-	name = "Paint Wall Helper - COM";
-	stripe_paint = "#004B8F";
-	wall_paint = "#4D4D4D"
+/obj/effect/spawner/randomsnackvend,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
 	},
-/turf/open/floor/plating,
-/area/command/teleporter)
+/turf/open/floor/wood/large,
+/area/hallway/primary/central)
 "nAM" = (
 /obj/item/phone{
 	desc = "Supposedly a direct line to Nanotrasen Central Command. It's not even plugged in.";
@@ -40692,7 +40718,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/orange/visible,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -40791,7 +40817,7 @@
 /obj/structure/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -40829,8 +40855,9 @@
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen)
 "nIm" = (
-/obj/structure/mirror/directional/east,
-/turf/open/floor/iron,
+/obj/structure/chair/stool/directional/south,
+/obj/effect/landmark/start/janitor,
+/turf/open/floor/iron/textured,
 /area/commons/toilet/auxiliary)
 "nID" = (
 /obj/machinery/door/airlock/maintenance{
@@ -40895,7 +40922,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -41218,7 +41245,7 @@
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -41367,6 +41394,8 @@
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/structure/cable/layer1,
+/obj/structure/cable/layer1,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/commons/toilet/auxiliary)
 "nUi" = (
@@ -41784,14 +41813,12 @@
 /turf/open/floor/iron/dark,
 /area/security/office)
 "odI" = (
-/obj/machinery/door/airlock/command{
-	name = "Teleport Access";
-	req_one_access_txt = "17;19"
+/obj/machinery/firealarm/directional/west,
+/obj/structure/chair/sofa/bench/left{
+	dir = 4
 	},
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/iron,
-/area/command/teleporter)
+/turf/open/floor/wood/large,
+/area/hallway/primary/central)
 "odO" = (
 /obj/machinery/power/apc/auto_name/south,
 /obj/structure/cable/multilayer{
@@ -42100,7 +42127,7 @@
 "oma" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -42254,7 +42281,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -42287,7 +42314,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/dark/visible,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -42631,24 +42658,8 @@
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/ai_upload)
 "ouz" = (
-/obj/machinery/light/directional/south,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/structure/lattice/catwalk/plated,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/turf/open/floor/plating,
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/iron,
 /area/hallway/secondary/command)
 "ouL" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
@@ -42658,7 +42669,7 @@
 /obj/effect/spawner/structure/window/reinforced/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -42921,11 +42932,14 @@
 /turf/open/floor/iron/dark,
 /area/command/gateway)
 "ozv" = (
-/obj/machinery/light/small/directional/west,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
 /obj/structure/cable/layer1,
-/turf/open/floor/iron,
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/textured_edge,
 /area/commons/toilet/auxiliary)
 "ozy" = (
 /obj/structure/chair{
@@ -43758,7 +43772,7 @@
 	color = "#660099"
 	},
 /turf/open/floor/iron/white,
-/area/science/cytology)
+/area/science/xenobiology)
 "oRD" = (
 /obj/machinery/vending/coffee,
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -43819,7 +43833,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -43842,6 +43856,11 @@
 /obj/structure/lattice/catwalk/plated,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
+	},
+/obj/machinery/requests_console/directional/east{
+	department = "Xenobiology";
+	name = "Xenobiology Requests Console";
+	receive_ore_updates = 1
 	},
 /turf/open/floor/plating,
 /area/science/xenobiology)
@@ -44735,11 +44754,7 @@
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
 "plV" = (
-/obj/machinery/door/airlock{
-	id_tag = "AuxToilet1";
-	name = "Unit 1"
-	},
-/turf/open/floor/iron,
+/turf/open/floor/iron/textured,
 /area/commons/toilet/auxiliary)
 "plZ" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
@@ -45191,7 +45206,7 @@
 "pud" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -45557,23 +45572,14 @@
 /turf/open/floor/iron/dark,
 /area/security/brig)
 "pBO" = (
-/obj/structure/closet/crate{
-	icon_state = "crateopen"
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/structure/cable/layer1,
+/obj/machinery/door/airlock/command{
+	name = "Gateway Atrium";
+	req_access_txt = "62"
 	},
-/obj/item/stack/sheet/rglass{
-	amount = 50
-	},
-/obj/item/stack/sheet/iron/fifty,
-/obj/item/stack/rods/fifty,
-/obj/item/storage/toolbox/emergency,
-/obj/item/flashlight,
-/obj/machinery/power/apc/auto_name/east,
-/obj/structure/cable/multilayer{
-	cable_layer = 1
-	},
-/turf/open/floor/iron{
-	dir = 1
-	},
+/turf/open/floor/iron,
 /area/command/gateway)
 "pCr" = (
 /obj/machinery/camera/autoname{
@@ -46033,7 +46039,7 @@
 /obj/structure/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -46074,7 +46080,7 @@
 /obj/effect/spawner/structure/window/reinforced/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -46306,13 +46312,9 @@
 /turf/open/floor/carpet/black,
 /area/commons/dorms)
 "pRc" = (
-/obj/structure/chair{
-	dir = 1
-	},
-/obj/machinery/firealarm/directional/west,
-/obj/effect/landmark/start/assistant,
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron,
-/area/hallway/secondary/command)
+/area/hallway/primary/central)
 "pRj" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
@@ -46644,7 +46646,7 @@
 /obj/effect/spawner/structure/window/reinforced/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -46753,12 +46755,10 @@
 /turf/open/floor/iron,
 /area/security/range)
 "qbi" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Gateway Maintenance";
-	req_access_txt = "17"
-	},
-/turf/open/floor/plating,
-/area/maintenance/central)
+/obj/item/radio/intercom/directional/west,
+/obj/machinery/vending/cigarette,
+/turf/open/floor/wood/large,
+/area/hallway/primary/central)
 "qbk" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -46931,7 +46931,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -47509,7 +47509,7 @@
 /obj/effect/spawner/structure/window/reinforced/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/iron/dark,
@@ -48107,7 +48107,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -48383,7 +48383,7 @@
 /obj/structure/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -48413,7 +48413,7 @@
 	},
 /obj/machinery/chem_master,
 /turf/open/floor/iron,
-/area/science/cytology)
+/area/science/xenobiology)
 "qMP" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -48812,7 +48812,7 @@
 "qVu" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -48837,15 +48837,13 @@
 /turf/open/floor/plating,
 /area/maintenance/port)
 "qWe" = (
+/obj/structure/cable/layer1,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 6
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/siding/white{
+	dir = 4
 	},
-/obj/machinery/power/apc/auto_name/west,
-/obj/structure/cable/multilayer{
-	cable_layer = 1
-	},
-/turf/open/floor/iron,
+/turf/open/floor/iron/textured,
 /area/commons/toilet/auxiliary)
 "qWn" = (
 /obj/effect/turf_decal/siding/wood{
@@ -48865,8 +48863,8 @@
 /turf/open/floor/iron/white/side,
 /area/hallway/primary/central)
 "qWC" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/iron,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron/textured,
 /area/commons/toilet/auxiliary)
 "qWF" = (
 /obj/structure/bed/roller,
@@ -49153,7 +49151,7 @@
 /obj/effect/spawner/structure/window/reinforced/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -49376,7 +49374,7 @@
 "rhT" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -49620,7 +49618,7 @@
 /obj/structure/sign/warning/securearea,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -49666,7 +49664,7 @@
 "rqf" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall,
@@ -49855,11 +49853,6 @@
 	c_tag = "E.V.A. Storage";
 	dir = 8
 	},
-/obj/machinery/requests_console/directional/east{
-	department = "EVA";
-	name = "EVA Requests Console"
-	},
-/obj/machinery/light/directional/east,
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/effect/turf_decal/trimline/blue/filled/warning{
 	dir = 4
@@ -49900,7 +49893,7 @@
 "rur" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall,
@@ -50176,7 +50169,7 @@
 /obj/effect/spawner/structure/window/reinforced/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -50244,7 +50237,7 @@
 "rzR" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -50719,7 +50712,7 @@
 /obj/structure/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -51529,12 +51522,13 @@
 /turf/open/floor/plating,
 /area/hallway/primary/port)
 "rYC" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
+/obj/structure/closet/l3closet/janitor,
+/obj/item/hatchet/wooden,
+/obj/item/lightreplacer,
+/turf/open/floor/iron/textured_edge{
+	dir = 4
 	},
-/obj/effect/landmark/start/janitor,
-/turf/open/floor/iron,
-/area/service/janitor)
+/area/commons/toilet/auxiliary)
 "rZM" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /obj/structure/lattice/catwalk/plated,
@@ -51657,7 +51651,7 @@
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -51867,12 +51861,9 @@
 /turf/open/floor/carpet/executive,
 /area/command/meeting_room)
 "sih" = (
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
-/obj/machinery/door/firedoor/border_only,
+/obj/structure/extinguisher_cabinet/directional/south,
 /turf/open/floor/iron,
-/area/hallway/primary/central)
+/area/hallway/secondary/command)
 "sip" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/visible{
@@ -51880,7 +51871,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/engine,
@@ -52289,19 +52280,11 @@
 /turf/open/floor/wood,
 /area/service/library)
 "ssb" = (
-/obj/structure/toilet{
-	pixel_y = 8
+/obj/machinery/vending/wardrobe/jani_wardrobe,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/iron/textured_corner{
+	dir = 8
 	},
-/obj/machinery/light/small/directional/east,
-/obj/machinery/newscaster/directional/south,
-/obj/machinery/button/door/directional/east{
-	id = "AuxToilet1";
-	name = "Lock Control";
-	normaldoorcontrol = 1;
-	specialfunctions = 4
-	},
-/obj/effect/landmark/xeno_spawn,
-/turf/open/floor/iron,
 /area/commons/toilet/auxiliary)
 "ssm" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
@@ -52625,7 +52608,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -52720,18 +52703,13 @@
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
 "sEb" = (
-/obj/machinery/light/directional/south,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+/obj/effect/landmark/start/assistant,
+/obj/structure/extinguisher_cabinet/directional/east,
+/obj/machinery/camera{
+	c_tag = "Command Hallway - Central";
 	dir = 8
 	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/structure/lattice/catwalk/plated,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/plating,
+/turf/open/floor/iron,
 /area/hallway/secondary/command)
 "sEe" = (
 /obj/structure/cable{
@@ -53115,14 +53093,12 @@
 /turf/open/floor/iron/dark,
 /area/medical/storage)
 "sPU" = (
-/obj/machinery/newscaster/directional/south,
-/obj/effect/mapping_helpers/smart_pipe/manifold/supply/hidden/layer4,
-/obj/effect/mapping_helpers/smart_pipe/manifold/scrubbers/hidden/layer2,
-/obj/structure/lattice/catwalk/plated,
-/obj/structure/disposalpipe/segment{
-	dir = 4
+/obj/structure/chair{
+	dir = 1
 	},
-/turf/open/floor/plating,
+/obj/effect/landmark/start/assistant,
+/obj/machinery/firealarm/directional/west,
+/turf/open/floor/iron,
 /area/hallway/secondary/command)
 "sQi" = (
 /obj/structure/table/reinforced,
@@ -53154,7 +53130,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -53253,7 +53229,7 @@
 /obj/structure/sign/warning/nosmoking,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall,
@@ -53502,7 +53478,7 @@
 "sWd" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /obj/effect/mapping_helpers/smart_pipe/manifold/yellow/hidden{
@@ -53603,7 +53579,7 @@
 "sXn" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall,
@@ -53778,7 +53754,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -54102,7 +54078,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -54320,7 +54296,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -54604,7 +54580,7 @@
 "tpX" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -55299,7 +55275,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/engine,
@@ -55677,7 +55653,7 @@
 /obj/structure/sign/warning/electricshock,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/engine,
@@ -55846,7 +55822,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/white,
-/area/science/cytology)
+/area/science/xenobiology)
 "tOX" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -56284,7 +56260,7 @@
 /turf/open/floor/iron,
 /area/hallway/primary/port)
 "tYa" = (
-/obj/machinery/light/directional/east,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/hallway/primary/port)
 "tYm" = (
@@ -56476,20 +56452,10 @@
 /turf/open/floor/iron/white,
 /area/science/xenobiology)
 "ube" = (
-/obj/structure/sign/directions/science{
-	pixel_y = -8
-	},
-/obj/structure/sign/directions/medical{
-	pixel_y = 8
-	},
-/obj/structure/sign/directions/evac,
-/obj/effect/mapping_helpers/paint_wall{
-	name = "Paint Wall Helper - COM";
-	stripe_paint = "#004B8F";
-	wall_paint = "#4D4D4D"
-	},
-/turf/closed/wall/r_wall,
-/area/ai_monitored/command/storage/eva)
+/obj/structure/cable/layer1,
+/obj/machinery/light_switch/directional/north,
+/turf/open/floor/iron,
+/area/command/gateway)
 "ubm" = (
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/iron/dark,
@@ -56714,7 +56680,7 @@
 /obj/effect/spawner/structure/window/reinforced/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -56897,13 +56863,9 @@
 /turf/closed/wall,
 /area/service/cafeteria)
 "ulr" = (
-/obj/machinery/door/airlock/command{
-	name = "E.V.A. Storage";
-	req_access_txt = null
-	},
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
 /turf/open/floor/iron,
-/area/ai_monitored/command/storage/eva)
+/area/hallway/secondary/command)
 "ulx" = (
 /obj/machinery/camera{
 	c_tag = "Engineering - Desk";
@@ -56959,21 +56921,11 @@
 /turf/open/floor/iron/dark,
 /area/ai_monitored/aisat/exterior)
 "unk" = (
-/obj/structure/rack,
-/obj/item/clothing/shoes/magboots{
-	pixel_x = -4;
-	pixel_y = 3
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
 	},
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/shoes/magboots{
-	pixel_x = 4;
-	pixel_y = -3
-	},
-/obj/effect/turf_decal/box/white{
-	color = "#52B4E9"
-	},
-/turf/open/floor/iron/dark,
-/area/ai_monitored/command/storage/eva)
+/turf/open/floor/wood/large,
+/area/hallway/primary/central)
 "unm" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -57023,7 +56975,7 @@
 "uoo" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall,
@@ -57202,12 +57154,17 @@
 /turf/open/floor/carpet/neon/simple/purple/nodots,
 /area/command/heads_quarters/rd)
 "usi" = (
-/obj/structure/table,
-/obj/item/hand_tele,
-/obj/item/beacon,
-/obj/machinery/airalarm/directional/west,
-/turf/open/floor/iron/dark,
-/area/command/teleporter)
+/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
+/obj/structure/lattice/catwalk/plated,
+/obj/structure/cable/layer1,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/hallway/primary/central)
 "usE" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -57369,7 +57326,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -57419,7 +57376,7 @@
 /obj/effect/spawner/structure/window/reinforced/grille,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -57484,7 +57441,7 @@
 "uyS" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /obj/effect/mapping_helpers/smart_pipe/simple/yellow/hidden,
@@ -57559,7 +57516,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/engine,
@@ -57578,7 +57535,7 @@
 /obj/structure/lattice,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -57747,7 +57704,7 @@
 "uDv" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -57872,7 +57829,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -59160,7 +59117,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -59452,7 +59409,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -59632,7 +59589,7 @@
 "vqh" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -59783,7 +59740,7 @@
 /obj/effect/spawner/structure/window,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -60045,7 +60002,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating/airless,
@@ -60139,7 +60096,7 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/cyan/visible,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -60199,7 +60156,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -60249,7 +60206,7 @@
 "vEJ" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -60308,19 +60265,10 @@
 /turf/open/floor/carpet/neon/simple/purple/nodots,
 /area/command/heads_quarters/rd)
 "vFG" = (
-/obj/structure/toilet{
-	pixel_y = 8
+/obj/effect/spawner/lootdrop/gross_decal_spawner,
+/turf/open/floor/iron/textured_corner{
+	dir = 1
 	},
-/obj/machinery/light/small/directional/east,
-/obj/machinery/newscaster/directional/south,
-/obj/machinery/button/door/directional/east{
-	id = "AuxToilet3";
-	name = "Lock Control";
-	normaldoorcontrol = 1;
-	specialfunctions = 4
-	},
-/obj/effect/landmark/xeno_spawn,
-/turf/open/floor/iron,
 /area/commons/toilet/auxiliary)
 "vFN" = (
 /obj/structure/disposalpipe/trunk{
@@ -60561,7 +60509,7 @@
 "vLN" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -60598,6 +60546,10 @@
 "vMn" = (
 /obj/item/radio/intercom/directional/west,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/hallway/primary/central)
 "vMx" = (
@@ -60626,7 +60578,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -60695,7 +60647,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -61120,7 +61072,7 @@
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /obj/effect/turf_decal/stripes/line,
@@ -61311,7 +61263,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -61506,19 +61458,11 @@
 /turf/open/floor/plating,
 /area/commons/toilet/restrooms)
 "wfl" = (
-/obj/structure/toilet{
-	pixel_y = 8
+/obj/structure/bedsheetbin/towel,
+/obj/structure/table,
+/turf/open/floor/iron/textured_edge{
+	dir = 4
 	},
-/obj/machinery/light/small/directional/east,
-/obj/machinery/newscaster/directional/south,
-/obj/machinery/button/door/directional/east{
-	id = "AuxToilet2";
-	name = "Lock Control";
-	normaldoorcontrol = 1;
-	specialfunctions = 4
-	},
-/obj/effect/landmark/xeno_spawn,
-/turf/open/floor/iron,
 /area/commons/toilet/auxiliary)
 "wfr" = (
 /obj/structure/table,
@@ -61583,7 +61527,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -61656,12 +61600,10 @@
 /turf/open/floor/wood/airless,
 /area/maintenance/port)
 "wic" = (
-/obj/machinery/shower{
-	dir = 4
+/obj/structure/reagent_dispensers/watertank,
+/obj/effect/turf_decal/box/corners{
+	dir = 8
 	},
-/obj/machinery/light/small/directional/south,
-/obj/effect/spawner/lootdrop/gross_decal_spawner,
-/obj/structure/lattice/catwalk/plated/smooth,
 /turf/open/floor/plating,
 /area/commons/toilet/auxiliary)
 "wii" = (
@@ -62117,7 +62059,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -62193,7 +62135,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -62336,7 +62278,7 @@
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /obj/effect/turf_decal/stripes/line,
@@ -62391,9 +62333,9 @@
 /turf/open/floor/wood,
 /area/security/office)
 "wxi" = (
-/obj/structure/urinal/directional/west,
-/obj/structure/lattice/catwalk/plated/smooth,
-/turf/open/floor/plating,
+/turf/open/floor/iron/textured_edge{
+	dir = 8
+	},
 /area/commons/toilet/auxiliary)
 "wxm" = (
 /obj/structure/table,
@@ -62517,7 +62459,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/white,
-/area/science/cytology)
+/area/science/xenobiology)
 "wAb" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
@@ -62525,7 +62467,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/engine,
@@ -62627,7 +62569,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/open/floor/plating,
@@ -62706,7 +62648,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -62914,23 +62856,25 @@
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai)
 "wKK" = (
-/obj/structure/extinguisher_cabinet/directional/south,
-/obj/machinery/camera{
-	c_tag = "Command Hallway - Port";
-	dir = 1
+/obj/structure/rack,
+/obj/item/clothing/shoes/magboots{
+	pixel_x = -4;
+	pixel_y = 3
 	},
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/shoes/magboots{
+	pixel_x = 4;
+	pixel_y = -3
 	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
+/obj/effect/turf_decal/box/white{
+	color = "#52B4E9"
 	},
-/obj/structure/lattice/catwalk/plated,
-/obj/structure/disposalpipe/segment{
-	dir = 4
+/obj/machinery/requests_console/directional/east{
+	department = "EVA";
+	name = "EVA Requests Console"
 	},
-/turf/open/floor/plating,
-/area/hallway/secondary/command)
+/turf/open/floor/iron/dark,
+/area/ai_monitored/command/storage/eva)
 "wKM" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -62989,7 +62933,7 @@
 "wMj" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -63184,7 +63128,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -63197,7 +63141,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /obj/effect/mapping_helpers/smart_pipe/manifold/yellow/hidden{
@@ -63247,7 +63191,7 @@
 "wQA" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall/r_wall,
@@ -63324,11 +63268,32 @@
 /turf/open/floor/iron/white,
 /area/medical/chemistry)
 "wSC" = (
-/obj/machinery/vending/cigarette,
-/obj/structure/sign/poster/official/random{
-	pixel_x = 32
+/obj/structure/table,
+/obj/item/storage/box/lights/mixed{
+	pixel_x = 6;
+	pixel_y = 8
 	},
-/turf/open/floor/iron,
+/obj/item/storage/box/lights/mixed{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/spray/cleaner,
+/obj/item/grenade/chem_grenade/cleaner{
+	pixel_x = -7;
+	pixel_y = 12
+	},
+/obj/item/grenade/chem_grenade/cleaner{
+	pixel_x = -7;
+	pixel_y = 12
+	},
+/obj/item/grenade/chem_grenade/cleaner{
+	pixel_x = -7;
+	pixel_y = 12
+	},
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/iron/textured_corner{
+	dir = 8
+	},
 /area/commons/toilet/auxiliary)
 "wTs" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
@@ -63663,7 +63628,7 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/junction,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/engine,
@@ -63914,7 +63879,7 @@
 /obj/structure/sign/departments/science,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -63988,7 +63953,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -64119,7 +64084,7 @@
 	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = "#00A9FF";
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -64639,7 +64604,7 @@
 "xuu" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -64773,7 +64738,7 @@
 /obj/structure/sign/warning/securearea,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -64936,9 +64901,6 @@
 /turf/open/floor/iron,
 /area/hallway/primary/central)
 "xAk" = (
-/obj/structure/chair{
-	dir = 1
-	},
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
@@ -65165,18 +65127,13 @@
 /area/hallway/primary/central)
 "xEX" = (
 /obj/machinery/light/directional/south,
-/obj/machinery/firealarm/directional/south,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/structure/lattice/catwalk/plated,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/plating,
+/turf/open/floor/iron,
 /area/hallway/secondary/command)
 "xFj" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -65283,7 +65240,7 @@
 "xII" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
@@ -65458,7 +65415,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ENG";
-	stripe_paint = "#FF8800";
+	stripe_paint = "#db7d14";
 	wall_paint = "#4D4D4D"
 	},
 /turf/open/floor/plating,
@@ -65682,7 +65639,9 @@
 /area/engineering/main)
 "xPw" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/turf/open/floor/iron,
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/siding/white/corner,
+/turf/open/floor/iron/textured,
 /area/commons/toilet/auxiliary)
 "xPF" = (
 /obj/effect/spawner/structure/window,
@@ -66396,7 +66355,7 @@
 "yeb" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - SCI";
-	stripe_paint = "#660099";
+	stripe_paint = "#6F1B99";
 	wall_paint = "#FFFFFF"
 	},
 /turf/closed/wall,
@@ -66425,6 +66384,10 @@
 	pixel_x = 3;
 	pixel_y = -3
 	},
+/obj/structure/cable/multilayer{
+	cable_layer = 1
+	},
+/obj/machinery/power/apc/auto_name/north,
 /turf/open/floor/iron{
 	dir = 1
 	},
@@ -81508,7 +81471,7 @@ alK
 alK
 bfr
 orP
-aob
+bLe
 rvQ
 aob
 ygq
@@ -82781,7 +82744,7 @@ tXK
 tXK
 aKk
 tXK
-tXK
+bJr
 tXK
 tXK
 mwd
@@ -83039,8 +83002,8 @@ tXK
 mwd
 aLJ
 mwd
-mwd
-mwd
+csc
+csc
 mwd
 lzU
 ePG
@@ -83292,15 +83255,15 @@ tXK
 dyb
 aUE
 nmf
-tXK
+nJQ
 mwd
-aLZ
+cpL
 biu
 wxi
 wxi
-mwd
+bJy
 aUK
-mwd
+nbv
 mwd
 fqy
 php
@@ -83553,14 +83516,14 @@ tYa
 mwd
 aLZ
 qWC
-xPw
+cov
 xPw
 qWe
 njw
 ozv
 nUc
 heu
-php
+csd
 wvf
 aob
 nEZ
@@ -83808,13 +83771,13 @@ kbK
 qaR
 baE
 mwd
-lzU
+bLI
 nIm
-lzU
+plV
 hir
 mLT
 dkf
-lzU
+csb
 mwd
 lnT
 php
@@ -84066,11 +84029,11 @@ tXK
 bua
 mwd
 wSC
-mwd
+cpK
 plV
-mwd
+bHj
 aTe
-mwd
+bLf
 aXr
 mwd
 lnT
@@ -84325,9 +84288,9 @@ mwd
 mwd
 mwd
 ssb
-mwd
+rYC
 wfl
-mwd
+cou
 vFG
 mwd
 lnT
@@ -89210,7 +89173,7 @@ lWQ
 xVl
 rdX
 gZo
-sGZ
+tUs
 vMn
 osO
 tUs
@@ -89467,8 +89430,8 @@ nkq
 rZM
 bTE
 bEB
-sfT
 gXI
+sfT
 fMG
 hHY
 gXI
@@ -89724,8 +89687,8 @@ bGw
 tUs
 tUs
 rNn
-pMp
 xVl
+pMp
 mbN
 dWz
 mqy
@@ -89981,8 +89944,8 @@ bzJ
 bBy
 uBX
 kkN
-ube
-tOh
+uBX
+gmm
 tOh
 tOh
 tOh
@@ -90238,11 +90201,11 @@ bzK
 osW
 qNt
 bGI
+qNt
 tOh
 kJC
 stp
 uUR
-axA
 myG
 stp
 uMU
@@ -90496,7 +90459,7 @@ bBC
 qNt
 wwU
 knj
-hVm
+fGD
 hVm
 cxy
 sIE
@@ -90752,8 +90715,8 @@ nUy
 bBz
 uxR
 bGI
+qNt
 kpf
-qLI
 jIg
 qLI
 rIL
@@ -91010,7 +90973,7 @@ osW
 qNt
 woy
 ulr
-fyg
+fAq
 fyg
 fyg
 rtd
@@ -91265,12 +91228,12 @@ nxX
 ida
 osW
 qNt
-sEb
+bGI
+bKb
 tOh
 hfe
 dNS
-unk
-yfL
+wKK
 ipW
 stp
 jOr
@@ -91522,9 +91485,9 @@ dNC
 pyp
 osW
 qNt
-wKK
+bGI
+cwB
 tOh
-yfL
 yfL
 yfL
 yfL
@@ -91780,8 +91743,8 @@ veJ
 tJn
 qNt
 bGI
+qNt
 hzu
-usi
 ehQ
 hXy
 gSm
@@ -92037,9 +92000,9 @@ nnN
 bzR
 qNt
 bGI
+qNt
 hzu
-kmu
-yaX
+iZy
 qJl
 gVP
 yaX
@@ -92294,7 +92257,7 @@ bzR
 bBD
 qNt
 bEQ
-odI
+ntr
 iSH
 wMk
 tJs
@@ -92551,8 +92514,8 @@ pHR
 kal
 qNt
 bGI
+qNt
 qwJ
-mza
 hJF
 fKI
 hYh
@@ -92807,10 +92770,10 @@ qxc
 dMM
 fgv
 ntr
-sPU
+dcK
+hoC
 hzu
 hzu
-nAK
 hzu
 hzu
 rTb
@@ -93065,8 +93028,8 @@ avT
 qcR
 hhM
 bGI
+qNt
 osW
-aaf
 aaf
 sxQ
 vDF
@@ -93321,9 +93284,9 @@ vlE
 qKp
 qcR
 kzv
-ouz
+aUb
+xEX
 bzR
-osW
 osW
 lLe
 eMC
@@ -93579,8 +93542,8 @@ shN
 qZK
 qNt
 bGI
-pRc
-bGH
+qNt
+sPU
 bGH
 sxQ
 sWz
@@ -93836,7 +93799,7 @@ njk
 jcC
 qNt
 bGI
-bGH
+qNt
 heq
 bGH
 lLe
@@ -94609,7 +94572,7 @@ qNt
 bGI
 qNt
 mEG
-bGH
+aFC
 lLe
 eqO
 hvD
@@ -94864,9 +94827,9 @@ hny
 jcC
 qNt
 bGI
-bGH
+qNt
 iny
-bGH
+aFC
 lLe
 pSg
 soZ
@@ -95121,9 +95084,9 @@ tmp
 qZK
 qNt
 bGI
-fAq
-bGH
-bGH
+qNt
+sEb
+aFC
 sxQ
 tQv
 pGf
@@ -95377,9 +95340,9 @@ dOi
 mds
 qcR
 xld
-ouz
+aUb
+xEX
 bzR
-osW
 osW
 lLe
 rLA
@@ -95635,8 +95598,8 @@ avT
 qcR
 eVi
 bGI
+qNt
 osW
-aaf
 aaf
 sxQ
 gag
@@ -95891,8 +95854,8 @@ xoj
 pYh
 wvE
 paV
-sPU
-iLp
+dcK
+hoC
 iLp
 tZe
 iLp
@@ -96149,7 +96112,7 @@ apB
 ghX
 sIL
 bGI
-tKL
+qNt
 grN
 iMl
 lYt
@@ -96406,8 +96369,8 @@ hbO
 mzv
 pEX
 bEQ
-aFC
-nmB
+ntr
+pBO
 nmB
 jrL
 nmB
@@ -96663,9 +96626,9 @@ grF
 hbO
 pEX
 bGI
+qNt
 iLp
-cwB
-paP
+ube
 tyG
 paP
 ycR
@@ -96920,12 +96883,12 @@ iBA
 sZA
 gEe
 dcK
+sih
 iLp
-pBO
 yet
 jwV
 cPt
-paP
+kmu
 nJD
 heK
 iLp
@@ -97176,8 +97139,8 @@ wJf
 kID
 hbO
 rlW
-xEX
-iLp
+bGI
+ouz
 iLp
 tZe
 tZe
@@ -97434,7 +97397,7 @@ dtG
 hbO
 pEX
 bGI
-bzK
+bKb
 iLp
 hXo
 lAO
@@ -97948,7 +97911,7 @@ yeX
 hbO
 lul
 bGI
-bGS
+qNt
 iLp
 kLD
 lAO
@@ -97986,7 +97949,7 @@ efS
 ekD
 ekW
 erw
-jmX
+axA
 xzs
 fkA
 heZ
@@ -98205,13 +98168,13 @@ hbO
 hbO
 pEX
 bGI
+qNt
 iLp
 iLp
 iLp
 iLp
 iLp
 iLp
-qbi
 iLp
 tKL
 pUB
@@ -98462,16 +98425,16 @@ wwK
 xLy
 pEX
 bGI
-fGD
-wwK
-bKb
+qNt
+aRX
+aRX
 bLG
-wwK
+odI
 bON
-wwK
-wwK
-fGD
-xVl
+qbi
+aRX
+aRX
+pRc
 wmg
 awK
 bSS
@@ -98719,14 +98682,14 @@ abp
 bBP
 pbH
 aUb
-bGU
-aRX
-aRX
-aRX
-aRX
-aRX
-aRX
-aRX
+uBX
+bGS
+nAK
+unk
+unk
+unk
+unk
+mza
 aRX
 xVl
 gLf
@@ -98976,15 +98939,15 @@ xVl
 xES
 rdX
 qHJ
-sih
 xVl
+pMp
 nil
-gmm
-vlX
-xES
 xVl
-iZy
-uBO
+xVl
+xVl
+xVl
+xVl
+xVl
 xVl
 wmg
 xVl
@@ -99233,8 +99196,8 @@ psf
 cXM
 qZC
 bFh
-lFH
 hbJ
+usi
 iEP
 diF
 tvJ
@@ -99490,8 +99453,8 @@ aDO
 tUs
 gJN
 xzQ
-sih
 xVl
+pMp
 mbN
 ssF
 mqy
@@ -104911,10 +104874,10 @@ sdH
 rQx
 nrL
 rPx
-nbv
-bJr
-bLe
-csb
+crb
+crb
+crb
+crb
 rPx
 apc
 apc
@@ -105168,10 +105131,10 @@ nKn
 rxe
 nrL
 rPx
-bHj
-bJy
-rYC
-csc
+crb
+crb
+crb
+crb
 rPx
 apc
 apc
@@ -105425,10 +105388,10 @@ uzL
 vAH
 pIB
 rPx
-cou
-cpK
-bLf
-bLI
+crb
+crb
+crb
+crb
 rPx
 alq
 alq
@@ -105682,10 +105645,10 @@ wvp
 wvp
 nrL
 rPx
-cov
-cpL
 crb
-csd
+crb
+crb
+crb
 rPx
 aaa
 aaa
@@ -110325,13 +110288,13 @@ cRi
 cRi
 cRi
 cRi
-vqh
+cRi
 qMG
 dxc
-lBc
+isR
 oRn
 cdh
-vqh
+cRi
 cRi
 cRi
 cRi
@@ -110585,7 +110548,7 @@ dEM
 ryj
 pJK
 dxc
-lBc
+isR
 oRn
 cdi
 cDE
@@ -110842,7 +110805,7 @@ xSK
 rdk
 bUo
 dxc
-lBc
+isR
 oRn
 cdk
 pMS
@@ -112127,7 +112090,7 @@ bSV
 mRg
 vLN
 tFo
-tFo
+vLN
 tFo
 vLN
 run
