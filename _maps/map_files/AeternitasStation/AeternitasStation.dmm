@@ -4697,7 +4697,8 @@
 /area/security/prison/shower)
 "aLJ" = (
 /obj/machinery/door/airlock{
-	name = "Auxiliary Bathrooms"
+	name = "Custodial Closet";
+	req_access_txt = "26"
 	},
 /turf/open/floor/iron,
 /area/service/janitor)
@@ -4727,7 +4728,6 @@
 /turf/open/space/basic,
 /area/space/nearstation)
 "aMf" = (
-/obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
 	stripe_paint = "#1F9BDB";
@@ -4736,6 +4736,7 @@
 /obj/machinery/atmospherics/pipe/layer_manifold/yellow/visible{
 	dir = 4
 	},
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/engineering/atmos)
 "aMh" = (
@@ -8318,13 +8319,13 @@
 /turf/open/floor/iron,
 /area/security/checkpoint/supply)
 "bBq" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/layer_manifold/cyan,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
 	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
+/obj/machinery/atmospherics/pipe/layer_manifold/cyan/visible,
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/engineering/atmos)
 "bBy" = (
@@ -9967,6 +9968,12 @@
 	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
+	},
+/obj/structure/table,
+/obj/machinery/cell_charger,
+/obj/item/stock_parts/cell/high{
+	charge = 100;
+	maxcharge = 15000
 	},
 /turf/open/floor/iron,
 /area/engineering/main)
@@ -13719,13 +13726,13 @@
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/ai)
 "cCG" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/layer_manifold/yellow/hidden,
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
 	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
+/obj/machinery/atmospherics/pipe/layer_manifold/yellow/visible,
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/engineering/atmos)
 "cCI" = (
@@ -25591,16 +25598,17 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/solars/starboard/fore)
 "gWu" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
+/obj/effect/mapping_helpers/paint_wall{
+	name = "Paint Wall Helper - ATM";
+	stripe_paint = "#1F9BDB";
+	wall_paint = "#4D4D4D"
 	},
-/obj/effect/turf_decal/trimline/white/filled/line{
-	color = "#FF8800";
-	dir = 8;
-	name = "line W"
+/obj/machinery/atmospherics/pipe/layer_manifold/purple/visible{
+	dir = 4
 	},
-/turf/open/floor/iron,
-/area/engineering/main)
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/engineering/atmos)
 "gWE" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -37449,15 +37457,15 @@
 /turf/open/floor/iron/white,
 /area/medical/chemistry)
 "mfa" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/layer_manifold/dark/hidden{
-	dir = 4
-	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
 	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
+/obj/machinery/atmospherics/pipe/layer_manifold/dark/visible{
+	dir = 4
+	},
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/engineering/atmos)
 "mfm" = (
@@ -49049,13 +49057,13 @@
 /area/engineering/atmos)
 "qGq" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/layer_manifold/purple/hidden{
-	dir = 4
-	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
 	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
+	},
+/obj/machinery/atmospherics/pipe/layer_manifold/purple/visible{
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/engineering/atmos)
@@ -50740,19 +50748,13 @@
 /turf/open/floor/iron,
 /area/science/robotics/mechbay)
 "rrM" = (
-/obj/structure/table,
-/obj/machinery/cell_charger,
-/obj/item/stock_parts/cell/high{
-	charge = 100;
-	maxcharge = 15000
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
 /obj/effect/turf_decal/trimline/white/filled/line{
 	color = "#FF8800";
 	dir = 8;
 	name = "line W"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/engineering/main)
@@ -61888,15 +61890,15 @@
 /turf/open/floor/iron,
 /area/engineering/main)
 "vNA" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/layer_manifold/brown/hidden{
-	dir = 4
-	},
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
 	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
+/obj/machinery/atmospherics/pipe/layer_manifold/brown/visible{
+	dir = 4
+	},
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/engineering/atmos)
 "vNG" = (
@@ -108530,8 +108532,8 @@ dNn
 sXn
 sXn
 hAj
-gWu
-gWu
+rrM
+rrM
 rrM
 bVf
 lhW
@@ -112934,7 +112936,7 @@ vNA
 cor
 fPe
 cor
-qGq
+gWu
 cor
 fPe
 cor
