@@ -18075,11 +18075,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
-"eau" = (
-/obj/effect/mapping_helpers/smart_pipe/simple/supply/hidden/layer4,
-/obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark,
-/area/security/brig)
 "eaB" = (
 /obj/effect/mapping_helpers/smart_pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
@@ -27694,12 +27689,11 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/security/prison/safe)
 "hPo" = (
-/obj/machinery/door/airlock/mining/glass{
-	id_tag = "QM_DORM";
-	name = "Quartermaster's Dorm";
-	req_access_txt = "41"
-	},
 /obj/structure/cable/layer1,
+/obj/machinery/door/airlock/mining{
+	req_access_txt = "41";
+	name = "quarter masters dorm"
+	},
 /turf/open/floor/wood,
 /area/cargo/qm/dorm)
 "hPr" = (
@@ -93541,7 +93535,7 @@ flb
 dpb
 kqv
 dpb
-eau
+dpb
 dpb
 dpb
 cxj
