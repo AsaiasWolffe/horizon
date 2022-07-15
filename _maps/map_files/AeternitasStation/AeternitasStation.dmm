@@ -47900,7 +47900,7 @@
 "pTM" = (
 /obj/effect/mapping_helpers/paint_wall{
 	name = "Paint Wall Helper - ATM";
-	stripe_paint = ssssssss;
+	stripe_paint = "#1F9BDB";
 	wall_paint = "#4D4D4D"
 	},
 /turf/closed/wall/r_wall,
