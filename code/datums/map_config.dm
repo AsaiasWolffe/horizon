@@ -5,7 +5,7 @@
 
 /datum/map_config
 	// Metadata
-	var/config_filename = "_maps/metastation.json"
+	var/config_filename = "_maps/kilostation.json"
 	var/defaulted = TRUE  // set to FALSE by LoadConfig() succeeding
 	// Config from maps.txt
 	var/config_max_users = 0
@@ -13,10 +13,10 @@
 	var/voteweight = 1
 	var/votable = FALSE
 
-	// Config actually from the JSON - should default to Meta
-	var/map_name = "Meta Station"
-	var/map_path = "map_files/MetaStation"
-	var/map_file = "MetaStation.dmm"
+	// Config actually from the JSON - should default to Kilo
+	var/map_name = "Kilo Station"
+	var/map_path = "map_files/KiloStation"
+	var/map_file = "KiloStation.dmm"
 
 	var/traits = null
 	var/space_ruin_levels = 3
@@ -25,17 +25,25 @@
 
 	var/allow_custom_shuttles = TRUE
 	var/shuttles = list(
-		"cargo" = "cargo_box",
-		"ferry" = "ferry_fancy",
-		"whiteship" = "whiteship_box",
-		"emergency" = "emergency_box")
+		"cargo" = "cargo_kilo",
+		"ferry" = "ferry_kilo",
+		"whiteship" = "whiteship_kilo",
+		"emergency" = "emergency_kilo",
+	)
 
 	var/job_faction = FACTION_STATION
 
 	var/overflow_job = /datum/job/assistant
 
 	/// Dictionary of job sub-typepath to template changes dictionary
-	var/job_changes = list()
+	var/job_changes = list(
+		"cook" = list(
+			"additional_cqc_areas" = list("/area/service/bar/atrium"),
+		),
+		"captain" = list(
+			"special_charter" = "asteroid",
+		),
+	)
 
 	/// Type of the global trading hub that will be created
 	var/global_trading_hub_type = /datum/trade_hub/worldwide
@@ -87,11 +95,11 @@
 /proc/load_map_config(filename = "data/next_map.json", default_to_box, delete_after, error_if_missing = TRUE)
 	var/datum/map_config/config
 	if (default_to_box)
-		config = new /datum/map_config/metastation()
+		config = new /datum/map_config/kilostation()
 		return config
 	config = LoadConfig(filename, error_if_missing)
 	if (!config)
-		config = new /datum/map_config/metastation()  // Fall back to Box
+		config = new /datum/map_config/kilostation()  // Fall back to Kilo
 	if (delete_after)
 		fdel(filename)
 	return config
